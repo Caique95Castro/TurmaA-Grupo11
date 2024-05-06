@@ -14,16 +14,42 @@ public class ByteBattle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-         System.out.println("Escolha um nome para o(a) personagem ? " );
-         String nomePlayer = input.nextLine();
+        System.out.println("Escolha um nome para o(a) personagem ? ");
+        String nomePlayer = input.nextLine();
 
         boolean taCerto = false;
 
-        do{
-            System.out.println("");
-            System.out.println("Ola " + nomePlayer);
-            System.out.println("");
-            System.out.println("Bem-vindo ao");
+        do {
+            exibirMenu(nomePlayer, input);
+            int opc = input.nextInt();
+
+            switch (opc) {
+                case 1:
+                    exibirInstrucoes();
+                    break;
+                case 2:
+                    iniciarJogo(nomePlayer, input);
+                    break;
+                case 3:
+                    exibirCreditos();
+                    break;
+                case 4:
+                    sairJogo(nomePlayer, input);
+                    taCerto = true;
+                    break;
+                default:
+                    System.out.println("Opcao invalida, por favor Digite uma opcao valida !");
+                    break;
+            }
+        } while (!taCerto);
+    }
+
+    public static void exibirMenu(String nomePlayer, Scanner input) {
+        System.out.println("");
+        System.out.println("Ola " + nomePlayer);
+        System.out.println("");
+        System.out.println("Bem-vindo ao");
+        System.out.println("");
             System.out.println("");
 
             // NOME DO JOGO 
@@ -46,12 +72,10 @@ public class ByteBattle {
             System.out.println("------------------------");
             System.out.println("");
             System.out.println("Digite uma opcao");
-            int opc = input.nextInt();
+    }
 
-            // INSTRUÇÕES DO JOGO
-            switch(opc){
-                case 1:
-                    System.out.println("");
+    public static void exibirInstrucoes() {
+        System.out.println("");
                     System.out.println("--------------");
                     System.out.println("| INSTRUCOES |");
                     System.out.println("--------------");
@@ -67,12 +91,10 @@ public class ByteBattle {
                     System.out.println("- Lute contra os Hackers Sombrios em batalhas estrategicas baseadas em turnos.");
                     System.out.println("- Explore cidades para desvendar segredos e coletar itens valiosos.");
                     System.out.println("- Avance na historia e torne-se um Guardiao do Codigo lendario!");
+    }
 
-                    break;
-
-                case 2:
-
-                    // INÍCIO DO JOGO
+    public static void iniciarJogo(String nomePlayer, Scanner input) {
+         // INÍCIO DO JOGO
                     System.out.println("");
                     System.out.println("---------");
                     System.out.println("| JOGAR |");
@@ -976,13 +998,10 @@ public class ByteBattle {
                             }
                         }
                     }
+    }
 
-
-
-
-                    break;
-                case 3:
-                    System.out.println(" ");
+    public static void exibirCreditos() {
+        System.out.println(" ");
                     System.out.println("------------");
                     System.out.println("| CREDITOS |");
                     System.out.println("------------");
@@ -992,18 +1011,14 @@ public class ByteBattle {
                     System.out.println("Roteiro: COLOCAR ");
                     System.out.println("Arte e Graficos: COLOCAR ");
                     System.out.println("© 2024");
-                    break;
-                case 4:
-                    System.out.println("-");
-                    System.out.println("--------");
-                    System.out.println("| SAIR |");
-                    System.out.println("--------");
-                        taCerto = true;
-                        break;
-                default:
-                    System.out.println("Opcao invalida, por favor Digite uma opcao valida !");
-                    break;
-            }
-        }while(!taCerto);
+    }
+    
+    public static void sairJogo(String nomePlayer, Scanner input) {
+        System.out.println("-");
+        System.out.println("--------");
+        System.out.println("| SAIR |");
+        System.out.println("--------");
+        System.out.println("");
+        System.out.println(nomePlayer + " Você saiu do Jogo");
     }
 }

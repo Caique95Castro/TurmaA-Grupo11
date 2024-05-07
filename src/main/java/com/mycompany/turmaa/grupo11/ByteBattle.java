@@ -982,7 +982,7 @@ public class ByteBattle {
                                                         System.out.println("No entanto, para alcançar Zero e por um fim em sua tirania, você deve primeiro superar uma serie");
                                                         System.out.println("de desafios de lógica de programação que ele espalhou por toda a cidade. Desde decifrar ");
                                                         System.out.println("códigos de segurança em sistemas de controle ate encontrar brechas em firewalls impenetraveis, cada desafio leva");
-                                                        System.out.println("você um passo mais perto de confrontar o vilao.");
+                                                        System.out.println("você um passo mais perto de confrontar o vilão.");
                                                         System.out.println("");
                                                         System.out.println("Escurecendo");
                                                         certo17 = false;

@@ -101,17 +101,81 @@ public class ByteBattle {
                     System.out.println("---------");
                     System.out.println("");
 
-                    System.out.println("Você é um(a) jovem aventureiro(a) ansioso(a) por desvendar os mistérios do mundo ao seu redor, e ");
-                    System.out.println("em um futuro próximo, você é transportado para uma cidade futuristica chamada NeoByte");
-                    System.out.println("conhecida por sua tecnologia avançada e paisagem urbana futurista. Ao chegar, você é recebido ");
-                    System.out.println("por um holograma chamado Pixel, o guia virtual da cidade.");
+                    System.out.println("Seja bem-vindo a ");
+                    System.out.println("");
+                    System.out.println("-----------");
+                    System.out.println("| NeoByte |");
+                    System.out.println("-----------");
+                    System.out.println("");
+                    System.out.println("NeoByte é uma metrópole contemporânea. As ruas são repletas de prédios de tijolos e concreto, a");
+                    System.out.println("cidade é diversificada e multicultural, com diferentes bairros refletindo as diversas origens e estilos de");
+                    System.out.println("vida dos seus habitantes. Há áreas comerciais movimentadas, onde os arranha-céus ");
+                    System.out.println("se elevam em direção ao céu, contrastando com os bairros residenciais.");
+                    System.out.println("");
+                    System.out.println("Em NeoByte, a divisão entre riqueza e pobreza é tão evidente quanto os bytes que circulam pela rede. No");
+                    System.out.println("coração da cidade, erguem-se os imponentes arranha-céus dos distritos financeiros, com suas fachadas de vidro");
+                    System.out.println("reluzente e interiores luxuosos. Esses bairros centrais são o lar dos magnatas digitais, onde executivos das maiores");
+                    System.out.println("corporações de tecnologia desfrutam de vistas panorâmicas da paisagem urbana e acessam as últimas inovações tecnológicas.");
+                    System.out.println("E nos confins de NeoByte, além das fronteiras brilhantes dos outros distritos, encontra-se o subúrbio digital. Aqui,");
+                    System.out.println("as ruas são estreitas e escuras, com prédios decrépitos, sem vida e fachadas desbotadas. Os habitantes do");
+                    System.out.println("subúrbio são os esquecidos da sociedade, lutando para sobreviver em meio à pobreza e ao desespero. Nesses");
+                    System.out.println("bairros negligenciados, a vida é marcada pela luta diária pela sobrevivência, briga de facções e a desigualdade social. Os ");
+                    System.out.println("apartamentos são pequenos e apertados, com pouca luz natural e condições precárias de moradia. Os moradores do subúrbio");
+                    System.out.println("vivem à margem da sociedade, lutando para encontrar empregos instáveis e acessar recursos básicos, como alimentação e saúde.");
+                    System.out.println("");
+
+                    boolean continuar1 = true;
+
+                    do { 
+                        System.out.println("Aperte ' C ' para continuar.");
+                        System.out.println("");
+                        String cont = input.next();
+
+                        switch(cont){
+                            case "C":
+                            case "c":
+                                System.out.println("Continuando...");
+                                System.out.println("");
+                                continuar1 = false;
+                                break;
+                            default:
+                                System.out.println("Opção inválida!");
+                                System.out.println("");
+                                break;   
+                        }
+                    } while (continuar1);
+
+                    System.out.println("Nos sombrios becos do subúrbio de NeoByte, nascia um(a) jovem com destino marcado pela tragédia e pela");
+                    System.out.println("incerteza. O(A) protagonista, cujo nome é conhecido apenas como " + nomePlayer + ",");
+                    System.out.println("que emergia nas ruas como uma figura enigmática, cuja origem permanece envolta de um mistério.");
+                    System.out.println("");
+                    System.out.println("A vida de " + nomePlayer + " começou com uma tragédia devastadora. Perdeu seus pais em circunstâncias obscuras");
+                    System.out.println("quando ainda era pequeno(a), deixando-o(a) órfão e desamparado(a). Sem recursos ou apoio, ele(a) foi forçado(a) a");
+                    System.out.println("enfrentar a dura realidade do subúrbio, onde a vida era uma luta diária pela sobrevivência.");
+                    System.out.println("Apesar das adversidades, " + nomePlayer + " era dotado(a) de uma mente brilhante e uma determinação inabalável.");
+                    System.out.println("Desde cedo, demonstrou uma aptidão excepcional para a computação e uma habilidade inata para a arte");
+                    System.out.println("do hacking. Ele(a) passava horas intermináveis em seu computador, explorando os recantos mais");
+                    System.out.println("escuros da rede e dominando os segredos da tecnologia. Ele(a) manipulava sistemas, quebrava códigos e desafiava");
+                    System.out.println("as defesas mais sofisticadas com uma destreza impressionante.");
+                    System.out.println("No entanto, sua forte personalidade e sua recusa em se curvar às convenções sociais o(a) tornaram um pária no mundo digital.");
+                    System.out.println("Por isso era incapaz de manter um emprego fixo, pois sua natureza rebelde e sua tendência a desafiar a autoridade frequentemente ");
+                    System.out.println("o(a) colocavam em conflito com seus empregadores. Assim, ele(a) vagava pelas ruas, um(a) estranho(a) solitário(a) em um");
+                    System.out.println("mundo que nunca o acolheu verdadeiramente. Apesar de sua devoção à sua arte, " + nomePlayer + " luta com seus próprios");
+                    System.out.println("demônios internos. Ele(a) é assombrado(a) por pesadelos recorrentes de sua infância perdida e da perda de seus pais, ");
+                    System.out.println("que o assombram todas as noites. Essas memórias dolorosas o(a) empurram para a solidão, tornando difícil para ele(a) se ");
+                    System.out.println("abrir e confiar nos outros.");
+                    System.out.println("No entanto, apesar de suas cicatrizes emocionais, e suas habilidades incríveis com programação, ele(a) cria um amigo");
+                    System.out.println("virtul, um 'holograma' e da o nome de 'Pixel', onde ele foi criado com intuito de ajudar o(a) " + nomePlayer + " a hackear");
+                    System.out.println("e capturar dados e redes de tudo que acontece em NeoByte.");
+
+                    
 
                     // ERRO ao apertar outra tecla a não ser o Y 
                     // INÍCIO
                         boolean certo1 = true;
                     do{
                         System.out.println("");
-                        System.out.println("Aperte ' Y ' para ver o que ele tem para te falar ");
+                        System.out.println("Aperte ' Y ' para escutar Pixel ");
                         String resp1 = input.next();
 
                         switch(resp1){
@@ -122,11 +186,12 @@ public class ByteBattle {
                                 System.out.println("| Pixel |");
                                 System.out.println("---------");
                                 System.out.println("");
-                                System.out.println("' Bem-vindo a NeoByte, " + nomePlayer + ", viajante do tempo, Prepare-se para uma aventura digital unica. Para");
-                                System.out.println("desbravar os segredos desta cidade, você tera que mergulhar no mundo da computação. Estou");
-                                System.out.println("aqui para guia-lo atraves dos desafios e ensina-lo sobre os conceitos fundamentais.");
+                                System.out.println( "Olá " + nomePlayer + ", minha sincera gratidão por me dar vida e propósito. Como um holograma, minha");
+                                System.out.println("existência é um reflexo direto do seu incrível trabalho e dedicação. Sou grato por ter sido criado com");
+                                System.out.println("o propósito de auxiliar em missões vitais.");
                                 System.out.println("Me acompanhe... '");
                                 System.out.println("");
+                                 
 
                                 certo1 = false;
                                 break;
@@ -139,7 +204,7 @@ public class ByteBattle {
                     // FIM
 
                     System.out.println("");
-                    System.out.println("Pixel te leva em uma sala, cercado por telas digitais piscando. Uma voz ecoa pelo");
+                    System.out.println("Em um beco escuro no subúrbio, pixel te leva em uma sala, cercado por telas digitais piscando. Uma voz ecoa pelo");
                     System.out.println("ambiente, que o ensina sobre a história do Conceito da Computação.");
 
                     // ERRO ao apertar outra tecla a não ser o Y 
@@ -149,7 +214,7 @@ public class ByteBattle {
                     do{
 
                             System.out.println("");
-                            System.out.println("Aperte ' Y ' para ver o que a voz misteriosa tem para te falar ");
+                            System.out.println("Aperte ' Y ' para escutar a voz misteriosa ");
                             String resp2 = input.next();
 
                             switch(resp2){
@@ -161,18 +226,35 @@ public class ByteBattle {
                                     System.out.println("--------------------");
                                     System.out.println("");
                                     System.out.println("Olá " + nomePlayer + ", vou te contar uma história.");
-                                    System.out.println("A história do Conceito de Computação, ela remonta aos primordios da civilização humana, quando os ");
-                                    System.out.println("primeiros pensadores começaram a explorar a natureza dos números, padrões e lógica. ");
-                                    System.out.println("Eles perceberam que havia uma ordem subjacente ao caos, uma linguagem universal que podia ser decifrada e codificada.");
-
-                                    System.out.println("Na medida em que os cálculos foram se complicando e aumentando de tamanho, sentiu-se a necessidade de um ");
-                                    System.out.println("instrumento que viesse em auxílio");
-                                    System.out.println("Comecou desde quando o homem descobriu que somente com os dedos, ou com pedras e gravetos, não dava mais para fazer cálculos...");
-
-                                    System.out.println("Entao surgiu o Ábaco...");
-                                    System.out.println("Foi criado, a aproximadamente 4.000 a.C");
-                                    System.out.println("Um aparelho muito simples formado por uma placa de argila onde se escreviam algarismos que auxiliavam nos cálculos");
-                                    System.out.println("Cerca de 200 a.C., o Ábaco era constituido por uma moldura retangular de madeira com varetas paralelas e pedras deslizantes.");
+                                    System.out.println("A história de Conceitos Binários na Computação: ");
+                                    System.out.println("");
+                                    System.out.println("Sistema Binário: ");
+                                    System.out.println("O sistema binário é a base fundamental da computação moderna, representando informações usando apenas  ");
+                                    System.out.println("dois símbolos: 0 e 1. Esses símbolos são chamados de bits (binary digits).");
+                                    System.out.println("");
+                                    System.out.println("Bit:");
+                                    System.out.println("Um bit é a menor unidade de informação em sistemas computacionais. Ele pode ter o valor de 0 ");
+                                    System.out.println("ou 1, representando os estados de ' ligado ' e ' desligado ', respectivamente.");
+                                    System.out.println("");
+                                    System.out.println("Byte:");
+                                    System.out.println("Um byte é uma unidade de armazenamento de dados que consiste em 8 bits. É comumente ");
+                                    System.out.println("usado para representar caracteres individuais de texto ou números na memória do computador.");
+                                    System.out.println("");
+                                    System.out.println("Representação de Números:");
+                                    System.out.println("No sistema binário, os números são representados usando apenas os dígitos 0 e 1. Cada dígito binário tem um");
+                                    System.out.println("valor que é uma potência de 2, começando do bit menos significativo para o mais significativo.");
+                                    System.out.println("");
+                                    System.out.println("Operações Binárias: ");
+                                    System.out.println("As operações binárias incluem adição, subtração, multiplicação e divisão de números binários. Essas ");
+                                    System.out.println("operações seguem regras específicas, semelhantes às operações aritméticas em sistemas numéricos decimais.");
+                                    System.out.println("");
+                                    System.out.println("Código Binário: ");
+                                    System.out.println("O código binário é usado para representar instruções e dados em linguagem de máquina, que é a linguagem ");
+                                    System.out.println("que os computadores entendem diretamente. Cada instrução ou caractere é representado por uma sequência de bits.");
+                                    System.out.println("");
+                                    System.out.println("Lógica Binária: ");
+                                    System.out.println("A lógica binária é a base da computação digital e envolve operações lógicas como AND, OR e NOT. Essas operações");
+                                    System.out.println("são fundamentais para o funcionamento dos circuitos digitais e sistemas de computação.");
                                     System.out.println("");
                                     certo2 = false;
                                     break;
@@ -191,7 +273,7 @@ public class ByteBattle {
                     boolean certo3 = true;
 
                     do{
-                        System.out.println("Sabe o que é um Ábaco ?");
+                        System.out.println("Sabe o que é números Binários ?");
                         System.out.println("Y / N");
                         String resp3 = input.next();
 
@@ -207,29 +289,32 @@ public class ByteBattle {
                             switch(resp3){
                                 case "N":
                                 case "n":
-                                    System.out.println("Representação de um Ábaco.");
+                                    System.out.println("Representação de números Binários.");
                                     System.out.println("");
-                                    System.out.println("--------------------");
-                                    System.out.println("| o o o o o o o o o |");
-                                    System.out.println("| o   o o   o   o   |");
-                                    System.out.println("|                   |");
-                                    System.out.println("|   o     o   o   o |");
-                                    System.out.println("|-------------------|");
-                                    System.out.println("|     o o o   o o o |");
-                                    System.out.println("|     o o o     o o |");
-                                    System.out.println("|         o     o o |");
-                                    System.out.println("| o o       o     o |");
-                                    System.out.println("| o o       o o     |");
-                                    System.out.println("| o o o o   o o     |");
-                                    System.out.println("| o o o o o o o o   |");
-                                    System.out.println("| o o o o o o o o o |");
-                                    System.out.println("--------------------");
+                                    System.out.println("---------------------------------------------");
+                                    System.out.println("| Decimal |  BINÁRIO  | Decimal |  BINÁRIO  |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    1    |    0001   |    10   |    1010   |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    2    |    0010   |    11   |    1011   |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    3    |    0011   |    12   |    1100   |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    4    |    0100   |    13   |    1101   |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    5    |    0101   |    14   |    1110   |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    6    |    0110   |    15   |    1111   |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    7    |    0111   |    16   |    10000  |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    8    |    1000   |    17   |    10001  |");
+                                    System.out.println("|--------------------------------------------");
+                                    System.out.println("|    9    |    1001   |    18   |    10010  |");
+                                    System.out.println("|--------------------------------------------");
                                     System.out.println("");
-                                    System.out.println("Formado por fios paralelos e arruelas deslizantes, que de acordo ");
-                                    System.out.println("com a posição, representa a quantidade a ser trabalhada.");
-                                    System.out.println("Eles representam as posições das casas decimais (unidade, dezena, centena, milhar, unidades");
-                                    System.out.println("de milhar, dezenas de milhar, centenas de milhar, unidades de milhão).");
-                                    System.out.println("");
+                                    System.out.println("Nesta tabela, vemos os números de 0 a 18 escritos na forma decimal e na forma binária.");
+                                    
                                     certo3 = false;
                                     break;
                                 default:
@@ -241,15 +326,15 @@ public class ByteBattle {
                     }while(certo3); 
 
                     System.out.println("");
-                    System.out.println("E em 1617, no ano de sua morte John Napier inventou um metodo diferente (não-algoritimo) de ");
-                    System.out.println("fazer multiplicações, conhecido como 'Ossos de Napier'");
-                    System.out.println("Consistia num conjunto de barras segmentadas dispostas de modo que a resposta de um problema de multiplicação era ");
-                    System.out.println("obtida somando-se números em seções horizontais adjacentes.");
+                    System.out.println("Conversão de binário para decimal ");
+                    System.out.println("Cada posição tem um peso de uma potência de 2 (base do sistema binário). Sendo assim,");
+                    System.out.println("para se converter um número de binário para decimal, deve-se multiplicar cada bit pela ");
+                    System.out.println("potência de sua posição e somar os resultados.");
 
                     boolean certo4 = true;
 
                     do{
-                        System.out.println("Sabe o que é 'Ossos de Napier' ?");
+                        System.out.println("Sabe qual é a base do sistema Binário ?");
                         System.out.println("Y / N");
                         String resp4 = input.next();
 
@@ -265,35 +350,22 @@ public class ByteBattle {
                             switch(resp4){
                                 case "N":
                                 case "n": 
-                                    System.out.println("Representação de 'Ossos de Napier.");
+                                    System.out.println("Representação da tabela da base de sistemas binários .");
                                     System.out.println("");
-                                    System.out.println("-----------------------------------------------------------");
-                                    System.out.println("|   |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 1 | 0/1 | 0/2 | 0/3 | 0/4 | 0/5 | 0/6 | 0/7 | 0/8 | 0/9 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 2 | 0/2 | 0/4 | 0/6 | 0/8 | 1/0 | 1/2 | 1/4 | 1/6 | 1/8 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 3 | 0/3 | 0/6 | 0/9 | 1/2 | 1/5 | 1/8 | 2/1 | 2/4 | 2/7 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 4 | 0/4 | 0/8 | 1/2 | 1/6 | 2/0 | 2/4 | 2/8 | 3/2 | 3/6 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 5 | 0/5 | 1/0 | 1/5 | 2/0 | 2/5 | 3/0 | 3/5 | 4/0 | 4/5 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 6 | 0/6 | 1/2 | 1/8 | 2/4 | 3/0 | 3/6 | 4/2 | 4/8 | 5/4 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 7 | 0/7 | 1/4 | 2/1 | 2/8 | 3/5 | 4/2 | 4/9 | 5/6 | 6/3 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 8 | 0/8 | 1/6 | 2/4 | 3/2 | 4/0 | 4/8 | 5/6 | 6/4 | 7/2 |");
-                                    System.out.println("|---------------------------------------------------------|");
-                                    System.out.println("| 9 | 0/9 | 1/8 | 2/7 | 3/6 | 4/5 | 5/4 | 6/3 | 7/2 | 8/1 |");
-                                    System.out.println("|---------------------------------------------------------|");
+                                    System.out.println("------------------------------------------------------");
+                                    System.out.println("|  128  |  64  |  32  |  16  |  8  |  4  |  2  |  1  |");
+                                    System.out.println("|----------------------------------------------------|");
                                     System.out.println("");
-                                    System.out.println("Consistia num conjunto de barras segmentadas dispostas de modo que a ");
-                                    System.out.println("resposta de um problema de multiplicação era obtida somando-se números em");
-                                    System.out.println("seções horizontais adjacentes. tornam possível fazer multiplicações, divisões e extrações");
-                                    System.out.println("de raizes quadradas de modo semi mecânico.");
+                                    System.out.println("Vamos a um exemplo: convertendo número Decimal 206 para Binário");
                                     System.out.println("");
+                                    System.out.println("------------------------------------------------------");
+                                    System.out.println("|  128  |  64  |  32  |  16  |  8  |  4  |  2  |  1  |");
+                                    System.out.println("|----------------------------------------------------|");
+                                    System.out.println("|   1   |   1  |   0  |   0  |  1  |  1  |  1  |  0  |");
+                                    System.out.println("|----------------------------------------------------|");
+                                    System.out.println("somando: 128 + 64 + 8 + 4 + 2 = 206 ");
+                                    System.out.println("");
+                                    
                                     certo4 = false;
                                     break;
                                 default:    
@@ -340,30 +412,13 @@ public class ByteBattle {
                     }while(continuar);
 
                     System.out.println("");
-                    System.out.println("Já em 1633 William Oughtred, representou os logaritmos de Napier em escalas de  ");
-                    System.out.println("marfim, chamando-os de 'Círculos de Proporção', originou a ");
-                    System.out.println("Régua de Cálculos, o primeiro computador analógico da história.");
-                    System.out.println("Em 1642 um francês de 18 anos chamado Blaise Pascal, inventou a primeira máquina de somar. ");
-                    System.out.println("A máquina se chmava 'Pascalina', a qual executava operções aritméticas");
-                    System.out.println("quando se giravam os discos interligados, sendo assim a ");
-                    System.out.println("precursora das calculadoras mecânicas.");
-                    System.out.println("Mas em 1671, Gottfried Leibnitz inventou uma máquina muito parecida");
-                    System.out.println("com a Pascalina, que efetuava cálculos de multiplicação e divisão, e");
-                    System.out.println("qual se tornou a antecessora direta das calculadoras manuais.");
-                    System.out.println("");
-                    System.out.println("");
-                    System.out.println("Agora em 1728 Basile Bouchon construiu a 'Tear Para Tecer Desenhos de Seda', os");
-                    System.out.println("desenhos eram cifrados em folha giratória de papel perfurado, somente trabalhavam as ");
-                    System.out.println("agulhas coincidentes com os furos.");
-                    System.out.println("E 74 anos depois, na França em 1802 Joseph Marie Jacquard passou a autilizar cartões");
-                    System.out.println("perfurados para contrár suas máquinas de tear e automatiza-las. 20 anos depois ");
-                    System.out.println("foi desenvolvido por Charles Babbage uma máquina diferencial que permitia a cálculos como funções ");
-                    System.out.println("trigonométricas e logaritmos, utilizando os cartões de Jacquard. Mas não satisfeito");
-                    System.out.println("resolveu desenvolver uma máquina analítica capaz de executar as quatro operações sendo elas");
-                    System.out.println("(somar, dividir, subtrair e multiplicar), e Babbage  foi conhecido como o pai do computador");
-                    System.out.println("porem, sua máquina só pode ser concluida anos após a sua morte, tornando-se a base ");
-                    System.out.println("para a estrutura dos computadores atuais, essa máquina era chamada de 'Máquina Diferencial");
-                    System.out.println("de Babbage'.");
+                    System.out.println("Conversão de decimal para binário.  ");
+                    System.out.println("Para realizar a conversão de decimal para binário, realiza-se a divisão");
+                    System.out.println("sucessiva por 2 (base do sistema binário). O resultado da conversão será");
+                    System.out.println("dado pelo último quociente e o agrupamento dos restos de divisão será o ");
+                    System.out.println("número binário.");
+                    System.out.println("Essa conversão foi demonstrada no exemplo acima 'Sabe qual é a base do sistema Binário'.");
+                    
                     System.out.println("");
 
                     boolean certo5 = true;
@@ -407,17 +462,19 @@ public class ByteBattle {
 
                     // Código que é responsável por embaralhar as alternativas
                     ArrayList<String> respostas = new ArrayList<String>();
-                    respostas.add("<A> Um antigo dispositivo de cálculo.");
-                    respostas.add("<B> Um dispositivo para fazer café.");
-                    respostas.add("<C> Um tipo de instrumento musical.");
-                    respostas.add("<D> Nenhuma das opções.");
+                    respostas.add("<A> 11111011100.");
+                    respostas.add("<B> 110111.");
+                    respostas.add("<C> 111110111000.");
+                    respostas.add("<D> 111110111.");
 
                     do{
                         limite++;
                         System.out.println("");
                         System.out.println("Você tera 3 chances");
                         System.out.println("");
-                        System.out.println("O que é Ábaco ?");
+                        System.out.println("Os computadores utilizam o sistema binário ou de base 2 que é um sistema de");
+                        System.out.println("numeração em que todas as quantidades se representam com base em dois números,");
+                        System.out.println("ou seja, (0 e 1). Em um computador o número 2012, em base decimal, será representado, em base binária, por:");
                         System.out.println("");
                         System.out.println("Escolha a alternativa correta! ");
                         for(String resp6 : respostas ){
@@ -460,15 +517,15 @@ public class ByteBattle {
 
                         // Código que é responsável por embaralhar as alternativas
                         ArrayList<String> respostas1 = new ArrayList<String>();
-                        respostas1.add("<A> Ferramentas de carpintaria.");
-                        respostas1.add("<B> Instrumentos musicais antigos.");
-                        respostas1.add("<C> Dispositivos de cálculo inventados por John Napier.");
-                        respostas1.add("<D> Nenhuma das opções.");
+                        respostas1.add("<A> 5.");
+                        respostas1.add("<B> 8.");
+                        respostas1.add("<C> 10.");
+                        respostas1.add("<D> 12.");
 
                         do{
                             limite1++;
                             System.out.println("");
-                            System.out.println("O que é Ossos de Napier ?");
+                            System.out.println("Qual é o valor em decimal do número binário 1010?");
                             System.out.println("");
                             System.out.println("Escolha a alternativa correta! ");
                             for(String resp7 : respostas1){
@@ -513,23 +570,11 @@ public class ByteBattle {
                         if(!certo7){     // Código onde não deixa o jogador avançar para a próxima perguinta caso ele erre as 3 chances
                             System.out.println("Muito bem!");
                             System.out.println("");
-                            System.out.println("Vamos avançar um pouco na história.");
+                            System.out.println("Em resumo, os conceitos binários na computação são essenciais para entender como os ");
+                            System.out.println("computadores armazenam, processam e transmitem informações usando apenas dois estados ");
+                            System.out.println("distintos: 0 e 1. Essa simplicidade subjacente é o que permite a complexidade e versatilidade dos ");
+                            System.out.println("sistemas computacionais modernos.");
                             System.out.println("");
-                            System.out.println("Moderna Era do Computador..");
-                            System.out.println("Em 1930, surge Analisador Diferencial de Vannevar Bush anuncia a moderna era do computador.");
-                            System.out.println("Em 1936, Allan Turing publica um artigo sobre 'Números Computáveis'.");
-                            System.out.println("Claude Shannon demonstra um tese a conexão entre lógica simbólica e circuitos elétricos.");
-                            System.out.println("Em 1937, George Stibitz constrói em sua mesa de cozinha um 'Somador Binário'.");
-                            System.out.println("Na Segunda Guerra Mundial Em 1944, o primeiro computador eletromecânico (na Universidade");
-                            System.out.println("de Harvard, pela equipe do professor H. Aiken e com a ajuda financeira da IBM, ");
-                            System.out.println("que investiu US$ 500.000,00 no projeto), o MARK I. Um computador muito grande.");
-                            System.out.println("O MARK I prestou seus serviços de matemática na Universidade");
-                            System.out.println("de Harvard por 16 anos completos, apesar de não ter feito muito sucesso.");
-                            System.out.println("Em 1941, Konrad Zuse, na Alemanha, são criados: Z1 e Z2.");
-                            System.out.println("Os computadores Z3 e logo a seguir o Z4, eram utilizados na ");
-                            System.out.println("solução de problemas de engenharia de aeronaves e projetos de misseis.");
-                            System.out.println("Umas das principais aplicações das máquinas de Zuze era quebrar os códigos ");
-                            System.out.println("secretos que os ingleses usavam para se comunicar com os comandantes no campo.");
 
 
                             boolean certo8 = true;
@@ -565,42 +610,40 @@ public class ByteBattle {
                                 }
                             }while(certo8);
 
-                            System.out.println("Jovem " + nomePlayer + ", na tela atraz de você vai estar a memória de Alan Turing, va até la para escutar");
-                            System.out.println("o que ele tem para te falar.");
+                            System.out.println("Jovem " + nomePlayer + ", na tela atraz de você tem mais um pouco sobre Binários,");
+                            System.out.println("va até lá e veja as informações.");
 
                             boolean certo9 = true;
                             do{
                                  System.out.println("");
-                                System.out.println("Aperte ' Y ' para ir ate a tela de Alan Turing");
+                                System.out.println("Aperte ' Y ' para ir pra tela com mais informações.");
                                 System.out.println("");
                                 String resp9 = input.next();
 
                                     switch(resp9){
                                         case "Y":
                                         case "y":  
-                                            System.out.println();
+                                                        
+                                            System.out.println("Os sistemas binários são a base fundamental de toda a computação moderna. Eles constituem a");
+                                            System.out.println("linguagem básica que os computadores entendem e com a qual operam. Aqui está mais sobre os ");
+                                            System.out.println("sistemas binários: ");
                                             System.out.println("");
-                                            System.out.println("------------------");
-                                            System.out.println("| Alan Turing... |");
-                                            System.out.println("------------------");
+                                            System.out.println("Base 2:");
+                                            System.out.println("O sistema binário é um sistema de numeração posicional que utiliza apenas dois símbolos: 0 e 1.");
+                                            System.out.println("Cada dígito em um número binário é chamado de bit (abreviação de binary digit).");
+                                            System.out.println("Base 2:O bit mais à direita em um número binário representa 2^0, o próximo representa 2^1,");
+                                            System.out.println("o seguinte 2^2, e assim por diante, cada posição representando uma potência de 2.");
                                             System.out.println("");
-                                            System.out.println("Olá " + nomePlayer + ", vou te contar um pouco sobre a minha história");
+                                            System.out.println("Representação de Dados:");
+                                            System.out.println("No nível mais fundamental, todos os dados em um computador são representados usando ");
+                                            System.out.println("sequências de 0s e 1s.");
+                                            System.out.println("Cada caractere, número, imagem, som ou qualquer outra forma de dados é representado por ");
+                                            System.out.println("uma combinação de bits.");
+                                            System.out.println("Por exemplo, um caractere ASCII é representado por 8 bits (um byte), permitindo a representação ");
+                                            System.out.println("de 256 caracteres diferentes.");
                                             System.out.println("");
-                                            System.out.println("Nasci em 23 de junho de 1912, London e morri em 7 de junho de 1954, Manchester England");
-                                            System.out.println("Em 1943, um projeto britanico, sob a minha liderança, colocamos ");
-                                            System.out.println("em operação uma serie de máquinas mais ambiciosas, o COLOSSUS.");
-                                            System.out.println("O COLOSSUS foi criado na segunda Guerra mundial para quebrar códigos alemães ultra-secretos.");
-                                            System.out.println("Ao invés de reles eletromecânicos, cada nova máquina usava 2.000 válvulas eletrônicas.");
-                                            System.out.println("O Colossus trabalhava com símbolos perfurados numa argola de fita de papel,");
-                                            System.out.println("por leitura fotoelétrica, comparando a mensagem cifrada com os códigos");
-                                            System.out.println("conhecidos até encontrar uma coincidencia.");
-                                            System.out.println("Mais um pouco sobre a minha história...");
-                                            System.out.println("Alan Turing, com sua mente brilhante, narra os dias sombrios da Segunda Guerra Mundial. Ele fala");
-                                            System.out.println("sobre a criação da máquina Enigma, que ajudou a decifrar códigos secretos alemães e mudou o ");
-                                            System.out.println("curso da história. Você aprende sobre a importancia da computação na guerra e como Turing");
-                                            System.out.println("desempenhou um papel crucial nesse processo.");
+                                            
                                             System.out.println("");
-                                            System.out.println("Aqui na tela ao lado você vai falar com o John von Neumann ");
 
                                             certo9 = false;
                                             break;
@@ -901,13 +944,15 @@ public class ByteBattle {
                                             System.out.println("se ve diante da responsabilidade de usar os Conceitos de Computação não apenas para resolver problemas,");
                                             System.out.println("mas tambem para promover o bem-estar da sociedade. Suas escolhas moldarão o curso da história e definirão");
                                             System.out.println("o seu destino.");
-                                            System.out.println("Com isso Pixel se aproxima de você e te fala o que está acontecendo em NeoByte");
+                                            System.out.println("");
+                                            System.out.println("Com isso Pixel se aproxima de você e te fala o que está acontecendo em NeoByte, baseado em dados que ele ");
+                                            System.out.println("conseguiu sobre a cidade.");
 
                                             boolean certo15 = true;
 
                                             do{
                                                 System.out.println("");
-                                                System.out.println("Aperte ' Y ' para escutar o que Pixel temm para te falar");
+                                                System.out.println("Aperte ' Y ' para escutar Pixel ");
                                                 System.out.println("");
                                                 String resp15 = input.next();
 
@@ -919,9 +964,13 @@ public class ByteBattle {
                                                         System.out.println("---------");
                                                         System.out.println("A cidade de NeoByte está mergulhada no caos. Um mestre da escuridao digital, conhecido apenas como ZERO, manipula os ");
                                                         System.out.println("sistemas da cidade para impor seu dominio sobre os cidadãos, espalhando medo e desespero por onde passa.");
-                                                        System.out.println("E você " + nomePlayer + " um(a) jovem hacker corajoso(a) e destemido(a), foi escolhido(a)com a ");
-                                                        System.out.println("missão de libertar o povo do vilão ZERO. Com suas habilidades em programação e ");
-                                                        System.out.println("uma determinação inabalável, você vai conseguir salvar essa cidade das maos do ZERO.");
+                                                        System.out.println("E você " + nomePlayer + " um(a) jovem hacker corajoso(a) e destemido(a), foi secretamente recrutado por um grupo de hackers");
+                                                        System.out.println("conhecidos como ' Anonymous  ' e é  chamado para uma missão de proporções épicas: derrotar a poderosa organização conhecida como");
+                                                        System.out.println(" ' Evil Corp '. Essa organização sinistra, liderada pelo misterioso ZERO, controla os sistemas essenciais ");
+                                                        System.out.println("da cidade, manipulando a informação para servir seus próprios interesses obscuros.");
+
+
+                                                        
                                                         certo15 = false;
                                                         break;
                                                     default:
@@ -945,12 +994,13 @@ public class ByteBattle {
                                                         System.out.println("VOCê...");
                                                         System.out.println("");
                                                         System.out.println("------------------------");
-                                                        System.out.println("|  " + nomePlayer + "  |");
+                                                        System.out.println(  "|  " + nomePlayer + "  |");
                                                         System.out.println("------------------------");
                                                         System.out.println("");
-                                                        System.out.println("Fique tranquilo Pixel, vou ajudar a cidade de NeoByte a se livrar desse vilão ' ZERO ' de uma vez por todas.");
+                                                        System.out.println("Fique tranquilo Pixel, vou ajudar a  desmantelar as estruturas de poder da ' Evil Corp ' que dominam a cidade de NeoByte ");
+                                                        System.out.println("a se livrar desse vilão ' ZERO ' de uma vez por todas...");
                                                         System.out.println("");
-                                                        System.out.println("");
+                                                        
                                                         System.out.println("-------------");
                                                         System.out.println("|   PIXEL   |");
                                                         System.out.println("-------------");
@@ -958,7 +1008,6 @@ public class ByteBattle {
                                                         System.out.println("Aeeeeeee...");
                                                         System.out.println("Sabia que podiamos contar com você, me siga, agora vou te ensinar sobre sitemas binários.");
                                                         System.out.println("");
-
                                                         certo16 = false;
                                                         break;
                                                     default:

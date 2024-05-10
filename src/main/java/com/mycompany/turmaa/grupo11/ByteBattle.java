@@ -205,7 +205,7 @@ public class ByteBattle {
 
                     System.out.println("");
                     System.out.println("Em um beco escuro no subúrbio, pixel te leva em uma sala, cercado por telas digitais piscando. Uma voz ecoa pelo");
-                    System.out.println("ambiente, que o ensina sobre a história do Conceito da Computação.");
+                    System.out.println("ambiente, que o ensina brevemente sobre a história do Conceito da Computação.");
 
                     // ERRO ao apertar outra tecla a não ser o Y 
                     // INÍCIO
@@ -642,8 +642,13 @@ public class ByteBattle {
                                             System.out.println("Por exemplo, um caractere ASCII é representado por 8 bits (um byte), permitindo a representação ");
                                             System.out.println("de 256 caracteres diferentes.");
                                             System.out.println("");
-                                            
                                             System.out.println("");
+                                            System.out.println("--------------------");
+                                            System.out.println("|  Voz Misteriosa  |");
+                                            System.out.println("--------------------");
+                                            System.out.println("");
+                                            
+                                            System.out.println("Vá para a tela ao lado, para continuar com as explicações.");
 
                                             certo9 = false;
                                             break;
@@ -658,33 +663,38 @@ public class ByteBattle {
                             boolean certo10 = true;
                             do{
                                 System.out.println("");
-                                System.out.println("Aperte ' y ' para ir a tela de John von Neumann ");
+                                System.out.println("Aperte ' y ' para ir a tela ao lado ");
                                 String resp10 = input.next();
 
                                     switch(resp10){
                                         case "Y":
                                         case "y":
                                             System.out.println("");
-                                            System.out.println("-----------------------");
-                                            System.out.println("| John von Neumann... |");
-                                            System.out.println("-----------------------");
+                                            System.out.println("Operações Binárias:");
+                                            System.out.println("Os sistemas binários suportam várias operações, como adição, subtração, multiplicação e ");
+                                            System.out.println("divisão, todas baseadas em regras específicas para manipular bits.");
+                                            System.out.println("Operações lógicas, como AND, OR e XOR, são frequentemente usadas em programação e ");
+                                            System.out.println("circuitos digitais para manipular dados binários.");
                                             System.out.println("");
-                                            System.out.println("Nasci em 28 de Dezembro de 1903, em Budapest, Hungary e morri dia 8 de Fevereiro de 1957, em Washington DC");
-                                            System.out.println("Meu interesse por computadores foi diferente pois eu conseguia visualizar a aplicação na solução");
-                                            System.out.println(" de problemas matemáticos e não apenas na geração de tabelas.");
-                                            System.out.println("Durante a Guerra, meus conhecimentos de hidráulica, balistica, meteorologia, teoria de jogos e");
-                                            System.out.println(" estatística foram colocados em prática em diversos projetos.");
-                                            System.out.println("Eu juntei as necessidades do projeto Manhattan a capacidade dos primeiro engenheiros da Moore ");
-                                            System.out.println("School of Electrical Engineering que estavam construindo o ENIAC, e em seguida o meu próprio projeto o");
-                                            System.out.println("IAS. Varios supercomputadores foram construidos pela National Laboratories como copias destas máquinas.");
-                                            System.out.println("Após o final da guerra me concentrei em desenvolver o computador do Institute for Advanced");
-                                            System.out.println(" Studies (IAS) e suas copias pelo mundo. Meu trabalho após a Guerra continuou no desenvolvimento de soluções");
-                                            System.out.println("para a construção da bomba de hidrogénio. ");
-                                            System.out.println("Mais um pouco sobre a minha história...");
-                                            System.out.println("John von Neumann, com sua sabedoria profunda, compartilha sua visão da arquitetura de ");
-                                            System.out.println("computadores. Ele descreve o conceito inovador que leva seu nome e explica como ele");
-                                            System.out.println("influenciou o design dos computadores modernos. Você entende como a separação entre ");
-                                            System.out.println("hardware e software revolucionou a forma como os computadores funcionam.");
+                                            System.out.println("Armazenamento e Transmissão de Dados:");
+                                            System.out.println("A memória de um computador armazena dados na forma binária, com cada bit sendo");
+                                            System.out.println("armazenado eletronicamente como uma carga elétrica ou a falta dela.");
+                                            System.out.println("Os dispositivos de armazenamento de dados, como discos rígidos e unidades flash, armazenam ");
+                                            System.out.println(" dados binários em padrões magnéticos ou elétricos.");
+                                            System.out.println("Os dados também são transmitidos entre dispositivos em forma binária, usando sinais elétricos  ");
+                                            System.out.println("ou ópticos.");
+                                            System.out.println("");
+                                            System.out.println("Conversão de Bases:");
+                                            System.out.println("É comum converter entre sistemas de numeração, como binário para decimal, decimal para  ");
+                                            System.out.println("binário e assim por diante, dependendo dos requisitos do sistema ou aplicação.");
+                                            System.out.println("Ferramentas e linguagens de programação oferecem funções embutidas para facilitar essas ");
+                                            System.out.println("conversões quando necessário.");
+                                            System.out.println("");
+                                            System.out.println("Circuitos Digitais:");
+                                            System.out.println("Os circuitos digitais, que são a base dos componentes eletrônicos em um computador, operam ");
+                                            System.out.println("com base em sinais binários.");
+                                            System.out.println("Portas lógicas, como AND, OR e NOT, são componentes fundamentais dos circuitos digitais e são ");
+                                            System.out.println("usadas para realizar operações lógicas em dados binários.");
                                             certo10 = false;
                                             break;
                                         default:
@@ -695,7 +705,7 @@ public class ByteBattle {
                             }while(certo10);
 
                             System.out.println("");
-                            System.out.println("Após escutar o que Alan Turing e John von Neumann tinham para te falar, a voz misteriosa ");
+                            System.out.println("Após verificar o que as telas estavam explicando, a voz misteriosa ");
                             System.out.println("surge mais uma vez.");
                             System.out.println("");
                             System.out.println("--------------------");
@@ -713,16 +723,16 @@ public class ByteBattle {
 
                             // Código que é responsável por embaralhar as alternativas
                                 ArrayList<String> respostas2 = new ArrayList<String>();
-                                respostas2.add("<A> Desenvolveu o primeiro computador pessoal.");
-                                respostas2.add("<B> Criou o primeiro sistema operacional.");
-                                respostas2.add("<C> Desenvolveu a máquina Enigma para decifrar códigos secretos alemães.");
-                                respostas2.add("<D> Nenhuma das opções.");
+                                respostas2.add("<A> 1001");
+                                respostas2.add("<B> 1010");
+                                respostas2.add("<C> 0111");
+                                respostas2.add("<D> 1110");
                             do{
                                 limite2++;
                                 System.out.println("--");
                                 System.out.println("Você tera 3 chances");
                                 System.out.println("--");
-                                System.out.println("Quais foram as contribuições de Alan Turing para o campo da computação durante a Segunda Guerra Mundial ?");
+                                System.out.println("Qual é o valor em binário do número decimal 7?");
                                 System.out.println("-");
                                 System.out.println("Escolha a alternativa correta! ");
 
@@ -770,17 +780,17 @@ public class ByteBattle {
 
                                 // Código que é responsável por embaralhar as alternativas
                                 ArrayList<String> respostas3 = new ArrayList<String>();
-                                respostas3.add("<A> Um sistema de comunicação criptografado usado pela resistencia.");
-                                respostas3.add("<B> Um dispositivo de cálculo que serviu como precursor dos computadores modernos.");
-                                respostas3.add("<C> Uma máquina de cafe que Alan Turing inventou durante a guerra.");
-                                respostas3.add("<D> Nenhuma das opções.");
+                                respostas3.add("<A> O valor mais alto.");
+                                respostas3.add("<B> O valor mais baixo.");
+                                respostas3.add("<C> A quantidade de bits no número.");
+                                respostas3.add("<D> O número de dígitos binários.");
 
                                 do{
                                     limite3++;
                                     System.out.println("--");
                                     System.out.println("Você tera 3 chances");
                                     System.out.println("--");
-                                    System.out.println("O que e a Máquina de Turing e como ela influenciou o desenvolvimento dos computadores modernos ?");
+                                    System.out.println("O que representa o bit mais significativo em um número binário ?");
                                     System.out.println("-");
                                     System.out.println("Escolha a alternativa correta! ");
 
@@ -827,17 +837,17 @@ public class ByteBattle {
 
                                     // Código que é responsável por embaralhar as alternativas
                                     ArrayList<String> respostas4 = new ArrayList<String>();
-                                    respostas4.add("<A> Um sistema de comunicação criptografado usado pela resistencia.");
-                                    respostas4.add("<B> Um dispositivo de cálculo que serviu como precursor dos computadores modernos.");
-                                    respostas4.add("<C> Uma máquina de café que Alan Turing inventou durante a guerra.");
-                                    respostas4.add("<D> Nenhuma das opções.");
+                                    respostas4.add("<A> OR.");
+                                    respostas4.add("<B> AND.");
+                                    respostas4.add("<C> XOR.");
+                                    respostas4.add("<D> NOT.");
 
                                     do{
                                         limite4++;
                                         System.out.println("--");
                                         System.out.println("Você tera 3 chances");
                                         System.out.println("--");
-                                        System.out.println("Quais foram as contribuições de John von Neumann para a arquitetura de computadores?");
+                                        System.out.println("Qual operação binária resulta em 1 quando ambos os operandos são 1 e em 0 caso contrário ?");
                                         System.out.println("--");
                                         System.out.println("Escolha a alternativa correta! ");
 
@@ -884,17 +894,17 @@ public class ByteBattle {
 
                                         // Código que é responsável por embaralhar as alternativas
                                         ArrayList<String> respostas5 = new ArrayList<String>();
-                                        respostas5.add("<A> Introduziu a ideia de usar algoritmos para programar computadores.");
-                                        respostas5.add("<B> Propôs o uso de memória RAM para armazenar dados temporarios.");
-                                        respostas5.add("<C> Estabeleceu a separação entre hardware e software.");
-                                        respostas5.add("<D> Nenhuma das opções.");
+                                        respostas5.add("<A> Base-8");
+                                        respostas5.add("<B> Base-10.");
+                                        respostas5.add("<C>  Base-2.");
+                                        respostas5.add("<D> Base-16.");
 
                                         do{
                                             limite5++;
                                             System.out.println("--");
                                             System.out.println("Você tera 3 chances");
                                             System.out.println("--");
-                                            System.out.println("Como o conceito de arquitetura de ' Von Neumann ' influenciou o design dos computadores modernos ?");
+                                            System.out.println("Qual é o sistema de numeração utilizado pelo sistema binário ?");
                                             System.out.println("-");
                                             System.out.println("Escolha a alternativa correta! ");
 
@@ -940,6 +950,7 @@ public class ByteBattle {
                                         if(!certo14){
                                             System.out.println("");
                                             System.out.println("MUTO BEM...");
+                                            System.out.println("");
                                             System.out.println("A medida que sua jornada avanca, você é confrontado com dilemas éticos e complexos. Você ");
                                             System.out.println("se ve diante da responsabilidade de usar os Conceitos de Computação não apenas para resolver problemas,");
                                             System.out.println("mas tambem para promover o bem-estar da sociedade. Suas escolhas moldarão o curso da história e definirão");
@@ -959,15 +970,17 @@ public class ByteBattle {
                                                 switch(resp15){
                                                     case "Y":
                                                     case "y": 
+                                                        System.out.println("");
                                                         System.out.println("---------");
                                                         System.out.println("| Pixel |");
                                                         System.out.println("---------");
-                                                        System.out.println("A cidade de NeoByte está mergulhada no caos. Um mestre da escuridao digital, conhecido apenas como ZERO, manipula os ");
+                                                        System.out.println("A cidade de NeoByte está mergulhada no caos. Um mestre da escuridão digital, conhecido apenas como ZERO, manipula os ");
                                                         System.out.println("sistemas da cidade para impor seu dominio sobre os cidadãos, espalhando medo e desespero por onde passa.");
-                                                        System.out.println("E você " + nomePlayer + " um(a) jovem hacker corajoso(a) e destemido(a), foi secretamente recrutado por um grupo de hackers");
+                                                        System.out.println("E você " + nomePlayer + " um(a) jovem hacker corajoso(a) e destemido(a), recebeu secretamente um convite de um grupo de hackers");
                                                         System.out.println("conhecidos como ' Anonymous  ' e é  chamado para uma missão de proporções épicas: derrotar a poderosa organização conhecida como");
                                                         System.out.println(" ' Evil Corp '. Essa organização sinistra, liderada pelo misterioso ZERO, controla os sistemas essenciais ");
                                                         System.out.println("da cidade, manipulando a informação para servir seus próprios interesses obscuros.");
+                                                        System.out.println("");
 
 
                                                         
@@ -984,30 +997,29 @@ public class ByteBattle {
 
                                             do{
                                                 System.out.println("");
-                                                System.out.println("Aperte ' Y ' para falar com o Pixel");
+                                                System.out.println("Aperte ' Y ' para ver o convite do grupo Hacker ' Anonymous' ");
                                                 System.out.println("");
                                                 String resp16 = input.next();
 
                                                 switch(resp16){
                                                     case "Y":
                                                     case "y": 
-                                                        System.out.println("VOCê...");
                                                         System.out.println("");
-                                                        System.out.println("------------------------");
-                                                        System.out.println(  "|  " + nomePlayer + "  |");
-                                                        System.out.println("------------------------");
+                                                        System.out.println("-----------------");
+                                                        System.out.println("|   ANONYMOUS   |");
+                                                        System.out.println("-----------------");
                                                         System.out.println("");
-                                                        System.out.println("Fique tranquilo Pixel, vou ajudar a  desmantelar as estruturas de poder da ' Evil Corp ' que dominam a cidade de NeoByte ");
-                                                        System.out.println("a se livrar desse vilão ' ZERO ' de uma vez por todas...");
+                                                        System.out.println("Caro(a) " + nomePlayer);
+                                                        System.out.println("O Anonymous é uma comunidade de hackers comprometidos com a liberdade, justiça e transparência.");
+                                                        System.out.println("Nossa missão é utilizar nossas habilidades técnicas para promover mudanças positivas no mundo, ");
+                                                        System.out.println("combatendo a corrupção, a censura e a opressão que a ' Evil Corp ' está espalhando pela cidade");
+                                                        System.out.println("de NeoByte.");
+                                                        System.out.println("Acreditamos no poder da cooperação e da colaboração para fazer a diferença. Juntos, podemos ");
+                                                        System.out.println("realizar grandes feitos e impactar positivamente a sociedade. ");
+                                                        System.out.println("Isto é um convite para fazer parte de um grupo muito especial. ");
+                                                        System.out.println("ASS: Anonymous ");
                                                         System.out.println("");
-                                                        
-                                                        System.out.println("-------------");
-                                                        System.out.println("|   PIXEL   |");
-                                                        System.out.println("-------------");
-                                                        System.out.println("");
-                                                        System.out.println("Aeeeeeee...");
-                                                        System.out.println("Sabia que podiamos contar com você, me siga, agora vou te ensinar sobre sitemas binários.");
-                                                        System.out.println("");
+
                                                         certo16 = false;
                                                         break;
                                                     default:
@@ -1020,20 +1032,35 @@ public class ByteBattle {
                                             boolean certo17 = true;
 
                                             do{
-                                                System.out.println("Aperte ' Y ' para seguir Pixel");
+                                                System.out.println("Aperte ' Y ' para aceitar o convite do ' A nonymous '.");
                                                 String resp17 = input.next();
 
                                                 switch(resp17){
                                                     case "Y":
                                                     case "y":
                                                         System.out.println("");
-                                                        System.out.println("você se aventura pelas ruas infestadas de hackers e drones de vigilância, determinado(a) a trazer a luz de volta a cidade.");
-                                                        System.out.println("No entanto, para alcançar Zero e por um fim em sua tirania, você deve primeiro superar uma serie");
-                                                        System.out.println("de desafios de lógica de programação que ele espalhou por toda a cidade. Desde decifrar ");
-                                                        System.out.println("códigos de segurança em sistemas de controle ate encontrar brechas em firewalls impenetraveis, cada desafio leva");
-                                                        System.out.println("você um passo mais perto de confrontar o vilão.");
+                                                        System.out.println("VOCê...");
                                                         System.out.println("");
-                                                        System.out.println("Escurecendo");
+                                                        System.out.println("------------------------");
+                                                        System.out.println(  "|  " + nomePlayer + "  |");
+                                                        System.out.println("------------------------");
+                                                        System.out.println("");
+                                                        System.out.println("Uau, eu não esperava receber um convite como esse!");
+                                                        System.out.println("Definitivamente, estou interessado em ajudar, acredito firmemente nos valores de liberdade, justiça e transparência. E estou");
+                                                        System.out.println("pronto para acabar com a ' Evil Corp ' de uma vez por todas.");
+                                                        System.out.println("");
+                                                        
+                                                        System.out.println("-------------");
+                                                        System.out.println("|   PIXEL   |");
+                                                        System.out.println("-------------");
+                                                        System.out.println("");
+                                                        System.out.println("O grupo ' Anonymous ' me mandou uma informação de uma possivel localização da casa de um dos ");
+                                                        System.out.println("capangas que trabalha na ' Evil Corp '.");
+                                                        System.out.println("Vamos até lá para ver se conseguimos algumas informações e tirar proveito disso.");
+                                                        System.out.println("Vamos nessa.");
+                                                        System.out.println("");
+
+                                                       
                                                         certo17 = false;
                                                         break;
                                                     default:
@@ -1041,6 +1068,35 @@ public class ByteBattle {
                                                         break;
                                                 }
                                             }while(certo17);
+
+                                            boolean certo18 = true;
+
+                                            do {
+                                                System.out.println("Aperte ' Y ' para seguir Pixel.");
+                                                String resp18 = input.next();
+
+                                                switch(resp18){
+                                                    case "Y":
+                                                    case "y":
+                                                        System.out.println("");
+                                                        System.out.println("você se aventura pelas ruas noturnas rumo ao coração da cidade, onde erguem-se os imponentes arranha-céus luxuosos ");
+                                                        System.out.println("lar dos magnatas, diferente de tudo que já viu, e percebendo a diferença do subúrbio para essa realidade  ");
+                                                        System.out.println("onde aqui os privilegiados desfrutam de jardins exuberantes, piscinas reluzentes e segurança privada, isolados das realidades");
+                                                        System.out.println("menos glamorosas da cidade.");
+                                                        System.out.println("Você se depara com a localização que os ' Anonymous ' tinha te enviado e cautelosamente vai até a residencia, ");
+                                                        System.out.println("e se depara com uma fechadura elétrica, para poder entrar vai ter que hackear o systema e descobrir a senha");
+                                                        System.out.println("para poder entrar.");
+                                                        certo18 = false;
+                                                        break;
+                                                    default:
+                                                        System.out.println("Opção inválida");
+                                                        break;
+                                                }
+
+
+                                                
+                                            } while (certo18);
+
                                         }
                                     }
                                 }

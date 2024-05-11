@@ -458,64 +458,65 @@ public class ByteBattle {
                     // As alternativas vão se embaralhando caso o jogador erre
                     //INÍCIO
                     boolean certo6 = true;
-                    int limite = 3;
+        int limite = 3;
 
-                    // Código que é responsável por embaralhar as alternativas
-                    ArrayList<String> respostas = new ArrayList<String>();
-                    respostas.add("[A] 11111011100.");
-                    respostas.add("[B] 110111.");
-                    respostas.add("[C] 111110111000.");
-                    respostas.add("[D] 111110111.");
+        // Código que é responsável por embaralhar as alternativas
+        ArrayList<String> respostas = new ArrayList<String>();
+        respostas.add("[A] 11111011100.");
+        respostas.add("[B] 110111.");
+        respostas.add("[C] 111110111000.");
+        respostas.add("[D] 111110111.");
 
+        System.out.println("");
+        System.out.println("Os computadores utilizam o sistema binário ou de base 2 que é um sistema de");
+        System.out.println("numeração em que todas as quantidades se representam com base em dois números,");
+        System.out.println(
+                "ou seja, (0 e 1). Em um computador o número 2012, em base decimal, será representado, em base binária, por:");
+        System.out.println("");
+
+        do {
+
+            System.out.println("");
+            System.out.println("Você tera " + limite + " chances");
+
+            System.out.println("Escolha a alternativa correta! ");
+            for (String resp6 : respostas) {
+                System.out.println(resp6);
+            }
+            String resp6 = input.next();
+            Collections.shuffle(respostas);
+
+            switch (resp6) {
+                case "A":
+                case "a":
+                    System.out.println("Alternativa [" + resp6 + "] está correta! ");
+                    certo6 = false;
+                    break;
+                case "B":
+                case "b":
+                case "C":
+                case "c":
+                case "D":
+                case "d":
+                    System.out.println("Alternativa está incorreta!");
+                    limite--;
+                    System.out.println("Você tera " + limite + " chances");
+
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
                     System.out.println("");
-                    System.out.println("Os computadores utilizam o sistema binário ou de base 2 que é um sistema de");
-                    System.out.println("numeração em que todas as quantidades se representam com base em dois números,");
-                    System.out.println(
-                            "ou seja, (0 e 1). Em um computador o número 2012, em base decimal, será representado, em base binária, por:");
-                    System.out.println("");
+                    break;
+            }
+            if (certo6 && limite == 0) {
+                System.out.println("");
+                System.out.println("Resposta incorreta nas 3 tentativas!");
+                System.out.println("");
+                System.out.println("Tente novamente!");
+                break;
+            }
 
-                    do {
-
-                        System.out.println("");
-                        System.out.println("Você tera " + limite + " chances");
-
-                        System.out.println("Escolha a alternativa correta! ");
-                        for (String resp6 : respostas) {
-                            System.out.println(resp6);
-                        }
-                        String resp6 = input.next();
-                        Collections.shuffle(respostas);
-
-                        switch (resp6) {
-                            case "A":
-                            case "a":
-                                System.out.println("Alternativa [" + resp6 + "] está correta! ");
-                                certo6 = false;
-                                break;
-                            case "B":
-                            case "b":
-                            case "C":
-                            case "c":
-                            case "D":
-                            case "d":
-                                System.out.println("Alternativa [" + resp6 + "] está incorreta!");
-                                limite--;
-
-                                break;
-                            default:
-                                System.out.println("Opção inválida!");
-                                System.out.println("");
-                                break;
-                        }
-                        if (certo6 && limite == 0) {
-                            System.out.println("");
-                            System.out.println("Resposta incorreta nas 3 tentativas!");
-                            System.out.println("");
-                            System.out.println("Tente novamente!");
-                            break;
-                        }
-
-                    } while (certo6 && limite > 0);
+        } while (certo6 && limite > 0);
                     if(!certo6){  // Código onde não deixa o jogador avançar para a próxima perguinta caso ele erre as 3 chances
 
                         boolean certo7 = true;

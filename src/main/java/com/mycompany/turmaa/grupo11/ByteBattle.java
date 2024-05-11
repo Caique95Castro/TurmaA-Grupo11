@@ -71,7 +71,7 @@ public class ByteBattle {
             System.out.println("|    <4> Sair          |");
             System.out.println("------------------------");
             System.out.println("");
-            System.out.println("Digite uma opçõo");
+            System.out.println("Digite uma opção: ");
     }
 
     public static void exibirInstrucoes() {
@@ -524,10 +524,10 @@ public class ByteBattle {
 
                         // Código que é responsável por embaralhar as alternativas
                         ArrayList<String> respostas1 = new ArrayList<String>();
-                        respostas1.add("<A> 5.");
-                        respostas1.add("<B> 8.");
-                        respostas1.add("<C> 10.");
-                        respostas1.add("<D> 12.");
+                        respostas1.add("[A] 5.");
+                        respostas1.add("[B] 8.");
+                        respostas1.add("[C] 10.");
+                        respostas1.add("[D] 12.");
 
                         System.out.println("");
                         System.out.println("Qual é o valor em decimal do número binário 1010?");
@@ -547,7 +547,7 @@ public class ByteBattle {
                             switch(resp7){
                                 case "C":
                                 case "c": 
-                                    System.out.println("Aternativa ' " + resp7 + " ' está correta! ");
+                                    System.out.println("Alternativa [" + resp7 + "] está correta! ");
                                     certo7 = false;
                                     break;
                                 case "A":
@@ -617,7 +617,7 @@ public class ByteBattle {
                                 }
                             }while(certo8);
 
-                            System.out.println("Jovem " + nomePlayer + ", na tela atraz de você tem mais um pouco sobre Binários,");
+                            System.out.println("Jovem " + nomePlayer + ", na tela atrás de você tem mais um pouco sobre Binários,");
                             System.out.println("va até lá e veja as informações.");
 
                             boolean certo9 = true;
@@ -730,10 +730,10 @@ public class ByteBattle {
 
                             // Código que é responsável por embaralhar as alternativas
                                 ArrayList<String> respostas2 = new ArrayList<String>();
-                                respostas2.add("<A> 1001");
-                                respostas2.add("<B> 1010");
-                                respostas2.add("<C> 0111");
-                                respostas2.add("<D> 1110");
+                                respostas2.add("[A] 1001");
+                                respostas2.add("[B] 1010");
+                                respostas2.add("[C] 0111");
+                                respostas2.add("[D] 1110");
 
                                 System.out.println("--");
                                 System.out.println("Qual é o valor em binário do número decimal 7?");
@@ -750,7 +750,7 @@ public class ByteBattle {
                                 switch(resp11){
                                     case "C":
                                     case "c":
-                                        System.out.println("Aternativa [" + resp11 + "] está correta!");
+                                        System.out.println("Alternativa [" + resp11 + "] está correta!");
                                         certo11 = false;
                                         break;
                                     case "A":
@@ -759,7 +759,7 @@ public class ByteBattle {
                                     case "b":
                                     case "D":
                                     case "d":
-                                        System.out.println("Aternativa ["+ resp11 +"]está incorreta!");
+                                        System.out.println("Alternativa ["+ resp11 +"] está incorreta!");
                                         limite--;
                                         System.out.println("Você tera " + limite2 + " chances");
                                         break;
@@ -783,10 +783,10 @@ public class ByteBattle {
 
                                 // Código que é responsável por embaralhar as alternativas
                                 ArrayList<String> respostas3 = new ArrayList<String>();
-                                respostas3.add("<A> O valor mais alto.");
-                                respostas3.add("<B> O valor mais baixo.");
-                                respostas3.add("<C> A quantidade de bits no número.");
-                                respostas3.add("<D> O número de dígitos binários.");
+                                respostas3.add("[A] O valor mais alto.");
+                                respostas3.add("[B] O valor mais baixo.");
+                                respostas3.add("[C] A quantidade de bits no número.");
+                                respostas3.add("[D] O número de dígitos binários.");
 
                                 System.out.println("--");
                                 System.out.println("O que representa o bit mais significativo em um número binário ?");
@@ -805,7 +805,7 @@ public class ByteBattle {
                                     switch(resp12){
                                         case "A":
                                         case "a":
-                                            System.out.println("Aternativa [ " + resp12 + " ] está correta!");
+                                            System.out.println("Alternativa [ " + resp12 + " ] está correta!");
                                             certo12 = false;
                                             break;
                                         case "B":
@@ -814,7 +814,7 @@ public class ByteBattle {
                                         case "c":
                                         case "D":
                                         case "d":
-                                            System.out.println("Aternativa [ " + resp12 + " ] está incorreta!");
+                                            System.out.println("Alternativa [ " + resp12 + " ] está incorreta!");
                                             limite3--;
                                             System.out.println("Você tera " + limite3 + " chances");
                                             break;
@@ -860,7 +860,7 @@ public class ByteBattle {
 
                                             case "B":
                                             case "b":
-                                                System.out.println("Aternativa ' " + resp13 + " ' está correta!");
+                                                System.out.println("Alternativa [" + resp13 + "] está correta!");
                                                 certo13 = false;
                                                 break;
                                             case "A":
@@ -869,7 +869,7 @@ public class ByteBattle {
                                             case "c":
                                             case "D":
                                             case "d":
-                                                System.out.println("Aternativa está incorreta!");
+                                                System.out.println("Alternativa está incorreta!");
                                                 limite4--;
                                                 System.out.println("Você tera " + limite4 + " chances");
                                                 break;
@@ -892,10 +892,10 @@ public class ByteBattle {
 
                                         // Código que é responsável por embaralhar as alternativas
                                         ArrayList<String> respostas5 = new ArrayList<String>();
-                                        respostas5.add("<A> Base-8");
-                                        respostas5.add("<B> Base-10.");
-                                        respostas5.add("<C>  Base-2.");
-                                        respostas5.add("<D> Base-16.");
+                                        respostas5.add("[A] Base-8");
+                                        respostas5.add("[B] Base-10.");
+                                        respostas5.add("[C] Base-2.");
+                                        respostas5.add("[D] Base-16.");
 
                                         
                                         System.out.println("--");
@@ -914,7 +914,7 @@ public class ByteBattle {
                                             switch(resp14){
                                                 case "C":
                                                 case "c":
-                                                    System.out.println("Aternativa [ " + resp14 + " ] está correta!");
+                                                    System.out.println("Alternativa [ " + resp14 + " ] está correta!");
                                                     certo14 = false;
                                                     break;
                                                 case "A":
@@ -923,7 +923,7 @@ public class ByteBattle {
                                                 case "b":
                                                 case "D":
                                                 case "d":
-                                                    System.out.println("Aternativa [ " + resp14 + " ] está incorreta!");
+                                                    System.out.println("Alternativa [ " + resp14 + " ] está incorreta!");
                                                     limite5--;
                                                     System.out.println("Você tera " + limite5 + " chances");
                                                     break;
@@ -972,7 +972,7 @@ public class ByteBattle {
                                                         System.out.println("A cidade de NeoByte está mergulhada no caos. Um mestre da escuridão digital, conhecido apenas como ZERO, manipula os ");
                                                         System.out.println("sistemas da cidade para impor seu dominio sobre os cidadãos, espalhando medo e desespero por onde passa.");
                                                         System.out.println("E você " + nomePlayer + " um(a) jovem hacker corajoso(a) e destemido(a), recebeu secretamente um convite de um grupo de hackers");
-                                                        System.out.println("conhecidos como ' Anonymous  ' e é  chamado para uma missão de proporções épicas: derrotar a poderosa organização conhecida como");
+                                                        System.out.println("conhecidos como ' Anonymous ' e é  chamado para uma missão de proporções épicas: derrotar a poderosa organização conhecida como");
                                                         System.out.println(" ' Evil Corp '. Essa organização sinistra, liderada pelo misterioso ZERO, controla os sistemas essenciais ");
                                                         System.out.println("da cidade, manipulando a informação para servir seus próprios interesses obscuros.");
                                                         System.out.println("");
@@ -1027,7 +1027,7 @@ public class ByteBattle {
                                             boolean certo17 = true;
 
                                             do{
-                                                System.out.println("Aperte ' Y ' para aceitar o convite do ' A nonymous '.");
+                                                System.out.println("Aperte ' Y ' para aceitar o convite do ' Anonymous '.");
                                                 String resp17 = input.next();
 
                                                 switch(resp17){
@@ -1079,7 +1079,7 @@ public class ByteBattle {
                                                         System.out.println("onde aqui os privilegiados desfrutam de jardins exuberantes, piscinas reluzentes e segurança privada, isolados das realidades");
                                                         System.out.println("menos glamorosas da cidade.");
                                                         System.out.println("Você se depara com a localização que os ' Anonymous ' tinha te enviado e cautelosamente vai até a residencia, ");
-                                                        System.out.println("e se depara com uma fechadura elétrica, para poder entrar vai ter que hackear o systema e descobrir a senha");
+                                                        System.out.println("e se depara com uma fechadura elétrica, para poder entrar vai ter que hackear o sistema e descobrir a senha");
                                                         System.out.println("para poder entrar.");
                                                         certo18 = false;
                                                         break;
@@ -1106,9 +1106,9 @@ public class ByteBattle {
                     System.out.println("| CRÉDITOS |");
                     System.out.println("------------");
                     System.out.println("  ");
-                    System.out.println("Desenvolvido por: Caique Castro / Heitor Pereira / William Vieira ");
-                    System.out.println("Design de Jogo: COLOCAR ");
-                    System.out.println("Roteiro: COLOCAR ");
+                    System.out.println("Desenvolvido por: ");
+                    System.out.println(" \n Caique Castro \n Heitor Pereira \n William Vieira");
+                    System.out.println(" ");
                     System.out.println("© 2024");
     }
     

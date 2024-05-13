@@ -65,10 +65,10 @@ public class ByteBattle {
 
             // MENU
             System.out.println("------------------------");
-            System.out.println("|    <1> Instruções    |");
-            System.out.println("|    <2> Jogar         |");
-            System.out.println("|    <3> Créditos      |");
-            System.out.println("|    <4> Sair          |");
+            System.out.println("|    [1] Instruções    |");
+            System.out.println("|    [2] Jogar         |");
+            System.out.println("|    [3] Créditos      |");
+            System.out.println("|    [4] Sair          |");
             System.out.println("------------------------");
             System.out.println("");
             System.out.println("Digite uma opção: ");
@@ -127,7 +127,7 @@ public class ByteBattle {
                     boolean continuar1 = true;
 
                     do { 
-                        System.out.println("Aperte ' C ' para continuar.");
+                        System.out.println("Aperte [C] para continuar.");
                         System.out.println("");
                         String cont = input.next();
 
@@ -175,7 +175,7 @@ public class ByteBattle {
                         boolean certo1 = true;
                     do{
                         System.out.println("");
-                        System.out.println("Aperte ' Y ' para escutar Pixel ");
+                        System.out.println("Aperte [Y] para escutar Pixel ");
                         String resp1 = input.next();
 
                         switch(resp1){
@@ -214,7 +214,7 @@ public class ByteBattle {
                     do{
 
                             System.out.println("");
-                            System.out.println("Aperte ' Y ' para escutar a voz misteriosa ");
+                            System.out.println("Aperte [Y] para escutar a voz misteriosa ");
                             String resp2 = input.next();
 
                             switch(resp2){
@@ -623,7 +623,7 @@ public class ByteBattle {
                             boolean certo9 = true;
                             do{
                                  System.out.println("");
-                                System.out.println("Aperte ' Y ' para ir pra tela com mais informações.");
+                                System.out.println("Aperte [Y] para ir pra tela com mais informações.");
                                 System.out.println("");
                                 String resp9 = input.next();
 
@@ -670,7 +670,7 @@ public class ByteBattle {
                             boolean certo10 = true;
                             do{
                                 System.out.println("");
-                                System.out.println("Aperte ' y ' para ir a tela ao lado ");
+                                System.out.println("Aperte [Y] para ir a tela ao lado ");
                                 String resp10 = input.next();
 
                                     switch(resp10){
@@ -837,10 +837,10 @@ public class ByteBattle {
 
                                     // Código que é responsável por embaralhar as alternativas
                                     ArrayList<String> respostas4 = new ArrayList<String>();
-                                    respostas4.add("<A> OR.");
-                                    respostas4.add("<B> AND.");
-                                    respostas4.add("<C> XOR.");
-                                    respostas4.add("<D> NOT.");
+                                    respostas4.add("[A] OR.");
+                                    respostas4.add("[B] AND.");
+                                    respostas4.add("[C] XOR.");
+                                    respostas4.add("[D] NOT.");
 
                                     System.out.println("--");
                                     System.out.println("Qual operação binária resulta em 1 quando ambos os operandos são 1 e em 0 caso contrário ?");
@@ -958,7 +958,7 @@ public class ByteBattle {
 
                                             do{
                                                 System.out.println("");
-                                                System.out.println("Aperte ' Y ' para escutar Pixel ");
+                                                System.out.println("Aperte [Y] para escutar Pixel ");
                                                 System.out.println("");
                                                 String resp15 = input.next();
 
@@ -992,7 +992,7 @@ public class ByteBattle {
 
                                             do{
                                                 System.out.println("");
-                                                System.out.println("Aperte ' Y ' para ver o convite do grupo Hacker ' Anonymous' ");
+                                                System.out.println("Aperte [Y] para ver o convite do grupo Hacker ' Anonymous' ");
                                                 System.out.println("");
                                                 String resp16 = input.next();
 
@@ -1027,7 +1027,7 @@ public class ByteBattle {
                                             boolean certo17 = true;
 
                                             do{
-                                                System.out.println("Aperte ' Y ' para aceitar o convite do ' Anonymous '.");
+                                                System.out.println("Aperte [Y] para aceitar o convite do ' Anonymous '.");
                                                 String resp17 = input.next();
 
                                                 switch(resp17){
@@ -1067,7 +1067,7 @@ public class ByteBattle {
                                             boolean certo18 = true;
 
                                             do {
-                                                System.out.println("Aperte ' Y ' para seguir Pixel.");
+                                                System.out.println("Aperte [Y] para seguir Pixel.");
                                                 String resp18 = input.next();
 
                                                 switch(resp18){

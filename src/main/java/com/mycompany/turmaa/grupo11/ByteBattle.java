@@ -1184,9 +1184,236 @@ public class ByteBattle {
                                             break;
                                         }
                                     } while (certo23 && limite7 > 0);
-                                    if(!certo23){
-                                        System.out.println(" Determinados a expor a verdade por trás das sombras, você e Pixel coletam o máximo de informações possível, \n"
-                                        + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão.");
+                                    if (!certo23) {
+                                        System.out.println(" Determinados a expor a verdade por trás das sombras, " + nomePlayer + " e Pixel coletam o máximo de informações possível, \n"
+                                                + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão."
+                                                + "Assim que vc envia os documentos para os Anonymous, você sai da residência, e espera um retorno indicando qual o próximo passo."
+                                                + "Após a analise dos documentos enviados, de imediato os Anonymous retorna com informações sobre algumas mensagens codificadas de uma fornte desconhecida "
+                                                + "ligando diretamente o envolvimento de Zero com a  Evil Corp. Sua missão é decifrar essas mensagens para descobrir a localização de um arquivo, "
+                                                + "terá que usar suas habilidades de conversão entre sistemas numéricos para traduzir o código binário em texto legível e encontrar a pista.");
+
+                                        boolean certo24 = true;
+
+                                        do {
+                                            System.out.println("\n Aperte [Y] para descriptografar as mensagens. n");
+                                            String resp24 = input.next();
+
+                                            switch (resp24) {
+                                                case "Y":
+                                                case "y":
+                                                    System.out.println("Descriptografando...");
+                                                    certo24 = false;
+                                                    break;
+                                                default:
+                                                    System.out.println("Opção inválida! \n");
+                                                    break;
+                                            }
+                                        } while (certo24);
+
+                                        int limite8 = 3;
+                                        boolean certo25 = true;
+
+                                        // Código que é responsável por embaralhar as alternativas
+                                        ArrayList<String> respostas7 = new ArrayList<String>();
+                                        respostas7.add("[A] Conversão de binário para hexadecimal.");
+                                        respostas7.add("[B] Conversão de binário para texto legível.");
+                                        respostas7.add("[C] Conversão de binário para octal.");
+                                        respostas7.add("[D] Conversão de binário para decimal.");
+
+                                        System.out.println("\n (?) > Qual é o processo usado por " + nomePlayer + " para decifrar as mensagens codificadas em binário? \n");
+
+                                        do {
+                                            System.out.println("(!) > Você tera " + limite8 + " chances");
+                                            System.out.println("\n Escolha a alternativa correta! \n ");
+                                            for (String resp25 : respostas7) {
+                                                System.out.println(resp25);
+                                            }
+                                            String resp25 = input.next();
+                                            Collections.shuffle(respostas7);
+
+                                            switch (resp25) {
+                                                case "B":
+                                                case "b":
+                                                    System.out.println("Alternativa [ " + resp25 + " ] está correta! \n");
+                                                    certo25 = false;
+                                                    break;
+                                                case "A":
+                                                case "a":
+                                                case "D":
+                                                case "d":
+                                                case "C":
+                                                case "c":
+                                                    System.out.println("Alternativa [ " + resp25 + " ] está incorreta! \n");
+                                                    limite8--;
+                                                    break;
+                                                default:
+                                                    System.out.println("Opção inválida! \n");
+                                                    break;
+                                            }
+                                            if (certo25 && limite8 == 0) {
+                                                System.out.println("");
+                                                System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                System.out.println("");
+                                                System.out.println("Tente novamente. \n");
+                                                break;
+                                            }
+                                        } while (certo25 && limite8 > 0);
+                                        if (!certo25) {
+
+                                            int limite9 = 3;
+                                            boolean certo26 = true;
+
+                                            // Código que é responsável por embaralhar as alternativas
+                                            ArrayList<String> respostas8 = new ArrayList<String>();
+                                            respostas8.add("[A] Hexadecimal.");
+                                            respostas8.add("[B] Decimal.");
+                                            respostas8.add("[C] Octal.");
+                                            respostas8.add("[D] ASCII.");
+
+                                            System.out.println("\n (?) > Quando " + nomePlayer + " decodifica o código binário, qual sistema numérico ele usa para \n"
+                                                    + "representar o texto legível?");
+
+                                            do {
+                                                System.out.println("(!) > Você tera " + limite9 + " chances");
+                                                System.out.println("\n Escolha a alternativa correta! \n ");
+                                                for (String resp26 : respostas8) {
+                                                    System.out.println(resp26);
+                                                }
+                                                String resp26 = input.next();
+                                                Collections.shuffle(respostas8);
+
+                                                switch (resp26) {
+                                                    case "D":
+                                                    case "d":
+                                                        System.out.println("Alternativa [ " + resp26 + " ] está correta! \n");
+                                                        certo26 = false;
+                                                        break;
+                                                    case "A":
+                                                    case "a":
+                                                    case "B":
+                                                    case "b":
+                                                    case "C":
+                                                    case "c":
+                                                        System.out.println("Alternativa [ " + resp26 + " ] está incorreta! \n");
+                                                        limite9--;
+                                                        break;
+                                                    default:
+                                                        System.out.println("Opção inválida! \n");
+                                                        break;
+                                                }
+                                                if (certo26 && limite9 == 0) {
+                                                    System.out.println("");
+                                                    System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                    System.out.println("");
+                                                    System.out.println("Tente novamente. \n");
+                                                    break;
+                                                }
+                                            } while (certo26 && limite9 > 0);
+                                            if (!certo26) {
+
+                                                int limite10 = 3;
+                                                boolean certo27 = true;
+
+                                                // Código que é responsável por embaralhar as alternativas
+                                                ArrayList<String> respostas9 = new ArrayList<String>();
+                                                respostas9.add("[A] 1010");
+                                                respostas9.add("[B] 1100");
+                                                respostas9.add("[C] 1111");
+                                                respostas9.add("[D] 1001");
+
+                                                System.out.println("\n (?) > Qual é o resultado da operação binária 1011 AND 1101?");
+
+                                                do {
+                                                    System.out.println("(!) > Você tera " + limite10 + " chances");
+                                                    System.out.println("\n Escolha a alternativa correta! \n ");
+                                                    for (String resp27 : respostas9) {
+                                                        System.out.println(resp27);
+                                                    }
+                                                    String resp27 = input.next();
+                                                    Collections.shuffle(respostas9);
+
+                                                    switch (resp27) {
+                                                        case "A":
+                                                        case "a":
+                                                            System.out.println("Alternativa [ " + resp27 + " ] está correta! \n");
+                                                            certo27 = false;
+                                                            break;
+                                                        case "D":
+                                                        case "d":
+                                                        case "B":
+                                                        case "b":
+                                                        case "C":
+                                                        case "c":
+                                                            System.out.println("Alternativa [ " + resp27 + " ] está incorreta! \n");
+                                                            limite10--;
+                                                            break;
+                                                        default:
+                                                            System.out.println("Opção inválida! \n");
+                                                            break;
+                                                    }
+                                                    if (certo27 && limite10 == 0) {
+                                                        System.out.println("");
+                                                        System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                        System.out.println("");
+                                                        System.out.println("Tente novamente. \n");
+                                                        break;
+                                                    }
+                                                } while (certo27 && limite10 > 0);
+                                                if(!certo27){
+                                                    int limite11 = 3;
+                                                    boolean certo28 = true;
+    
+                                                    // Código que é responsável por embaralhar as alternativas
+                                                    ArrayList<String> respostas10 = new ArrayList<String>();
+                                                    respostas10.add("[A] 1010");
+                                                    respostas10.add("[B] 1110");
+                                                    respostas10.add("[C] 1101");
+                                                    respostas10.add("[D] 1011");
+    
+                                                    System.out.println("\n (?) > Qual é o resultado da operação binária 1001 OR 0110?");
+    
+                                                    do {
+                                                        System.out.println("(!) > Você tera " + limite11 + " chances");
+                                                        System.out.println("\n Escolha a alternativa correta! \n ");
+                                                        for (String resp28 : respostas10) {
+                                                            System.out.println(resp28);
+                                                        }
+                                                        String resp28 = input.next();
+                                                        Collections.shuffle(respostas10);
+    
+                                                        switch (resp28) {
+                                                            case "D":
+                                                            case "d":
+                                                                System.out.println("Alternativa [ " + resp28 + " ] está correta! \n");
+                                                                certo28 = false;
+                                                                break;
+                                                            case "A":
+                                                            case "a":
+                                                            case "B":
+                                                            case "b":
+                                                            case "C":
+                                                            case "c":
+                                                                System.out.println("Alternativa [ " + resp28 + " ] está incorreta! \n");
+                                                                limite11--;
+                                                                break;
+                                                            default:
+                                                                System.out.println("Opção inválida! \n");
+                                                                break;
+                                                        }
+                                                        if (certo28 && limite11 == 0) {
+                                                            System.out.println("");
+                                                            System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                            System.out.println("");
+                                                            System.out.println("Tente novamente. \n");
+                                                            break;
+                                                        }
+                                                    } while (certo28 && limite11 > 0);
+                                                    if(!certo28){
+                                                        System.out.println("PASSOU");
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }

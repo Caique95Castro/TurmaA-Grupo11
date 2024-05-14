@@ -1156,8 +1156,8 @@ public class ByteBattle {
                                             case "B":
                                             case "b":
                                                 System.out.println(" [ " + resp23 + " ] \n Você se depara com uma porta meio escondida \n"
-                                                        + "e quando abre da de cara com uma escada que da acesso a um porão escuro, e lá vocês \n"
-                                                        + "encontram evidências perturbadoras da influência da Evil Corp Documentos confidenciais, registros \n"
+                                                        + "e quando abre, você da de cara com uma escada que da acesso a um porão escuro, e lá vocês \n"
+                                                        + "encontram evidências perturbadoras da influência da Evil Corp, documentos confidenciais, registros \n"
                                                         + "de transações suspeitas e dados comprometedores revelam a extensão do controle da organização sobre a cidade. \n");
                                                 certo23 = false;
                                                 break;

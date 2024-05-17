@@ -79,9 +79,9 @@ public class ByteBattle {
                 + "papel de um(a) jovem aprendiz de programação.\n"
                 + "Sua missão é explorar cidades, aprender a história e os conceitos fundamentais da computação e "
                 + "algoritmos e protegê-las dos ataques dos Hackers Sombrios.\n"
-                + "\n- Interaja com NPCs (personagens não-jogadores) para receber missôes e obter dicas.\n"
+                + "\n- Interaja com NPCs (personagens não-jogadores) para receber missões e obter dicas.\n"
                 + "- Complete desafios de programação para aprimorar suas habilidades.\n"
-                + "- Lute contra os Hackers Sombrios em batalhas estratégicas baseadas em turnos.\n"
+                + "- Lute contra os Hackers Sombrios em batalhas estratégicas baseadas em seu conhecimento e aprendizado.\n"
                 + "- Explore cidades para desvendar segredos e coletar itens valiosos.\n"
                 + "- Avance na história e torne-se um Guardião do Código lendário! </>\n";
 
@@ -151,7 +151,7 @@ public class ByteBattle {
                 + "Apesar das adversidades, " + nomePlayer + " era dotado(a) de uma mente brilhante e uma determinação inabalável.\n"
                 + "Desde cedo, demonstrou uma aptidão excepcional para a computação e uma habilidade inata para a arte "
                 + "do hacking.\nEle(a) passava horas intermináveis em seu computador, explorando os recantos mais"
-                + "escuros da rede e dominando os segredos da tecnologia.\nEle(a) manipulava sistemas, quebrava códigos e desafiava "
+                + " escuros da rede e dominando os segredos da tecnologia.\nEle(a) manipulava sistemas, quebrava códigos e desafiava "
                 + "as defesas mais sofisticadas com uma destreza impressionante.\n"
                 + "No entanto, sua forte personalidade e sua recusa em se curvar às convenções sociais o(a) tornaram um pária no mundo digital.\n"
                 + "Por isso era incapaz de manter um emprego fixo, pois sua natureza rebelde e sua tendência a desafiar a autoridade frequentemente\n"
@@ -195,7 +195,7 @@ public class ByteBattle {
         } while (certo1);
         // FIM
 
-        System.out.println("\n Em um beco escuro no subúrbio, pixel te leva em uma sala, cercado por telas digitais piscando. Uma voz ecoa pelo \n"
+        System.out.println("\n Em um beco escuro no subúrbio, Pixel te leva em uma sala, cercado por telas digitais piscando. Uma voz ecoa pelo \n"
                 + "ambiente, que o ensina brevemente sobre a história do Conceito da Computação. \n");
 
         // ERRO ao apertar outra tecla a não ser o Y 
@@ -876,11 +876,11 @@ public class ByteBattle {
 
                             if (!certo14) {
                                 System.out.println("\n> MUITO BEM...\n"
-                                        + "A medida que sua jornada avanca, você é confrontado com dilemas éticos e complexos. Você \n"
-                                        + "se ve diante da responsabilidade de usar os Conceitos de Computação não apenas para resolver problemas,\n"
-                                        + "mas tambem para promover o bem-estar da sociedade. Suas escolhas moldarão o curso da história e definirão\n"
+                                        + "A medida que sua jornada avança, você é confrontado com dilemas éticos e complexos. Você \n"
+                                        + "se vê diante da responsabilidade de usar os Conceitos de Computação não apenas para resolver problemas,\n"
+                                        + "mas também para promover o bem-estar da sociedade. Suas escolhas moldarão o curso da história e definirão\n"
                                         + "o seu destino.\n"
-                                        + "\nCom isso Pixel se aproxima de você e te fala o que está acontecendo em NeoByte, baseado em dados que ele\n"
+                                        + "\nCom isso Pixel se aproxima de você e te fala sobre a atual situação de NeoByte com baseado em dados que ele\n"
                                         + "conseguiu sobre a cidade.");
 
                                 boolean certo15 = true;
@@ -898,7 +898,7 @@ public class ByteBattle {
                                                     + "> A cidade de NeoByte está mergulhada no caos. Um mestre da escuridão digital, conhecido apenas como ZERO, manipula os \n"
                                                     + "sistemas da cidade para impor seu dominio sobre os cidadãos, espalhando medo e desespero por onde passa.\n"
                                                     + "> E você " + nomePlayer + " um(a) jovem hacker corajoso(a) e destemido(a), recebeu secretamente um convite de um grupo de hackers\n"
-                                                    + "conhecidos como 'Anonymous' e é  chamado para uma missão de proporções épicas: derrotar a poderosa organização conhecida como\n"
+                                                    + "conhecidos como 'Anonymous' e é chamado para uma missão de proporções épicas: derrotar a poderosa organização conhecida como\n"
                                                     + "'Evil Corp'. Essa organização sinistra, liderada pelo misterioso ZERO, controla os sistemas essenciais \n"
                                                     + "da cidade, manipulando a informação para servir seus próprios interesses obscuros.\n");
 
@@ -914,7 +914,7 @@ public class ByteBattle {
 
                                 do {
                                     System.out.println("");
-                                    System.out.println("\n Aperte [Y] para ver o convite do grupo Hacker ' Anonymous' \n");
+                                    System.out.println("\n Aperte [Y] para ver o convite do grupo Hacker ' Anonymous ' \n");
                                     System.out.println("");
                                     String resp16 = input.next();
 
@@ -940,7 +940,7 @@ public class ByteBattle {
                                                     + "Acreditamos no poder da cooperação e da colaboração para fazer a diferença. Juntos, podemos \n"
                                                     + "realizar grandes feitos e impactar positivamente a sociedade. \n"
                                                     + "Isto é um convite para fazer parte de um grupo muito especial. </> \n"
-                                                    + "\n Agurdamos sua resposta! ";
+                                                    + "\n Aguardamos sua resposta! ";
                                             System.out.println(cartaAnonymous);
 
                                             certo16 = false;
@@ -960,17 +960,17 @@ public class ByteBattle {
                                     switch (resp17) {
                                         case "Y":
                                         case "y":
-                                            System.out.println("(VOCÊ) > Uau, eu não esperava receber um convite como esse!\n"
+                                            System.out.println( (nomePlayer) + "> Uau, eu não esperava receber um convite como esse!\n"
                                                     + "Definitivamente, estou interessado em ajudar, acredito firmemente nos valores de liberdade, justiça e transparência. E estou\n"
                                                     + "pronto para acabar com a 'Evil Corp' de uma vez por todas.\n");
 
                                             System.out.println("-------------\n"
                                                     + "|   PIXEL   |\n"
                                                     + "-------------\n"
-                                                    + "> O grupo 'Anonymous' me mandou uma informação de uma possivel localização da casa de um dos \n"
-                                                    + "capangas que trabalham na 'Evil Corp'.\n"
+                                                    + "> O grupo Anonymous me mandou uma informação de uma possivel localização da casa de um dos \n"
+                                                    + "capangas que trabalham na Evil Corp.\n"
                                                     + "> Vamos até lá para ver se conseguimos algumas informações e tirar proveito disso.\n"
-                                                    + "Vamos Nessa.");
+                                                    + "Vamos nessa.");
 
                                             certo17 = false;
                                             break;
@@ -989,11 +989,11 @@ public class ByteBattle {
                                     switch (resp18) {
                                         case "Y":
                                         case "y":
-                                            System.out.println("\n você se aventura pelas ruas noturnas rumo ao coração da cidade, onde erguem-se os imponentes arranha-céus luxuosos \n"
+                                            System.out.println("\n Você se aventura pelas ruas noturnas rumo ao coração da cidade, onde erguem-se os imponentes arranha-céus luxuosos \n"
                                                     + "lar dos magnatas, diferente de tudo que já viu, e percebendo a diferença do subúrbio para essa realidade  \n"
                                                     + "onde aqui os privilegiados desfrutam de jardins exuberantes, piscinas reluzentes e segurança privada, isolados das realidades\n"
                                                     + "menos glamorosas da cidade.\n"
-                                                    + "Você se dirigem à localização indicada pelos 'Anonymous' e  finalmente chegam à residência mencionada. Diante da fechadura elétrica  \n"
+                                                    + "Você se dirige à localização indicada pelos 'Anonymous' e  finalmente chegam à residência mencionada. Diante da fechadura elétrica  \n"
                                                     + "que bloqueia sua entrada, você prepara-se para enfrentar seu primeiro desafio: hackear o sistema e descobrir a senha que \n"
                                                     + "abrirá as portas para o desconhecido.\n");
                                             System.out.println("Com habilidade e precisão, você mergulha nos circuitos digitais da fechadura, desvendando suas defesas com \n"
@@ -1018,10 +1018,10 @@ public class ByteBattle {
                                         case "Y":
                                         case "y":
                                             System.out.println("Invadindo... \n"
-                                                    + "Suponha que a fechadura da porta tenha uma senha de 4 dígitos, e você escreveu  um programa que  \n"
-                                                    + "teste todas as combinações possíveis de 4 dígitos para abrir a fechadura, com isso você usa o ataque de força bruta"
+                                                    + "Suponha que a fechadura da porta tenha uma senha de 4 dígitos, e você escreveu um programa que  \n"
+                                                    + "teste todas as combinações possíveis de 4 dígitos para abrir a fechadura, com isso você usa o ataque de força bruta "
                                                     + "e consegue descobrir quais os digitos, que são: [ 2403 ]. \n"
-                                                    + "Mas tem um problema, o verdadeiro código da fechadura está em binários, então vai ter que converter o valor decimal 2403 \n"
+                                                    + "Mas tem um problema, o verdadeiro código da fechadura está em binários, então vai ter que converter o valor decimal [ 2403 ] \n"
                                                     + "para Binário.");
                                             certo19 = false;
                                             break;
@@ -1117,7 +1117,7 @@ public class ByteBattle {
 
                                 if (!certo21) {
                                     System.out.println("A fechadura cede e as portas se abrem, revelando um interior escuro e misterioso. \n"
-                                            + "No interior da residência, você e pixel sai procurando por documentos ou evidências perturbadoras \n"
+                                            + "No interior da residência, você e Pixel sai procurando por documentos ou evidências perturbadoras \n"
                                             + "da influência da Evil Corp. \n");
 
                                     boolean certo22 = true;
@@ -1197,14 +1197,14 @@ public class ByteBattle {
                                         System.out.println(" Determinados a expor a verdade por trás das sombras, " + nomePlayer + " e Pixel coletam o máximo de informações possível, \n"
                                         + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão.\n"
                                         + "Assim que vc envia os documentos para os Anonymous, você sai da residência, e espera um retorno indicando qual o próximo passo.\n"
-                                        + "Após a analise dos documentos enviados, de imediato os Anonymous retorna com informações sobre algumas mensagens codificadas de uma fornte desconhecida \n"
-                                        + "ligando diretamente o envolvimento de Zero com a  Evil Corp. Sua missão é decifrar essas mensagens para descobrir a localização de um arquivo,\n "
+                                        + "Após a analise dos documentos enviados, de imediato os Anonymous retorna com informações sobre algumas mensagens codificadas de uma fonte desconhecida \n"
+                                        + "ligando diretamente o envolvimento de Zero com a Evil Corp. Sua missão é decifrar essas mensagens para descobrir a localização de um arquivo,\n "
                                         + "terá que usar suas habilidades de conversão entre sistemas numéricos para traduzir o código binário em texto legível e encontrar a pista.\n");
 
                                         boolean certo24 = true;
 
                                         do {
-                                            System.out.println("\n Aperte [Y] para descriptografar as mensagens. n");
+                                            System.out.println("\n Aperte [Y] para descriptografar as mensagens. \n");
                                             String resp24 = input.next();
 
                                             switch (resp24) {

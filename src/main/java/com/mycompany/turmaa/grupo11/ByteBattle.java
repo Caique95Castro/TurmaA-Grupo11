@@ -1142,12 +1142,12 @@ public class ByteBattle {
                                     boolean certo23 = true;
 
                                     do {
-                                        System.out.println("\n "
-                                                + "[A] Sala. \n"
-                                                + "[B] Cozinha. \n"
-                                                + "[C] Banheiro. \n"
-                                                + "[D] Quarto. \n"
-                                                + "[E] Escritório. \n");
+                                        System.out.println(
+                                            "\n[A] Sala. \n"
+                                         + "[B] Cozinha. \n"
+                                         + "[C] Banheiro. \n"
+                                         + "[D] Quarto. \n"
+                                         + "[E] Escritório. \n");
                                         System.out.println("(!) > Você tera " + limite7 + " chances");
                                         System.out.println("\n Escolha um lugar! \n ");
                                         String resp23 = input.next();
@@ -1155,21 +1155,30 @@ public class ByteBattle {
                                         switch (resp23) {
                                             case "B":
                                             case "b":
-                                                System.out.println(" [ " + resp23 + " ] \n Você se depara com uma porta meio escondida \n"
-                                                        + "e quando abre, você da de cara com uma escada que da acesso a um porão escuro, e lá vocês \n"
-                                                        + "encontram evidências perturbadoras da influência da Evil Corp, documentos confidenciais, registros \n"
-                                                        + "de transações suspeitas e dados comprometedores revelam a extensão do controle da organização sobre a cidade. \n");
+                                                System.out.println("["+ resp23 +"]"  +  " (!) > Você se depara com uma porta meio escondida \n"
+                                                        + "e quando a abre, depara-se com uma escada que dá acesso a um porão escuro. Lá, vocês  \n"
+                                                        + "encontram evidências perturbadoras da influência da Evil Corp: documentos confidenciais, registros  \n"
+                                                        + "de transações suspeitas e dados comprometedores. Tudo revela a extensão do controle da organização sobre a cidade. \n");
                                                 certo23 = false;
                                                 break;
-                                            case "A":
+                                            case "A": 
                                             case "a":
+                                                System.out.println("["+ resp23 +"]"  +  " (!) > " + nomePlayer + " Seus esforços revelam apenas o vazio. Mas lembre-se, cada busca é uma lição, cada desafio é uma oportunidade. Continue explorando, pois a fortuna espera pelos corajosos!");
+                                                limite7--;
+                                                break;
                                             case "C":
                                             case "c":
+                                                System.out.println("["+ resp23 +"]"  +  " (!) > O local permanece imperturbável diante de sua busca incansável. Mas não se deixe deter, pois cada tentativa é um passo mais próximo da verdade. Siga em frente, a aventura aguarda!");
+                                                limite7--;
+                                                break;
                                             case "D":
                                             case "d":
+                                                System.out.println("["+ resp23 +"]"  +  " (!) > Nada além do eco dos passos ressoa neste lugar. A jornada é árdua, mas a recompensa aguarda além do horizonte. Continue sua busca destemida!");
+                                                limite7--;
+                                                break;
                                             case "E":
                                             case "e":
-                                                System.out.println(" [ " + resp23 + " ] Não tem nada suspeito por aqui. \n");
+                                                System.out.println("["+ resp23 +"]"  +  "(!) >  Apesar da busca meticulosa, o local guarda seus segredos com firmeza. Não desista, pois a verdadeira aventura está prestes a começar!\n");
                                                 limite7--;
                                                 break;
                                             default:
@@ -1186,11 +1195,11 @@ public class ByteBattle {
                                     } while (certo23 && limite7 > 0);
                                     if (!certo23) {
                                         System.out.println(" Determinados a expor a verdade por trás das sombras, " + nomePlayer + " e Pixel coletam o máximo de informações possível, \n"
-                                                + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão."
-                                                + "Assim que vc envia os documentos para os Anonymous, você sai da residência, e espera um retorno indicando qual o próximo passo."
-                                                + "Após a analise dos documentos enviados, de imediato os Anonymous retorna com informações sobre algumas mensagens codificadas de uma fornte desconhecida "
-                                                + "ligando diretamente o envolvimento de Zero com a  Evil Corp. Sua missão é decifrar essas mensagens para descobrir a localização de um arquivo, "
-                                                + "terá que usar suas habilidades de conversão entre sistemas numéricos para traduzir o código binário em texto legível e encontrar a pista.");
+                                        + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão.\n"
+                                        + "Assim que vc envia os documentos para os Anonymous, você sai da residência, e espera um retorno indicando qual o próximo passo.\n"
+                                        + "Após a analise dos documentos enviados, de imediato os Anonymous retorna com informações sobre algumas mensagens codificadas de uma fornte desconhecida \n"
+                                        + "ligando diretamente o envolvimento de Zero com a  Evil Corp. Sua missão é decifrar essas mensagens para descobrir a localização de um arquivo,\n "
+                                        + "terá que usar suas habilidades de conversão entre sistemas numéricos para traduzir o código binário em texto legível e encontrar a pista.\n");
 
                                         boolean certo24 = true;
 

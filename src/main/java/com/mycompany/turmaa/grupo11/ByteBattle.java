@@ -921,27 +921,28 @@ public class ByteBattle {
                                     switch (resp16) {
                                         case "Y":
                                         case "y":
-                                            String cartaAnonymous
-                                                    = "\n@@@@@@   @@@  @@@   @@@@@@   @@@  @@@  @@@ @@@  @@@@@@@@@@    @@@@@@   @@@  @@@   @@@@@@\n"
-                                                    + "@@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@ @@@  @@@ @@@  @@@@@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@\n"
-                                                    + "@@!  @@@  @@!@!@@@  @@!  @@@  @@!@!@@@  @@! !@@  @@! @@! @@!  @@!  @@@  @@!  @@@  !@@\n"
-                                                    + "!@!  @!@  !@!!@!@!  !@!  @!@  !@!!@!@!  !@! @!!  !@! !@! !@!  !@!  @!@  !@!  @!@  !@!\n"
-                                                    + "@!@!@!@!  @!@ !!@!  @!@  !@!  @!@ !!@!   !@!@!   @!! !!@ @!@  @!@  !@!  @!@  !@!  !!@@!!\n"
-                                                    + "!!!@!!!!  !@!  !!!  !@!  !!!  !@!  !!!    @!!!   !@!   ! !@!  !@!  !!!  !@!  !!!   !!@!!!\n"
-                                                    + "!!:  !!!  !!:  !!!  !!:  !!!  !!:  !!!    !!:    !!:     !!:  !!:  !!!  !!:  !!!       !:!\n"
-                                                    + ":!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!    :!:    :!:     :!:  :!:  !:!  :!:  !:!      !:! \n"
-                                                    + "::   :::   ::   ::  ::::: ::   ::   ::     ::    :::     ::   ::::: ::  ::::: ::  :::: ::\n"
-                                                    + ":   : :  ::    :    : :  :   ::    :      :      :      :     : :  :    : :  :   :: : : \n"
-                                                    + "\nPrezado(a) " + nomePlayer + ".\n"
-                                                    + "\n</> O Anonymous é uma comunidade de hackers comprometidos com a liberdade, justiça e transparência.\n"
-                                                    + "Nossa missão é utilizar nossas habilidades técnicas para promover mudanças positivas no mundo, \n"
-                                                    + "combatendo a corrupção, a censura e a opressão que a 'Evil Corp' está espalhando pela cidade\n"
-                                                    + "de NeoByte.\n"
-                                                    + "Acreditamos no poder da cooperação e da colaboração para fazer a diferença. Juntos, podemos \n"
-                                                    + "realizar grandes feitos e impactar positivamente a sociedade. \n"
-                                                    + "Isto é um convite para fazer parte de um grupo muito especial. </> \n"
-                                                    + "\n Aguardamos sua resposta! ";
-                                            System.out.println(cartaAnonymous);
+                                        System.out.println("\u001B[32m" + "@@@@@@   @@@  @@@   @@@@@@   @@@  @@@  @@@ @@@  @@@@@@@@@@    @@@@@@   @@@  @@@   @@@@@@");
+                                        System.out.println("\u001B[32m" + "@@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@ @@@  @@@ @@@  @@@@@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@");
+                                        System.out.println("\u001B[32m" + "@@!  @@@  @@!@!@@@  @@!  @@@  @@!@!@@@  @@! !@@  @@! @@! @@!  @@!  @@@  @@!  @@@  !@@");
+                                        System.out.println("\u001B[32m" + "!@!  @!@  !@!!@!@!  !@!  @!@  !@!!@!@!  !@! @!!  !@! !@! !@!  !@!  @!@  !@!  @!@  !@!");
+                                        System.out.println("\u001B[32m" + "@!@!@!@!  @!@ !!@!  @!@  !@!  @!@ !!@!   !@!@!   @!! !!@ @!@  @!@  !@!  @!@  !@!  !!@@!!");
+                                        System.out.println("\u001B[32m" + "!!!@!!!!  !@!  !!!  !@!  !!!  !@!  !!!    @!!!   !@!   ! !@!  !@!  !!!  !@!  !!!   !!@!!!");
+                                        System.out.println("\u001B[32m" + "!!:  !!!  !!:  !!!  !!:  !!!  !!:  !!!    !!:    !!:     !!:  !!:  !!!  !!:  !!!       !:!");
+                                        System.out.println("\u001B[32m" + ":!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!    :!:    :!:     :!:  :!:  !:!  :!:  !:!      !:!");
+                                        System.out.println("\u001B[32m" + "::   :::   ::   ::  ::::: ::   ::   ::     ::    :::     ::   ::::: ::  ::::: ::  :::: ::");
+                                        System.out.println("\u001B[32m" + ":   : :  ::    :    : :  :   ::    :      :      :      :     : :  :    : :  :   :: : : ");
+                                        System .out.print("\u001B[0m");
+                                          String cartaAnonymous =
+                                                                                     "\nPrezado(a) " + nomePlayer + ".\n"
+                                                                                    + "\n</> O Anonymous é uma comunidade de hackers comprometidos com a liberdade, justiça e transparência.\n"
+                                                                                    + "Nossa missão é utilizar nossas habilidades técnicas para promover mudanças positivas no mundo, \n"
+                                                                                    + "combatendo a corrupção, a censura e a opressão que a 'Evil Corp' está espalhando pela cidade\n"
+                                                                                    + "de NeoByte.\n"
+                                                                                    + "Acreditamos no poder da cooperação e da colaboração para fazer a diferença. Juntos, podemos \n"
+                                                                                    + "realizar grandes feitos e impactar positivamente a sociedade. \n"
+                                                                                    + "Isto é um convite para fazer parte de um grupo muito especial. </> \n"
+                                                                                    + "\n Agurdamos sua resposta! ";
+                                                                            System.out.println(cartaAnonymous);
 
                                             certo16 = false;
                                             break;
@@ -1430,6 +1431,23 @@ public class ByteBattle {
                     }
                 }
             }
+        }
+    }
+    static void delayLento (int time) { 
+        time = time * 1500;
+        
+        try{
+            Thread.sleep(time);
+        } catch (InterruptedException e) {                
+        }
+    }
+
+  static void delayNormal (int time) { 
+        time = time * 1000;
+        
+        try{
+            Thread.sleep(time);
+        } catch (InterruptedException e) {                
         }
     }
 

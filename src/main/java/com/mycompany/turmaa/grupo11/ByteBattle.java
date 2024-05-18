@@ -921,28 +921,28 @@ public class ByteBattle {
                                     switch (resp16) {
                                         case "Y":
                                         case "y":
-                                        System.out.println("\u001B[32m" + "@@@@@@   @@@  @@@   @@@@@@   @@@  @@@  @@@ @@@  @@@@@@@@@@    @@@@@@   @@@  @@@   @@@@@@");
-                                        System.out.println("\u001B[32m" + "@@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@ @@@  @@@ @@@  @@@@@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@");
-                                        System.out.println("\u001B[32m" + "@@!  @@@  @@!@!@@@  @@!  @@@  @@!@!@@@  @@! !@@  @@! @@! @@!  @@!  @@@  @@!  @@@  !@@");
-                                        System.out.println("\u001B[32m" + "!@!  @!@  !@!!@!@!  !@!  @!@  !@!!@!@!  !@! @!!  !@! !@! !@!  !@!  @!@  !@!  @!@  !@!");
-                                        System.out.println("\u001B[32m" + "@!@!@!@!  @!@ !!@!  @!@  !@!  @!@ !!@!   !@!@!   @!! !!@ @!@  @!@  !@!  @!@  !@!  !!@@!!");
-                                        System.out.println("\u001B[32m" + "!!!@!!!!  !@!  !!!  !@!  !!!  !@!  !!!    @!!!   !@!   ! !@!  !@!  !!!  !@!  !!!   !!@!!!");
-                                        System.out.println("\u001B[32m" + "!!:  !!!  !!:  !!!  !!:  !!!  !!:  !!!    !!:    !!:     !!:  !!:  !!!  !!:  !!!       !:!");
-                                        System.out.println("\u001B[32m" + ":!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!    :!:    :!:     :!:  :!:  !:!  :!:  !:!      !:!");
-                                        System.out.println("\u001B[32m" + "::   :::   ::   ::  ::::: ::   ::   ::     ::    :::     ::   ::::: ::  ::::: ::  :::: ::");
-                                        System.out.println("\u001B[32m" + ":   : :  ::    :    : :  :   ::    :      :      :      :     : :  :    : :  :   :: : : ");
-                                        System .out.print("\u001B[0m");
-                                          String cartaAnonymous =
-                                                                                     "\nPrezado(a) " + nomePlayer + ".\n"
-                                                                                    + "\n</> O Anonymous é uma comunidade de hackers comprometidos com a liberdade, justiça e transparência.\n"
-                                                                                    + "Nossa missão é utilizar nossas habilidades técnicas para promover mudanças positivas no mundo, \n"
-                                                                                    + "combatendo a corrupção, a censura e a opressão que a 'Evil Corp' está espalhando pela cidade\n"
-                                                                                    + "de NeoByte.\n"
-                                                                                    + "Acreditamos no poder da cooperação e da colaboração para fazer a diferença. Juntos, podemos \n"
-                                                                                    + "realizar grandes feitos e impactar positivamente a sociedade. \n"
-                                                                                    + "Isto é um convite para fazer parte de um grupo muito especial. </> \n"
-                                                                                    + "\n Agurdamos sua resposta! ";
-                                                                            System.out.println(cartaAnonymous);
+                                            System.out.println("\u001B[32m" + "@@@@@@   @@@  @@@   @@@@@@   @@@  @@@  @@@ @@@  @@@@@@@@@@    @@@@@@   @@@  @@@   @@@@@@");
+                                            System.out.println("\u001B[32m" + "@@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@ @@@  @@@ @@@  @@@@@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@");
+                                            System.out.println("\u001B[32m" + "@@!  @@@  @@!@!@@@  @@!  @@@  @@!@!@@@  @@! !@@  @@! @@! @@!  @@!  @@@  @@!  @@@  !@@");
+                                            System.out.println("\u001B[32m" + "!@!  @!@  !@!!@!@!  !@!  @!@  !@!!@!@!  !@! @!!  !@! !@! !@!  !@!  @!@  !@!  @!@  !@!");
+                                            System.out.println("\u001B[32m" + "@!@!@!@!  @!@ !!@!  @!@  !@!  @!@ !!@!   !@!@!   @!! !!@ @!@  @!@  !@!  @!@  !@!  !!@@!!");
+                                            System.out.println("\u001B[32m" + "!!!@!!!!  !@!  !!!  !@!  !!!  !@!  !!!    @!!!   !@!   ! !@!  !@!  !!!  !@!  !!!   !!@!!!");
+                                            System.out.println("\u001B[32m" + "!!:  !!!  !!:  !!!  !!:  !!!  !!:  !!!    !!:    !!:     !!:  !!:  !!!  !!:  !!!       !:!");
+                                            System.out.println("\u001B[32m" + ":!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!    :!:    :!:     :!:  :!:  !:!  :!:  !:!      !:!");
+                                            System.out.println("\u001B[32m" + "::   :::   ::   ::  ::::: ::   ::   ::     ::    :::     ::   ::::: ::  ::::: ::  :::: ::");
+                                            System.out.println("\u001B[32m" + ":   : :  ::    :    : :  :   ::    :      :      :      :     : :  :    : :  :   :: : : ");
+                                            System.out.print("\u001B[0m");
+                                            String cartaAnonymous
+                                                    = "\nPrezado(a) " + nomePlayer + ".\n"
+                                                    + "\n</> O Anonymous é uma comunidade de hackers comprometidos com a liberdade, justiça e transparência.\n"
+                                                    + "Nossa missão é utilizar nossas habilidades técnicas para promover mudanças positivas no mundo, \n"
+                                                    + "combatendo a corrupção, a censura e a opressão que a 'Evil Corp' está espalhando pela cidade\n"
+                                                    + "de NeoByte.\n"
+                                                    + "Acreditamos no poder da cooperação e da colaboração para fazer a diferença. Juntos, podemos \n"
+                                                    + "realizar grandes feitos e impactar positivamente a sociedade. \n"
+                                                    + "Isto é um convite para fazer parte de um grupo muito especial. </> \n"
+                                                    + "\n Agurdamos sua resposta! ";
+                                            System.out.println(cartaAnonymous);
 
                                             certo16 = false;
                                             break;
@@ -961,7 +961,7 @@ public class ByteBattle {
                                     switch (resp17) {
                                         case "Y":
                                         case "y":
-                                            System.out.println( (nomePlayer) + "> Uau, eu não esperava receber um convite como esse!\n"
+                                            System.out.println((nomePlayer) + "> Uau, eu não esperava receber um convite como esse!\n"
                                                     + "Definitivamente, estou interessado em ajudar, acredito firmemente nos valores de liberdade, justiça e transparência. E estou\n"
                                                     + "pronto para acabar com a 'Evil Corp' de uma vez por todas.\n");
 
@@ -1144,11 +1144,11 @@ public class ByteBattle {
 
                                     do {
                                         System.out.println(
-                                            "\n[A] Sala. \n"
-                                         + "[B] Cozinha. \n"
-                                         + "[C] Banheiro. \n"
-                                         + "[D] Quarto. \n"
-                                         + "[E] Escritório. \n");
+                                                "\n[A] Sala. \n"
+                                                + "[B] Cozinha. \n"
+                                                + "[C] Banheiro. \n"
+                                                + "[D] Quarto. \n"
+                                                + "[E] Escritório. \n");
                                         System.out.println("(!) > Você tera " + limite7 + " chances");
                                         System.out.println("\n Escolha um lugar! \n ");
                                         String resp23 = input.next();
@@ -1156,30 +1156,30 @@ public class ByteBattle {
                                         switch (resp23) {
                                             case "B":
                                             case "b":
-                                                System.out.println("["+ resp23 +"]"  +  " (!) > Você se depara com uma porta meio escondida \n"
+                                                System.out.println("[" + resp23 + "]" + " (!) > Você se depara com uma porta meio escondida \n"
                                                         + "e quando a abre, depara-se com uma escada que dá acesso a um porão escuro. Lá, vocês  \n"
                                                         + "encontram evidências perturbadoras da influência da Evil Corp: documentos confidenciais, registros  \n"
                                                         + "de transações suspeitas e dados comprometedores. Tudo revela a extensão do controle da organização sobre a cidade. \n");
                                                 certo23 = false;
                                                 break;
-                                            case "A": 
+                                            case "A":
                                             case "a":
-                                                System.out.println("["+ resp23 +"]"  +  " (!) > " + nomePlayer + " Seus esforços revelam apenas o vazio. Mas lembre-se, cada busca é uma lição, cada desafio é uma oportunidade. Continue explorando, pois a fortuna espera pelos corajosos!");
+                                                System.out.println("[" + resp23 + "]" + " (!) > " + nomePlayer + " Seus esforços revelam apenas o vazio. Mas lembre-se, cada busca é uma lição, cada desafio é uma oportunidade. Continue explorando, pois a fortuna espera pelos corajosos!");
                                                 limite7--;
                                                 break;
                                             case "C":
                                             case "c":
-                                                System.out.println("["+ resp23 +"]"  +  " (!) > O local permanece imperturbável diante de sua busca incansável. Mas não se deixe deter, pois cada tentativa é um passo mais próximo da verdade. Siga em frente, a aventura aguarda!");
+                                                System.out.println("[" + resp23 + "]" + " (!) > O local permanece imperturbável diante de sua busca incansável. Mas não se deixe deter, pois cada tentativa é um passo mais próximo da verdade. Siga em frente, a aventura aguarda!");
                                                 limite7--;
                                                 break;
                                             case "D":
                                             case "d":
-                                                System.out.println("["+ resp23 +"]"  +  " (!) > Nada além do eco dos passos ressoa neste lugar. A jornada é árdua, mas a recompensa aguarda além do horizonte. Continue sua busca destemida!");
+                                                System.out.println("[" + resp23 + "]" + " (!) > Nada além do eco dos passos ressoa neste lugar. A jornada é árdua, mas a recompensa aguarda além do horizonte. Continue sua busca destemida!");
                                                 limite7--;
                                                 break;
                                             case "E":
                                             case "e":
-                                                System.out.println("["+ resp23 +"]"  +  "(!) >  Apesar da busca meticulosa, o local guarda seus segredos com firmeza. Não desista, pois a verdadeira aventura está prestes a começar!\n");
+                                                System.out.println("[" + resp23 + "]" + "(!) >  Apesar da busca meticulosa, o local guarda seus segredos com firmeza. Não desista, pois a verdadeira aventura está prestes a começar!\n");
                                                 limite7--;
                                                 break;
                                             default:
@@ -1196,11 +1196,11 @@ public class ByteBattle {
                                     } while (certo23 && limite7 > 0);
                                     if (!certo23) {
                                         System.out.println(" Determinados a expor a verdade por trás das sombras, " + nomePlayer + " e Pixel coletam o máximo de informações possível, \n"
-                                        + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão.\n"
-                                        + "Assim que vc envia os documentos para os Anonymous, você sai da residência, e espera um retorno indicando qual o próximo passo.\n"
-                                        + "Após a analise dos documentos enviados, de imediato os Anonymous retorna com informações sobre algumas mensagens codificadas de uma fonte desconhecida \n"
-                                        + "ligando diretamente o envolvimento de Zero com a Evil Corp. Sua missão é decifrar essas mensagens para descobrir a localização de um arquivo,\n "
-                                        + "terá que usar suas habilidades de conversão entre sistemas numéricos para traduzir o código binário em texto legível e encontrar a pista.\n");
+                                                + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão.\n"
+                                                + "Assim que vc envia os documentos para os Anonymous, você sai da residência, e espera um retorno indicando qual o próximo passo.\n"
+                                                + "Após a analise dos documentos enviados, de imediato os Anonymous retorna com informações sobre algumas mensagens codificadas de uma fonte desconhecida \n"
+                                                + "ligando diretamente o envolvimento de Zero com a Evil Corp. Sua missão é decifrar essas mensagens para descobrir a localização de um arquivo,\n "
+                                                + "terá que usar suas habilidades de conversão entre sistemas numéricos para traduzir o código binário em texto legível e encontrar a pista.\n");
 
                                         boolean certo24 = true;
 
@@ -1369,19 +1369,19 @@ public class ByteBattle {
                                                         break;
                                                     }
                                                 } while (certo27 && limite10 > 0);
-                                                if(!certo27){
+                                                if (!certo27) {
                                                     int limite11 = 3;
                                                     boolean certo28 = true;
-    
+
                                                     // Código que é responsável por embaralhar as alternativas
                                                     ArrayList<String> respostas10 = new ArrayList<String>();
                                                     respostas10.add("[A] 1010");
                                                     respostas10.add("[B] 1110");
                                                     respostas10.add("[C] 1101");
                                                     respostas10.add("[D] 1011");
-    
+
                                                     System.out.println("\n (?) > Qual é o resultado da operação binária 1001 OR 0110?");
-    
+
                                                     do {
                                                         System.out.println("(!) > Você tera " + limite11 + " chances");
                                                         System.out.println("\n Escolha a alternativa correta! \n ");
@@ -1390,7 +1390,7 @@ public class ByteBattle {
                                                         }
                                                         String resp28 = input.next();
                                                         Collections.shuffle(respostas10);
-    
+
                                                         switch (resp28) {
                                                             case "D":
                                                             case "d":
@@ -1418,8 +1418,666 @@ public class ByteBattle {
                                                             break;
                                                         }
                                                     } while (certo28 && limite11 > 0);
-                                                    if(!certo28){
-                                                        System.out.println("PASSOU");
+                                                    if (!certo28) {
+                                                        System.out.println("\u001B[32m" + " ---** MENSAGEM DESCRIPTOGRAFADA **--- \n");
+                                                        System.out.print("\u001B[0m");
+                                                        System.out.println("Após decifrar as mensagens codificadas, " + nomePlayer + " se vê novamente confrontado com a foto \n"
+                                                                + "de sua infância ao lado de um homem que ele suspeita ser seu pai. Essa descoberta traz à tona uma \n"
+                                                                + "enxurrada de emoções e perguntas sobre sua própria identidade e história. \n"
+                                                                + "Determinado a buscar respostas, " + nomePlayer + " concentra-se na localização exata de Zero, que se \n"
+                                                                + "encontra nas profundezas da Evil Corp. Com a ajuda de Pixel, ele traça um plano para infiltrar-se na \n"
+                                                                + "empresa, enfrentando uma série de desafios de hacking ao longo do caminho. \n");
+
+                                                        boolean certo29 = true;
+
+                                                        do {
+                                                            System.out.println("Aperte [Y] para escutar Pixel");
+                                                            String resp29 = input.next();
+
+                                                            switch (resp29) {
+                                                                case "Y":
+                                                                case "y":
+                                                                    System.out.println("\n---------");
+                                                                    System.out.println("| Pixel |");
+                                                                    System.out.println("---------\n");
+                                                                    System.out.println("Consegui pegar a localização da Evil Corp, vamos até lá para desmascarar o Zero de uma vez por todas. \n");
+                                                                    System.out.println("\n Chegando na frente da Evil Corp pixel te da algumas dicas. \n");
+                                                                    certo29 = false;
+                                                                    break;
+                                                                default:
+                                                                    System.out.println("Opção inválida! \n");
+                                                                    break;
+                                                            }
+                                                        } while (certo29);
+
+                                                        boolean certo30 = true;
+
+                                                        do {
+                                                            System.out.println("Aperte [Y] para escutar Pixel");
+                                                            String resp30 = input.next();
+
+                                                            switch (resp30) {
+                                                                case "Y":
+                                                                case "y":
+                                                                    System.out.println("\n---------");
+                                                                    System.out.println("| Pixel |");
+                                                                    System.out.println("---------\n");
+                                                                    System.out.println("A primeira etapa é atravessar as defesas digitais da Evil Corp, que estão entre as mais sofisticadas \n"
+                                                                            + "do mundo. Com habilidade e astúcia, você vai navega por firewalls e sistemas de segurança, evitando ser detectado pelos olhos \n"
+                                                                            + "vigilantes da empresa. \n"
+                                                                            + "Você vai precisar desativar alarmes, desviar de câmeras de segurança e hackear sistemas de controle de acesso para chegar ao coração da \n"
+                                                                            + "empresa, onde Zero reside. \n");
+
+                                                                    certo30 = false;
+                                                                    break;
+                                                                default:
+                                                                    System.out.println("Opção inválida! \n");
+                                                                    break;
+                                                            }
+                                                        } while (certo30);
+
+                                                        boolean certo31 = true;
+
+                                                        do {
+                                                            System.out.println("Está pronto para esse desfio ?");
+                                                            System.out.println("[Y / N]");
+                                                            String resp31 = input.next();
+
+                                                            if (resp31.equalsIgnoreCase("Y")) {
+                                                                switch (resp31) {
+                                                                    case "Y":
+                                                                    case "y":
+                                                                        System.out.println("\n \u001B[32m" + " INVADINDO A ENTRADA DA EVIL CORP \n");
+                                                                        System.out.print("\u001B[0m");
+                                                                        System.out.println("Estacionamento Subterrâneo  ");
+                                                                        certo31 = false;
+                                                                        break;
+                                                                }
+                                                            } else if (resp31.equalsIgnoreCase("N")) {
+                                                                switch (resp31) {
+                                                                    case "N":
+                                                                    case "n":
+                                                                        System.out.println("Ok, vou dar-lhe um tempo para reler!");
+                                                                        break;
+                                                                    default:
+                                                                        System.out.println("Opção inválida! \n");
+                                                                        break;
+                                                                }
+                                                            }
+
+                                                        } while (certo31);
+
+                                                        int limite12 = 3;
+                                                        boolean certo32 = true;
+
+                                                        // Código que é responsável por embaralhar as alternativas
+                                                        ArrayList<String> respostas11 = new ArrayList<String>();
+                                                        respostas11.add("[A] 10100");
+                                                        respostas11.add("[B] 11001");
+                                                        respostas11.add("[C] 11010");
+                                                        respostas11.add("[D] 11100");
+
+                                                        System.out.println("\n (?) > Qual é o valor binário do número decimal 25 ? \n");
+
+                                                        do {
+                                                            System.out.println("(!) > Você tera " + limite12 + " chances");
+                                                            System.out.println("\n Escolha a alternativa correta! \n ");
+                                                            for (String resp32 : respostas11) {
+                                                                System.out.println(resp32);
+                                                            }
+                                                            String resp32 = input.next();
+                                                            Collections.shuffle(respostas11);
+
+                                                            switch (resp32) {
+                                                                case "B":
+                                                                case "b":
+                                                                    System.out.println("Alternativa [ " + resp32 + " ] está correta! \n");
+                                                                    certo32 = false;
+                                                                    break;
+                                                                case "A":
+                                                                case "a":
+                                                                case "D":
+                                                                case "d":
+                                                                case "C":
+                                                                case "c":
+                                                                    System.out.println("Alternativa [ " + resp32 + " ] está incorreta! \n");
+                                                                    limite12--;
+                                                                    break;
+                                                                default:
+                                                                    System.out.println("Opção inválida! \n");
+                                                                    break;
+                                                            }
+                                                            if (certo32 && limite12 == 0) {
+                                                                System.out.println("");
+                                                                System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                System.out.println("");
+                                                                System.out.println("Tente novamente. \n");
+                                                                break;
+                                                            }
+                                                        } while (certo32 && limite12 > 0);
+                                                        if (!certo31) {
+                                                            int limite13 = 3;
+                                                            boolean certo33 = true;
+
+                                                            // Código que é responsável por embaralhar as alternativas
+                                                            ArrayList<String> respostas12 = new ArrayList<String>();
+                                                            respostas12.add("[A] 6 bits.");
+                                                            respostas12.add("[B] 7 bits.");
+                                                            respostas12.add("[C] 8 bits.");
+                                                            respostas12.add("[D] 9 bits.");
+
+                                                            System.out.println("\n (?) > Quantos bits são necessários para representar o número decimal 64 em binário ? \n");
+
+                                                            do {
+                                                                System.out.println("(!) > Você tera " + limite13 + " chances");
+                                                                System.out.println("\n Escolha a alternativa correta! \n ");
+                                                                for (String resp33 : respostas12) {
+                                                                    System.out.println(resp33);
+                                                                }
+                                                                String resp33 = input.next();
+                                                                Collections.shuffle(respostas12);
+
+                                                                switch (resp33) {
+                                                                    case "C":
+                                                                    case "c":
+                                                                        System.out.println("Alternativa [ " + resp33 + " ] está correta! \n");
+                                                                        certo33 = false;
+                                                                        break;
+                                                                    case "A":
+                                                                    case "a":
+                                                                    case "D":
+                                                                    case "d":
+                                                                    case "B":
+                                                                    case "b":
+                                                                        System.out.println("Alternativa [ " + resp33 + " ] está incorreta! \n");
+                                                                        limite13--;
+                                                                        break;
+                                                                    default:
+                                                                        System.out.println("Opção inválida! \n");
+                                                                        break;
+                                                                }
+                                                                if (certo33 && limite13 == 0) {
+                                                                    System.out.println("");
+                                                                    System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                    System.out.println("");
+                                                                    System.out.println("Tente novamente. \n");
+                                                                    break;
+                                                                }
+                                                            } while (certo33 && limite13 > 0);
+                                                            if (!certo33) {
+                                                                int limite14 = 3;
+                                                                boolean certo34 = true;
+
+                                                                // Código que é responsável por embaralhar as alternativas
+                                                                ArrayList<String> respostas13 = new ArrayList<String>();
+                                                                respostas13.add("[A] 42");
+                                                                respostas13.add("[B] 52");
+                                                                respostas13.add("[C] 62");
+                                                                respostas13.add("[D] 72");
+
+                                                                System.out.println("\n (?) > Qual é o resultado da conversão do número binário 101010 para decimal ? \n");
+
+                                                                do {
+                                                                    System.out.println("(!) > Você tera " + limite14 + " chances");
+                                                                    System.out.println("\n Escolha a alternativa correta! \n ");
+                                                                    for (String resp34 : respostas13) {
+                                                                        System.out.println(resp34);
+                                                                    }
+                                                                    String resp34 = input.next();
+                                                                    Collections.shuffle(respostas13);
+
+                                                                    switch (resp34) {
+                                                                        case "A":
+                                                                        case "a":
+                                                                            System.out.println("Alternativa [ " + resp34 + " ] está correta! \n");
+                                                                            certo34 = false;
+                                                                            break;
+                                                                        case "C":
+                                                                        case "c":
+                                                                        case "D":
+                                                                        case "d":
+                                                                        case "B":
+                                                                        case "b":
+                                                                            System.out.println("Alternativa [ " + resp34 + " ] está incorreta! \n");
+                                                                            limite14--;
+                                                                            break;
+                                                                        default:
+                                                                            System.out.println("Opção inválida! \n");
+                                                                            break;
+                                                                    }
+                                                                    if (certo34 && limite14 == 0) {
+                                                                        System.out.println("");
+                                                                        System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                        System.out.println("");
+                                                                        System.out.println("Tente novamente. \n");
+                                                                        break;
+                                                                    }
+                                                                } while (certo34 && limite14 > 0);
+                                                                if (!certo34) {
+                                                                    System.out.println("\u001B[32m" + " Acesso Liberado! \n");
+                                                                    System.out.println("\u001B[32m" + "Primeiro Andar - Recepção \n");
+                                                                    System.out.print("\u001B[0m");
+                                                                    System.out.println("Entrou na Evil Corp \n "
+                                                                            + " Agora você precisa encontrar uma maneira de passar pelos guardas na entrada principal da Evil Corp. \n"
+                                                                            + "Você tem que hackear os crachás de identificação dos funcionários para dar acesso aos elevadores e escadas com liberação \n"
+                                                                            + "por crachás. \n"
+                                                                            + "Você e Pixel desenvolveram um programa inovador que utiliza a tecnologia de leitura por proximidade  \n"
+                                                                            + "dos crachás de identificação. Com esse programa instalado em seu celular, você pode se aproximar dos funcionários e iniciar \n  "
+                                                                            + "automaticamente a leitura do crachá sem levantar suspeitas. \n"
+                                                                            + "Ao entrar na recepção da Evil Corp, você identifica uma funcionária responsável pelo controle de acesso ao Segundo andar. Ela \n"
+                                                                            + "está distraída enquanto mexe em alguns papéis atrás do balcão de atendimento. Com cuidado para não chamar a atenção dos \n"
+                                                                            + "guardas, você se aproxima e ativa o programa de leitura por proximidade em seu celular. O dispositivo começa a detectar o crachá de \n"
+                                                                            + "identificação da funcionária, e em questão de segundos, você obtém acesso aos seus dados. \n"
+                                                                            + "Com as informações obtidas do crachá da funcionária, você e Pixel conseguem criar uma cópia falsificada do crachá de identificação, \n"
+                                                                            + "garantindo acesso ao segundo andar da Evil Corp. Com o crachá falso em mãos, você se dirige aos elevadores e, usando sua nova identidade, \n"
+                                                                            + "passa despercebido pelos guardas de segurança. Agora, com acesso ao segundo andar, você está um passo mais perto de desvendar os segredos por \n"
+                                                                            + "trás da Evil Corp e encontrar o misterioso Zero. \n");
+
+                                                                    boolean certo35 = true;
+
+                                                                    do {
+                                                                        System.out.println("Aperte [Y] para entrar no elevador \n");
+                                                                        String resp35 = input.next();
+
+                                                                        switch (resp35) {
+                                                                            case "Y":
+                                                                            case "y":
+                                                                                System.out.println("Entrando...");
+                                                                                certo35 = false;
+                                                                                break;
+                                                                            default:
+                                                                                System.out.println("Opção inválida! \n");
+                                                                                break;
+                                                                        }
+
+                                                                    } while (certo35);
+                                                                    boolean certo36 = true;
+
+                                                                    do {
+                                                                        System.out.println("Aperte [2] para ir ao segundo andar \n");
+                                                                        int resp36 = input.nextInt();
+
+                                                                        switch (resp36) {
+                                                                            case 2:
+                                                                                System.out.println("... \n");
+                                                                                certo36 = false;
+                                                                                break;
+                                                                            default:
+                                                                                System.out.println("Opção inválida! \n");
+                                                                                break;
+                                                                        }
+
+                                                                    } while (certo36);
+                                                                    System.out.println("\u001B[32m" + "Segundo Andar - Salas de Escritórios:");
+                                                                    System.out.print("\u001B[0m");
+                                                                    System.out.println("Neste andar, você enfrenta uma combinação de desafios técnicos e físicos, onde sua habilidade  \n"
+                                                                            + "de hacking é testada em um ambiente corporativo altamente seguro. Cada sucesso o aproxima mais  \n"
+                                                                            + "de descobrir a verdade por trás da Evil Corp e seu misterioso líder, Zero. \n"
+                                                                            + "As salas de escritórios são protegidas por sistemas de segurança avançados, incluindo firewalls, senhas \n"
+                                                                            + "complexas e sistemas de reconhecimento facial. \n"
+                                                                            + "Com isso Pixel te fala algo.");
+
+                                                                    boolean certo37 = true;
+
+                                                                    do {
+                                                                        System.out.println("Aperte [Y] para escutar Pixel");
+                                                                        String resp37 = input.next();
+
+                                                                        switch (resp37) {
+                                                                            case "Y":
+                                                                            case "y":
+                                                                                System.out.println("\n---------");
+                                                                                System.out.println("| Pixel |");
+                                                                                System.out.println("---------\n");
+                                                                                System.out.println(nomePlayer + " Estou vasculhando os sistemas aqui e consegui acessar a planta baixa deste andar. Parece que  \n"
+                                                                                        + "há um lugar pouco frequentado pelos funcionários, uma espécie de sala de armazenamento nos fundos do corredor leste. \n"
+                                                                                        + "Acredito que seja um ponto menos protegido, o que pode facilitar nossa entrada sem chamar muita atenção. Acho que seria uma \n"
+                                                                                        + "boa ideia verificar esselocal para completar nossa missão de forma mais segura. O que acha ? ");
+
+                                                                                certo37 = false;
+                                                                                break;
+                                                                            default:
+                                                                                System.out.println("Opção inválida! \n");
+                                                                                break;
+                                                                        }
+                                                                    } while (certo37);
+                                                                    boolean certo38 = true;
+
+                                                                    do {
+                                                                        System.out.println("Aperte [Y] para falar com Pixel");
+                                                                        String resp38 = input.next();
+
+                                                                        switch (resp38) {
+                                                                            case "Y":
+                                                                            case "y":
+                                                                                System.out.println("\n---------------");
+                                                                                System.out.println("| " + nomePlayer + " |");
+                                                                                System.out.println("----------------\n");
+                                                                                System.out.println(" Essa é uma excelente ideia. Se há um lugar menos protegido, é nossa melhor chance de evitar os  \n"
+                                                                                        + "sistemas de segurança mais rígidos. Vamos lá conferir essa sala de armazenamento e ver se encontramos alguma  \n"
+                                                                                        + "pista valiosa. Estou pronto para seguir suas instruções. Vamos nessa! \n");
+
+                                                                                certo38 = false;
+                                                                                break;
+                                                                            default:
+                                                                                System.out.println("Opção inválida! \n");
+                                                                                break;
+                                                                        }
+                                                                    } while (certo38);
+
+                                                                    System.out.println("Chegando na Sala de armazenamento você e Pixel se escondem e começam a hackear o andar.");
+
+                                                                    int limite15 = 3;
+                                                                    boolean certo39 = true;
+
+                                                                    // Código que é responsável por embaralhar as alternativas
+                                                                    ArrayList<String> respostas14 = new ArrayList<String>();
+                                                                    respostas14.add("[A] 11");
+                                                                    respostas14.add("[B] 12");
+                                                                    respostas14.add("[C] 13");
+                                                                    respostas14.add("[D] 14");
+
+                                                                    System.out.println("\n (?) > Quanto é 1101 em decimal ? \n");
+
+                                                                    do {
+                                                                        System.out.println("(!) > Você tera " + limite15 + " chances");
+                                                                        System.out.println("\n Escolha a alternativa correta! \n ");
+                                                                        for (String resp39 : respostas14) {
+                                                                            System.out.println(resp39);
+                                                                        }
+                                                                        String resp39 = input.next();
+                                                                        Collections.shuffle(respostas14);
+
+                                                                        switch (resp39) {
+                                                                            case "C":
+                                                                            case "c":
+                                                                                System.out.println("Alternativa [ " + resp39 + " ] está correta! \n");
+                                                                                certo39 = false;
+                                                                                break;
+                                                                            case "A":
+                                                                            case "a":
+                                                                            case "D":
+                                                                            case "d":
+                                                                            case "B":
+                                                                            case "b":
+                                                                                System.out.println("Alternativa [ " + resp39 + " ] está incorreta! \n");
+                                                                                limite15--;
+                                                                                break;
+                                                                            default:
+                                                                                System.out.println("Opção inválida! \n");
+                                                                                break;
+                                                                        }
+                                                                        if (certo39 && limite15 == 0) {
+                                                                            System.out.println("");
+                                                                            System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                            System.out.println("");
+                                                                            System.out.println("Tente novamente. \n");
+                                                                            break;
+                                                                        }
+                                                                    } while (certo39 && limite15 > 0);
+                                                                    if (!certo39) {
+
+                                                                        int limite16 = 3;
+                                                                        boolean certo40 = true;
+
+                                                                        // Código que é responsável por embaralhar as alternativas
+                                                                        ArrayList<String> respostas15 = new ArrayList<String>();
+                                                                        respostas15.add("[A] 10100");
+                                                                        respostas15.add("[B] 11011");
+                                                                        respostas15.add("[C] 11110");
+                                                                        respostas15.add("[D] 100011");
+
+                                                                        System.out.println("\n (?) > Qual é o resultado da adição binária de 1010 e 1101? \n");
+
+                                                                        do {
+                                                                            System.out.println("(!) > Você tera " + limite16 + " chances");
+                                                                            System.out.println("\n Escolha a alternativa correta! \n ");
+                                                                            for (String resp40 : respostas15) {
+                                                                                System.out.println(resp40);
+                                                                            }
+                                                                            String resp40 = input.next();
+                                                                            Collections.shuffle(respostas15);
+
+                                                                            switch (resp40) {
+                                                                                case "C":
+                                                                                case "c":
+                                                                                    System.out.println("Alternativa [ " + resp40 + " ] está correta! \n");
+                                                                                    certo40 = false;
+                                                                                    break;
+                                                                                case "A":
+                                                                                case "a":
+                                                                                case "D":
+                                                                                case "d":
+                                                                                case "B":
+                                                                                case "b":
+                                                                                    System.out.println("Alternativa [ " + resp40 + " ] está incorreta! \n");
+                                                                                    limite16--;
+                                                                                    break;
+                                                                                default:
+                                                                                    System.out.println("Opção inválida! \n");
+                                                                                    break;
+                                                                            }
+                                                                            if (certo40 && limite16 == 0) {
+                                                                                System.out.println("");
+                                                                                System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                                System.out.println("");
+                                                                                System.out.println("Tente novamente. \n");
+                                                                                break;
+                                                                            }
+                                                                        } while (certo40 && limite16 > 0);
+                                                                        if (!certo40) {
+                                                                            int limite17 = 3;
+                                                                            boolean certo41 = true;
+
+                                                                            // Código que é responsável por embaralhar as alternativas
+                                                                            ArrayList<String> respostas16 = new ArrayList<String>();
+                                                                            respostas16.add("[A] 1");
+                                                                            respostas16.add("[B] 2");
+                                                                            respostas16.add("[C] 3");
+                                                                            respostas16.add("[D] 4");
+
+                                                                            System.out.println("\n (?) > O que representa o bit mais à esquerda em um número binário ? \n");
+
+                                                                            do {
+                                                                                System.out.println("(!) > Você tera " + limite17 + " chances");
+                                                                                System.out.println("\n Escolha a alternativa correta! \n ");
+                                                                                for (String resp41 : respostas16) {
+                                                                                    System.out.println(resp41);
+                                                                                }
+                                                                                String resp41 = input.next();
+                                                                                Collections.shuffle(respostas16);
+
+                                                                                switch (resp41) {
+                                                                                    case "D":
+                                                                                    case "d":
+                                                                                        System.out.println("Alternativa [ " + resp41 + " ] está correta! \n");
+                                                                                        certo41 = false;
+                                                                                        break;
+                                                                                    case "A":
+                                                                                    case "a":
+                                                                                    case "C":
+                                                                                    case "c":
+                                                                                    case "B":
+                                                                                    case "b":
+                                                                                        System.out.println("Alternativa [ " + resp41 + " ] está incorreta! \n");
+                                                                                        limite17--;
+                                                                                        break;
+                                                                                    default:
+                                                                                        System.out.println("Opção inválida! \n");
+                                                                                        break;
+                                                                                }
+                                                                                if (certo41 && limite17 == 0) {
+                                                                                    System.out.println("");
+                                                                                    System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                                    System.out.println("");
+                                                                                    System.out.println("Tente novamente. \n");
+                                                                                    break;
+                                                                                }
+                                                                            } while (certo41 && limite17 > 0);
+                                                                            if (!certo41) {
+                                                                                System.out.println("\u001B[32m" + "Sistema Invadido com sucesso");
+                                                                                System.out.print("\u001B[0m");
+                                                                                System.out.println("Com a habilidade de hacking e o apoio estratégico de Pixel, finalmente conseguem invadir os sistemas da Evil Corp. \n"
+                                                                                        + "Uma vez dentro, eles encontram uma mina de informações sobre Zero e suas conexões com a organização. Entre os dados roubados, você \n "
+                                                                                        + "descobre documentos confidenciais que revelam os planos obscuros de Zero para manipular a economia global e consolidar seu poder sobre a cidade \n"
+                                                                                        + "de NeoByte. Além disso, eles encontram evidências perturbadoras de experimentos ilegais conduzidos pela Evil Corp, colocando em risco a segurança \n"
+                                                                                        + "e a liberdade dos cidadãos. \n"
+                                                                                        + "Com essas informações você envia diretamente para os Anonymous e enquanto eles analisam os dados, você e Pixel se deparam com uma série de mensagens \n "
+                                                                                        + "codificadas que sugerem uma operação ainda mais sinistra em andamento. Essas mensagens apontam para uma localização específica dentro da sede da  \n"
+                                                                                        + "Evil Corp, onde parece que Zero está planejando algo de grande escala.");
+
+                                                                                boolean certo42 = true;
+
+                                                                                do {
+                                                                                    System.out.println("Aperte [Y] para decodificar as mensagens \n");
+                                                                                    String resp42 = input.next();
+
+                                                                                    switch (resp42) {
+                                                                                        case "Y":
+                                                                                        case "y":
+                                                                                            System.out.println("Decodificando...");
+                                                                                            break;
+                                                                                        default:
+                                                                                            System.out.println("Opção Invalida ! \n");
+                                                                                            break;
+                                                                                    }
+                                                                                } while (certo42);
+                                                                                int limite18 = 3;
+                                                                                boolean certo43 = true;
+
+                                                                                // Código que é responsável por embaralhar as alternativas
+                                                                                ArrayList<String> respostas17 = new ArrayList<String>();
+                                                                                respostas17.add("[A] 4");
+                                                                                respostas17.add("[B] 6");
+                                                                                respostas17.add("[C] 8");
+                                                                                respostas17.add("[D] 10");
+
+                                                                                System.out.println("\n (?) > Quantos valores diferentes podem ser representados com 3 bits ? \n");
+
+                                                                                do {
+                                                                                    System.out.println("(!) > Você tera " + limite18 + " chances");
+                                                                                    System.out.println("\n Escolha a alternativa correta! \n ");
+                                                                                    for (String resp43 : respostas17) {
+                                                                                        System.out.println(resp43);
+                                                                                    }
+                                                                                    String resp43 = input.next();
+                                                                                    Collections.shuffle(respostas17);
+
+                                                                                    switch (resp43) {
+                                                                                        case "C":
+                                                                                        case "c":
+                                                                                            System.out.println("Alternativa [ " + resp43 + " ] está correta! \n");
+                                                                                            certo43 = false;
+                                                                                            break;
+                                                                                        case "A":
+                                                                                        case "a":
+                                                                                        case "D":
+                                                                                        case "d":
+                                                                                        case "B":
+                                                                                        case "b":
+                                                                                            System.out.println("Alternativa [ " + resp43 + " ] está incorreta! \n");
+                                                                                            limite18--;
+                                                                                            break;
+                                                                                        default:
+                                                                                            System.out.println("Opção inválida! \n");
+                                                                                            break;
+                                                                                    }
+                                                                                    if (certo43 && limite18 == 0) {
+                                                                                        System.out.println("");
+                                                                                        System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                                        System.out.println("");
+                                                                                        System.out.println("Tente novamente. \n");
+                                                                                        break;
+                                                                                    }
+                                                                                } while (certo43 && limite18 > 0);
+                                                                                if (!certo43) {
+                                                                                    int limite19 = 3;
+                                                                                    boolean certo44 = true;
+
+                                                                                    // Código que é responsável por embaralhar as alternativas
+                                                                                    ArrayList<String> respostas18 = new ArrayList<String>();
+                                                                                    respostas18.add("[A] 0011");
+                                                                                    respostas18.add("[B] 0101");
+                                                                                    respostas18.add("[C] 0111");
+                                                                                    respostas18.add("[D] 1001");
+
+                                                                                    System.out.println("\n (?) > Qual é o resultado da subtração binária de 1001 - 0110 ? \n");
+
+                                                                                    do {
+                                                                                        System.out.println("(!) > Você tera " + limite19 + " chances");
+                                                                                        System.out.println("\n Escolha a alternativa correta! \n ");
+                                                                                        for (String resp44 : respostas18) {
+                                                                                            System.out.println(resp44);
+                                                                                        }
+                                                                                        String resp44 = input.next();
+                                                                                        Collections.shuffle(respostas18);
+
+                                                                                        switch (resp44) {
+                                                                                            case "A":
+                                                                                            case "a":
+                                                                                                System.out.println("Alternativa [ " + resp44 + " ] está correta! \n");
+                                                                                                certo44 = false;
+                                                                                                break;
+                                                                                            case "C":
+                                                                                            case "c":
+                                                                                            case "D":
+                                                                                            case "d":
+                                                                                            case "B":
+                                                                                            case "b":
+                                                                                                System.out.println("Alternativa [ " + resp44 + " ] está incorreta! \n");
+                                                                                                limite19--;
+                                                                                                break;
+                                                                                            default:
+                                                                                                System.out.println("Opção inválida! \n");
+                                                                                                break;
+                                                                                        }
+                                                                                        if (certo44 && limite19 == 0) {
+                                                                                            System.out.println("");
+                                                                                            System.out.println("Resposta incorreta nas 3 tentativas! \n");
+                                                                                            System.out.println("");
+                                                                                            System.out.println("Tente novamente. \n");
+                                                                                            break;
+                                                                                        }
+                                                                                    } while (certo44 && limite19 > 0);
+                                                                                    if (!certo44) {
+                                                                                        System.out.println("\u001B[32m" + "Mensagem Decotificada com sucesso");
+                                                                                        System.out.print("\u001B[0m");
+
+                                                                                        System.out.println("\n---------");
+                                                                                        System.out.println("| Mensagem |");
+                                                                                        System.out.println("---------\n");
+                                                                                        System.out.println("Assunto: Operação Enigma - Fase Final \n"
+                                                                                                + "Caros colegas, \n"
+                                                                                                + "Estamos nos estágios finais da Operação Enigma. Nossa equipe dedicada trabalhou incansavelmente para garantir o sucesso deste empreendimento e, \n"
+                                                                                                + "agora, estamos prestes a colher os frutos de nossos esforços. \n"
+                                                                                                + "Conforme discutido anteriormente, a localização estratégica dentro de nossa sede servirá como o epicentro de nossas atividades futuras. É \n"
+                                                                                                + "imperativo que cada departamento esteja ciente do papel crucial que desempenhará nesta fase crítica. \n"
+                                                                                                + "Pedimos a todos que estejam em alerta máximo e prontos para responder a quaisquer instruções adicionais que possam ser fornecidas. A \n"
+                                                                                                + "segurança e o sigilo devem ser mantidos a todo custo. \n"
+                                                                                                + "Estamos prestes a fazer história. \n"
+                                                                                                + "Atenciosamente, \n"
+                                                                                                + "Zero do Diretor da Evil Corp \n");
+                                                                                         
+                                                                                                
+                                                                                             System.out.println("Com os dados em mãos, você e Pixel rapidamente planejam sua próxima jogada. Vocês saem da sala de armazenamento \n "
+                                                                                             + "e começam a fazer o caminho até o andar onde Zero está planejando a Operação Enigma. Enquanto se movem pelos corredores da Evil Corp, podem sentir a \n"
+                                                                                             + "tensão no ar, sabendo que estão se aproximando do epicentro das operações secretas da empresa. \n"
+                                                                                             + "Enquanto caminham, você reflete sobre as descobertas recentes e sobre a verdadeira identidade de Zero, que agora se revela como seu próprio pai. A \n"
+                                                                                             + "revelação o deixa com um misto de emoções, desde raiva até uma profunda tristeza pela ausência paterna. No entanto, ele mantém sua determinação de \n"
+                                                                                             + "expor a verdade e colocar um fim nos planos nefastos da Evil Corp. \n \n"
+                                                                                             + "À medida que se aproximam do andar onde Zero está localizado, você se prepara mentalmente para o confronto iminente. Você sabem que não será fácil, \n "
+                                                                                             + "mas estão determinados a fazer o que for preciso para proteger aqueles que estão em perigo e expor a verdade que está por trás das sombras da Evil Corp. \n"
+                                                                                             + "Com coragem renovada, você avançam, prontos para enfrentar seu maior desafio até agora.");   
+
+
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
                                                     }
                                                 }
                                             }
@@ -1433,21 +2091,22 @@ public class ByteBattle {
             }
         }
     }
-    static void delayLento (int time) { 
+
+    static void delayLento(int time) {
         time = time * 1500;
-        
-        try{
+
+        try {
             Thread.sleep(time);
-        } catch (InterruptedException e) {                
+        } catch (InterruptedException e) {
         }
     }
 
-  static void delayNormal (int time) { 
+    static void delayNormal(int time) {
         time = time * 1000;
-        
-        try{
+
+        try {
             Thread.sleep(time);
-        } catch (InterruptedException e) {                
+        } catch (InterruptedException e) {
         }
     }
 

@@ -94,8 +94,19 @@ public class ByteBattle {
         System.out.println(" INICIANDO O JOGO... ");
         System.out.println("                  </>\n\n");
 
+        delayLento(1);
         System.out.println("                 Seja bem-vindo(a) a \n");
 
+        String artCidade = "                       .|\n" +
+                     "                       | |\n" +
+                     "                       |'|            ._____             \n" +
+                     "               ___    |  |            |.   |' .---\"|     \n" +
+                     "       _    .-'   '-. |  |     .--'|  ||   | _|    |     \n" +
+                     "    .-'|  _.|  |    ||   '-__  |   |  |    ||      |     \n" +
+                     "    |' | |.    |    ||       | |   |  |    ||      |     \n" +
+                     " ___|  '-'     '    \"\"       '-'   '-.'    '`      |__________\n" +
+                     " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+        System.out.println(artCidade);
         String letreiroCidade
                 = "  ##   ##   #####    ####     #####    ##  ##   ######   #####\n"
                 + "  ###  ##   ##      ##  ##    ##  ##   ##  ##     ##     ##\n"

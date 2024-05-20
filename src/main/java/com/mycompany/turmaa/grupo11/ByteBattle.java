@@ -1693,7 +1693,7 @@ public class ByteBattle {
                                                                         switch (resp35) {
                                                                             case "Y":
                                                                             case "y":
-                                                                                System.out.println("Entrando...");
+                                                                                System.out.println("Entrando... \n");
                                                                                 certo35 = false;
                                                                                 break;
                                                                             default:
@@ -1726,7 +1726,7 @@ public class ByteBattle {
                                                                             + "de descobrir a verdade por trás da Evil Corp e seu misterioso líder, Zero. \n"
                                                                             + "As salas de escritórios são protegidas por sistemas de segurança avançados, incluindo firewalls, senhas \n"
                                                                             + "complexas e sistemas de reconhecimento facial. \n"
-                                                                            + "Com isso Pixel te fala algo.");
+                                                                            + "Com isso Pixel te fala algo. \n");
 
                                                                     boolean certo37 = true;
 
@@ -1743,7 +1743,7 @@ public class ByteBattle {
                                                                                 System.out.println(nomePlayer + " Estou vasculhando os sistemas aqui e consegui acessar a planta baixa deste andar. Parece que  \n"
                                                                                         + "há um lugar pouco frequentado pelos funcionários, uma espécie de sala de armazenamento nos fundos do corredor leste. \n"
                                                                                         + "Acredito que seja um ponto menos protegido, o que pode facilitar nossa entrada sem chamar muita atenção. Acho que seria uma \n"
-                                                                                        + "boa ideia verificar esselocal para completar nossa missão de forma mais segura. O que acha ? ");
+                                                                                        + "boa ideia verificar esselocal para completar nossa missão de forma mais segura. O que acha ? \n");
 
                                                                                 certo37 = false;
                                                                                 break;
@@ -1935,7 +1935,7 @@ public class ByteBattle {
                                                                                         + "e a liberdade dos cidadãos. \n"
                                                                                         + "Com essas informações você envia diretamente para os Anonymous e enquanto eles analisam os dados, você e Pixel se deparam com uma série de mensagens \n "
                                                                                         + "codificadas que sugerem uma operação ainda mais sinistra em andamento. Essas mensagens apontam para uma localização específica dentro da sede da  \n"
-                                                                                        + "Evil Corp, onde parece que Zero está planejando algo de grande escala.");
+                                                                                        + "Evil Corp, onde parece que Zero está planejando algo de grande escala. \n");
 
                                                                                 boolean certo42 = true;
 
@@ -1947,6 +1947,7 @@ public class ByteBattle {
                                                                                         case "Y":
                                                                                         case "y":
                                                                                             System.out.println("Decodificando...");
+                                                                                            certo42 = false;
                                                                                             break;
                                                                                         default:
                                                                                             System.out.println("Opção Invalida ! \n");

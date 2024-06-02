@@ -115,6 +115,7 @@ public class ByteBattle {
                 + "  ##   ##   #####    ####     #####      ##       ##     #####\n";
 
         System.out.println(letreiroCidade);
+        delayRapido(2);
 
         String enredoCidade
                 = "NeoByte é uma metrópole contemporânea. As ruas são repletas de prédios de tijolos e concreto, a\n"
@@ -145,6 +146,7 @@ public class ByteBattle {
                 case "c":
                     System.out.println("Continuando... \n");
                     continuar1 = false;
+                    delayRapido(2);
                     break;
                 default:
                     System.out.println("Opção inválida! \n \n");
@@ -188,6 +190,7 @@ public class ByteBattle {
             switch (resp1) {
                 case "Y":
                 case "y":
+                delayRapido(2);
                     System.out.println("\n---------");
                     System.out.println("| Pixel |");
                     System.out.println("---------\n");
@@ -222,36 +225,60 @@ public class ByteBattle {
             switch (resp2) {
                 case "Y":
                 case "y":
-                    String vozMisteriosa1
-                            = "\n--------------------"
-                            + "|  Voz Misteriosa  |"
-                            + "--------------------\n"
-                            + //ARRUMAR TEXTO (BOTAR CONTEXTO?)
-                            "\nOlá " + nomePlayer + ", vou te contar uma história.\n"
-                            + "A história de Conceitos Binários na Computação! \n"
-                            + "\n> Sistema Binário: \n"
-                            + "O sistema binário é a base fundamental da computação moderna, representando informações usando apenas  \n"
-                            + "dois símbolos: 0 e 1. Esses símbolos são chamados de bits (binary digits).\n"
-                            + "\n> Bit:\n"
-                            + "Um bit é a menor unidade de informação em sistemas computacionais. Ele pode ter o valor de 0\n "
-                            + "ou 1, representando os estados de ' ligado ' e ' desligado ', respectivamente.\n"
-                            + "\n> Byte:\n"
-                            + "Um byte é uma unidade de armazenamento de dados que consiste em 8 bits. É comumente \n"
-                            + "usado para representar caracteres individuais de texto ou números na memória do computador.\n"
-                            + "\n> Representação de Números:\n"
-                            + "No sistema binário, os números são representados usando apenas os dígitos 0 e 1. Cada dígito binário tem um\n"
-                            + "valor que é uma potência de 2, começando do bit menos significativo para o mais significativo.\n"
-                            + "\n> Operações Binárias: \n"
-                            + "As operações binárias incluem adição, subtração, multiplicação e divisão de números binários. Essas \n"
-                            + "operações seguem regras específicas, semelhantes às operações aritméticas em sistemas numéricos decimais.\n"
-                            + "\n> Código Binário: \n"
-                            + "O código binário é usado para representar instruções e dados em linguagem de máquina, que é a linguagem \n"
-                            + "que os computadores entendem diretamente. Cada instrução ou caractere é representado por uma sequência de bits.\n"
-                            + "\n> Lógica Binária:\n "
-                            + "A lógica binária é a base da computação digital e envolve operações lógicas como AND, OR e NOT. Essas operações\n"
-                            + "são fundamentais para o funcionamento dos circuitos digitais e sistemas de computação.\n";
+                delayRapido(2);
+                    
+                String vozMisteriosa0 
+                        = "\n--------------------"
+                        + "|  Voz Misteriosa  |"
+                        + "--------------------\n"
+                        +"\nOlá " + nomePlayer + ", vou te contar uma história.\n"
+                        + "A história de Conceitos Binários na Computação! \n";
+                
+                String vozMisteriosa1
+                        ="\n> Sistema Binário: \n"                              
+                        + "O sistema binário é a base fundamental da computação moderna, representando informações usando apenas\n"
+                        + "dois símbolos: 0 e 1. Esses símbolos são chamados de bits (binary digits).\n";
+                String vozMisteriosa2
+                        = "\n> Bit:\n"
+                        + "Um bit é a menor unidade de informação em sistemas computacionais. Ele pode ter o valor de 0\n "
+                        + "ou 1, representando os estados de ' ligado ' e ' desligado ', respectivamente.\n";
+                String vozMisteriosa3
+                        = "\n> Byte:\n"
+                        + "Um byte é uma unidade de armazenamento de dados que consiste em 8 bits. É comumente\n"
+                        + "usado para representar caracteres individuais de texto ou números na memória do computador.\n";
+                String vozMisteriosa4
+                        = "\n> Representação de Números:\n"
+                        + "No sistema binário, os números são representados usando apenas os dígitos 0 e 1. Cada dígito binário tem um\n"
+                        + "valor que é uma potência de 2, começando do bit menos significativo para o mais significativo.\n";
+                String vozMisteriosa5 
+                        = "\n> Operações Binárias: \n"
+                        + "As operações binárias incluem adição, subtração, multiplicação e divisão de números binários. Essas \n"
+                        + "operações seguem regras específicas, semelhantes às operações aritméticas em sistemas numéricos decimais.\n";
+                String vozMisteriosa6 
+                        = "\n> Código Binário: \n"
+                        + "O código binário é usado para representar instruções e dados em linguagem de máquina, que é a linguagem \n"
+                        + "que os computadores entendem diretamente. Cada instrução ou caractere é representado por uma sequência de bits.\n";
+                String vozMisteriosa7 
+                        = "\n> Lógica Binária:\n "
+                        + "A lógica binária é a base da computação digital e envolve operações lógicas como AND, OR e NOT. Essas operações\n"
+                        + "são fundamentais para o funcionamento dos circuitos digitais e sistemas de computação.\n";
 
-                    System.out.println(vozMisteriosa1);
+                        System.out.println(vozMisteriosa0);
+                        delayLento(2);
+                        System.out.println(vozMisteriosa1);
+                        delayLento(2);
+                        System.out.println(vozMisteriosa2);
+                        delayLento(2);
+                        System.out.println(vozMisteriosa3);
+                        delayLento(2);
+                        System.out.println(vozMisteriosa4);
+                        delayLento(2);
+                        System.out.println(vozMisteriosa5);
+                        delayLento(2);
+                        System.out.println(vozMisteriosa6);
+                        delayLento(2);
+                        System.out.println(vozMisteriosa7);
+                        delayLento(2);
                     certo2 = false;
                     break;
                 default:
@@ -277,6 +304,7 @@ public class ByteBattle {
                     case "Y":
                     case "y":
                         System.out.println("Continuando... \n");
+                        delayRapido(2);
                         certo3 = false;
                         break;
                 }
@@ -309,6 +337,7 @@ public class ByteBattle {
                                 + "|--------------------------------------------\n"
                                 + "Nesta tabela, vemos os números de 1 a 18 escritos na forma decimal e na forma binária.";
 
+                                delayLento(1);
                         System.out.println(tabela1);
 
                         certo3 = false;
@@ -320,6 +349,7 @@ public class ByteBattle {
             }
         } while (certo3);
 
+        delayRapido(2);
         System.out.println("\n> Conversão de binário para decimal \n"
                 + "Cada posição tem um peso de uma potência de 2 (base do sistema binário). Sendo assim,\n"
                 + "para se converter um número de binário para decimal, deve-se multiplicar cada bit pela\n"
@@ -337,6 +367,7 @@ public class ByteBattle {
                     case "Y":
                     case "y":
                         System.out.println("Continuando... \n");
+                        delayRapido(2);
                         certo4 = false;
                         break;
                 }
@@ -357,6 +388,7 @@ public class ByteBattle {
                                 + "|----------------------------------------------------|\n"
                                 + "somando: 128 + 64 + 8 + 4 + 2 = 206 \n";
 
+                                delayLento(1);
                         System.out.println(tabela2);
 
                         certo4 = false;
@@ -382,6 +414,7 @@ public class ByteBattle {
                     case "Y":
                     case "y":
                         System.out.println("Continuando... \n");
+                        delayRapido(2);
                         continuar = false;
                         break;
                 }
@@ -390,6 +423,7 @@ public class ByteBattle {
                     case "N":
                     case "n":
                         System.out.println("Ok, vou dar-lhe um tempo para reler!");
+                        delayRapido(2);
                         break;
 
                     default:
@@ -419,6 +453,7 @@ public class ByteBattle {
                     case "Y":
                     case "y":
                         System.out.println("Vamos ver... \n");
+                        delayRapido(2);
                         certo5 = false;
                         break;
                 }
@@ -427,6 +462,7 @@ public class ByteBattle {
                     case "N":
                     case "n":
                         System.out.println("Ok, vou dar-lhe um tempo para reler! \n");
+                        delayRapido(2);
                         break;
 
                     default:
@@ -550,6 +586,7 @@ public class ByteBattle {
             if (!certo7) {     // Código onde não deixa o jogador avançar para a próxima perguinta caso ele erre as 3 chances
                 System.out.println("\nMuito bem!\n");
 
+                delayRapido(2);
                 System.out.println("> Em resumo, os conceitos binários na computação são essenciais para entender como os \n"
                         + "computadores armazenam, processam e transmitem informações usando apenas dois estados \n"
                         + "distintos: 0 e 1. Essa simplicidade subjacente é o que permite a complexidade e versatilidade dos \n"
@@ -567,6 +604,7 @@ public class ByteBattle {
                             case "Y":
                             case "y":
                                 System.out.println("Continuando... \n");
+                                delayRapido(2);
                                 certo8 = false;
                                 break;
                         }
@@ -575,6 +613,7 @@ public class ByteBattle {
                             case "N":
                             case "n":
                                 System.out.println("Ok, vou dar-lhe um tempo para reler!");
+                                delayRapido(2);
                                 break;
 
                             default:
@@ -597,26 +636,42 @@ public class ByteBattle {
                         case "Y":
                         case "y":
 
-                            String tela1
-                                    = "\n Os sistemas binários são a base fundamental de toda a computação moderna. Eles constituem a\n"
-                                    + "linguagem básica que os computadores entendem e com a qual operam. Aqui está mais sobre os \n"
-                                    + "sistemas binários: \n"
-                                    + "\nBase 2:\n"
-                                    + "O sistema binário é um sistema de numeração posicional que utiliza apenas dois símbolos: 0 e 1.\n"
-                                    + "Cada dígito em um número binário é chamado de bit (abreviação de binary digit).\n"
-                                    + "Base 2:O bit mais à direita em um número binário representa 2^0, o próximo representa 2^1,\n"
-                                    + "o seguinte 2^2, e assim por diante, cada posição representando uma potência de 2.\n"
-                                    + "\nRepresentação de Dados:\n"
-                                    + "No nível mais fundamental, todos os dados em um computador são representados usando \n"
-                                    + "sequências de 0s e 1s.\n"
-                                    + "Cada caractere, número, imagem, som ou qualquer outra forma de dados é representado por \n"
-                                    + "uma combinação de bits.\n"
-                                    + "Por exemplo, um caractere ASCII é representado por 8 bits (um byte), permitindo a representação "
-                                    + "de 256 caracteres diferentes.\n\n"
-                                    + "--------------------"
-                                    + "|  Voz Misteriosa  |"
-                                    + "--------------------\n"
-                                    + "\nVá para a tela ao lado, para continuar com as explicações.";
+                String tela1
+                        = "\n Os sistemas binários são a base fundamental de toda a computação moderna. Eles constituem a\n"
+                        + "linguagem básica que os computadores entendem e com a qual operam. Aqui está mais sobre os \n"
+                        + "sistemas binários: \n";
+                String tela1A        
+                        = "\nBase 2:\n"
+                        + "O sistema binário é um sistema de numeração posicional que utiliza apenas dois símbolos: 0 e 1.\n"
+                        + "Cada dígito em um número binário é chamado de bit (abreviação de binary digit).\n";
+                String tela1B
+                        = "Base 2:O bit mais à direita em um número binário representa 2^0, o próximo representa 2^1,\n"
+                        + "o seguinte 2^2, e assim por diante, cada posição representando uma potência de 2.\n";
+                String tela1C
+                        = "\nRepresentação de Dados:\n"
+                        + "No nível mais fundamental, todos os dados em um computador são representados usando \n"
+                        + "sequências de 0s e 1s.\n"
+                        + "Cada caractere, número, imagem, som ou qualquer outra forma de dados é representado por \n"
+                        + "uma combinação de bits.\n"
+                        + "Por exemplo, um caractere ASCII é representado por 8 bits (um byte), permitindo a representação "
+                        + "de 256 caracteres diferentes.\n\n";
+                String tela1D
+                        = "--------------------"
+                        + "|  Voz Misteriosa  |"
+                        + "--------------------\n"
+                        + "\nVá para a tela ao lado, para continuar com as explicações.";
+                
+                        delayRapido(2);   
+                System.out.println(tela1);
+                delayLento(2);
+                System.out.println(tela1A);
+                delayLento(2);
+                System.out.println(tela1B);
+                delayLento(2);
+                System.out.println(tela1C);
+                delayRapido(2);
+                System.out.println(tela1D);
+                delayLento(2);
 
                             System.out.println(tela1);
 
@@ -633,36 +688,49 @@ public class ByteBattle {
                 do {
                     System.out.println("");
                     System.out.println("Aperte [Y] para ir a tela ao lado ");
+                    delayRapido(2);
                     String resp10 = input.next();
 
                     switch (resp10) {
                         case "Y":
                         case "y":
-                            String tela2
-                                    = "\nOperações Binárias:\n"
-                                    + "Os sistemas binários suportam várias operações, como adição, subtração, multiplicação e \n"
-                                    + "divisão, todas baseadas em regras específicas para manipular bits.\n"
-                                    + "Operações lógicas, como AND, OR e XOR, são frequentemente usadas em programação e \n"
-                                    + "circuitos digitais para manipular dados binários.\n"
-                                    + "\nArmazenamento e Transmissão de Dados:\n"
-                                    + "A memória de um computador armazena dados na forma binária, com cada bit sendo\n"
-                                    + "armazenado eletronicamente como uma carga elétrica ou a falta dela.\n"
-                                    + "Os dispositivos de armazenamento de dados, como discos rígidos e unidades flash, armazenam \n"
-                                    + " dados binários em padrões magnéticos ou elétricos.\n"
-                                    + "Os dados também são transmitidos entre dispositivos em forma binária, usando sinais elétricos  \n"
-                                    + "ou ópticos.\n"
-                                    + "\nConversão de Bases:\n"
-                                    + "É comum converter entre sistemas de numeração, como binário para decimal, decimal para  \n"
-                                    + "binário e assim por diante, dependendo dos requisitos do sistema ou aplicação.\n"
-                                    + "Ferramentas e linguagens de programação oferecem funções embutidas para facilitar essas \n"
-                                    + "conversões quando necessário.\n"
-                                    + "\nCircuitos Digitais:\n"
-                                    + "Os circuitos digitais, que são a base dos componentes eletrônicos em um computador, operam \n"
-                                    + "com base em sinais binários.\n"
-                                    + "Portas lógicas, como AND, OR e NOT, são componentes fundamentais dos circuitos digitais e são \n"
-                                    + "usadas para realizar operações lógicas em dados binários.\n";
+                        String tela2
+                        = "\nOperações Binárias:\n"
+                        + "Os sistemas binários suportam várias operações, como adição, subtração, multiplicação e \n"
+                        + "divisão, todas baseadas em regras específicas para manipular bits.\n"
+                        + "Operações lógicas, como AND, OR e XOR, são frequentemente usadas em programação e \n"
+                        + "circuitos digitais para manipular dados binários.\n";
+               String tela2A
+                        = "\nArmazenamento e Transmissão de Dados:\n"
+                        + "A memória de um computador armazena dados na forma binária, com cada bit sendo\n"
+                        + "armazenado eletronicamente como uma carga elétrica ou a falta dela.\n"
+                        + "Os dispositivos de armazenamento de dados, como discos rígidos e unidades flash, armazenam \n"
+                        + " dados binários em padrões magnéticos ou elétricos.\n"
+                        + "Os dados também são transmitidos entre dispositivos em forma binária, usando sinais elétricos  \n"
+                        + "ou ópticos.\n";
+               String tela2B
+                        = "\nConversão de Bases:\n"
+                        + "É comum converter entre sistemas de numeração, como binário para decimal, decimal para  \n"
+                        + "binário e assim por diante, dependendo dos requisitos do sistema ou aplicação.\n"
+                        + "Ferramentas e linguagens de programação oferecem funções embutidas para facilitar essas \n"
+                        + "conversões quando necessário.\n";
+               String tela2C
+                        = "\nCircuitos Digitais:\n"
+                        + "Os circuitos digitais, que são a base dos componentes eletrônicos em um computador, operam \n"
+                        + "com base em sinais binários.\n"
+                        + "Portas lógicas, como AND, OR e NOT, são componentes fundamentais dos circuitos digitais e são \n"
+                        + "usadas para realizar operações lógicas em dados binários.\n";
+               
+                delayRapido(2);
+                System.out.println(tela2);
+                delayLento(2);
+                System.out.println(tela2A);
+                delayLento(2);
+                System.out.println(tela2B);
+                delayLento(2);
+                System.out.println(tela2C);
+                delayLento(2);
 
-                            System.out.println(tela2);
                             certo10 = false;
                             break;
                         default:
@@ -886,18 +954,22 @@ public class ByteBattle {
                             // Fim das perguntas 
 
                             if (!certo14) {
-                                System.out.println("\n> MUITO BEM...\n"
-                                        + "A medida que sua jornada avança, você é confrontado com dilemas éticos e complexos. Você \n"
+                                System.out.println("\n> MUITO BEM...\n");
+                                delayRapido(2);
+                                System.out.println(
+                                        "A medida que sua jornada avança, você é confrontado com dilemas éticos e complexos. Você \n"
                                         + "se vê diante da responsabilidade de usar os Conceitos de Computação não apenas para resolver problemas,\n"
                                         + "mas também para promover o bem-estar da sociedade. Suas escolhas moldarão o curso da história e definirão\n"
                                         + "o seu destino.\n"
                                         + "\nCom isso Pixel se aproxima de você e te fala sobre a atual situação de NeoByte com baseado em dados que ele\n"
                                         + "conseguiu sobre a cidade.");
+                                delayRapido(2);
 
                                 boolean certo15 = true;
 
                                 do {
                                     System.out.println("\n Aperte [Y] para escutar Pixel \n");
+                                    delayRapido(2);
                                     String resp15 = input.next();
 
                                     switch (resp15) {
@@ -912,6 +984,7 @@ public class ByteBattle {
                                                     + "conhecidos como 'Anonymous' e é chamado para uma missão de proporções épicas: derrotar a poderosa organização conhecida como\n"
                                                     + "'Evil Corp'. Essa organização sinistra, liderada pelo misterioso ZERO, controla os sistemas essenciais \n"
                                                     + "da cidade, manipulando a informação para servir seus próprios interesses obscuros.\n");
+                                                    delayRapido(2);
 
                                             certo15 = false;
                                             break;
@@ -932,6 +1005,7 @@ public class ByteBattle {
                                     switch (resp16) {
                                         case "Y":
                                         case "y":
+                                        delayRapido(2);
                                             System.out.println("\u001B[32m" + "@@@@@@   @@@  @@@   @@@@@@   @@@  @@@  @@@ @@@  @@@@@@@@@@    @@@@@@   @@@  @@@   @@@@@@");
                                             System.out.println("\u001B[32m" + "@@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@ @@@  @@@ @@@  @@@@@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@");
                                             System.out.println("\u001B[32m" + "@@!  @@@  @@!@!@@@  @@!  @@@  @@!@!@@@  @@! !@@  @@! @@! @@!  @@!  @@@  @@!  @@@  !@@");
@@ -943,6 +1017,7 @@ public class ByteBattle {
                                             System.out.println("\u001B[32m" + "::   :::   ::   ::  ::::: ::   ::   ::     ::    :::     ::   ::::: ::  ::::: ::  :::: ::");
                                             System.out.println("\u001B[32m" + ":   : :  ::    :    : :  :   ::    :      :      :      :     : :  :    : :  :   :: : : ");
                                             System.out.print("\u001B[0m");
+                                            delayLento(1);
                                             String cartaAnonymous
                                                     = "\nPrezado(a) " + nomePlayer + ".\n"
                                                     + "\n</> O Anonymous é uma comunidade de hackers comprometidos com a liberdade, justiça e transparência.\n"
@@ -953,6 +1028,7 @@ public class ByteBattle {
                                                     + "realizar grandes feitos e impactar positivamente a sociedade. \n"
                                                     + "Isto é um convite para fazer parte de um grupo muito especial. </> \n"
                                                     + "\n Agurdamos sua resposta! ";
+                                                    delayRapido(1);
                                             System.out.println(cartaAnonymous);
 
                                             certo16 = false;
@@ -972,10 +1048,12 @@ public class ByteBattle {
                                     switch (resp17) {
                                         case "Y":
                                         case "y":
+                                        delayRapido(2);
                                             System.out.println((nomePlayer) + "> Uau, eu não esperava receber um convite como esse!\n"
                                                     + "Definitivamente, estou interessado em ajudar, acredito firmemente nos valores de liberdade, justiça e transparência. E estou\n"
                                                     + "pronto para acabar com a 'Evil Corp' de uma vez por todas.\n");
 
+                                                    delayLento(1);        
                                             System.out.println("-------------\n"
                                                     + "|   PIXEL   |\n"
                                                     + "-------------\n"
@@ -996,6 +1074,7 @@ public class ByteBattle {
 
                                 do {
                                     System.out.println("\n Aperte [Y] para seguir Pixel. \n");
+                                    delayRapido(2);
                                     String resp18 = input.next();
 
                                     switch (resp18) {
@@ -1008,6 +1087,7 @@ public class ByteBattle {
                                                     + "Você se dirige à localização indicada pelos 'Anonymous' e  finalmente chegam à residência mencionada. Diante da fechadura elétrica  \n"
                                                     + "que bloqueia sua entrada, você prepara-se para enfrentar seu primeiro desafio: hackear o sistema e descobrir a senha que \n"
                                                     + "abrirá as portas para o desconhecido.\n");
+                                                    delayRapido(3);
                                             System.out.println("Com habilidade e precisão, você mergulha nos circuitos digitais da fechadura, desvendando suas defesas com \n"
                                                     + "cada linha de código. Pixel observa atentamente, oferecendo sugestões e insights valiosos à medida que trabalham juntos "
                                                     + "para superar o obstáculo diante deles.");
@@ -1029,6 +1109,7 @@ public class ByteBattle {
                                     switch (resp19) {
                                         case "Y":
                                         case "y":
+                                        delayRapido(2);
                                             System.out.println("Invadindo... \n"
                                                     + "Suponha que a fechadura da porta tenha uma senha de 4 dígitos, e você escreveu um programa que  \n"
                                                     + "teste todas as combinações possíveis de 4 dígitos para abrir a fechadura, com isso você usa o ataque de força bruta "
@@ -1053,6 +1134,7 @@ public class ByteBattle {
                                         switch (resp20) {
                                             case "Y":
                                             case "y":
+                                            delayRapido(2);
                                                 String tabela5
                                                         = "\n Representação da tabela da base de sistemas binários: \n"
                                                         + "|-----------------------------------------------------------------------------------------------|\n"
@@ -1128,6 +1210,7 @@ public class ByteBattle {
                                 } while (certo21 && limite6 > 0);
 
                                 if (!certo21) {
+                                    delayRapido(2);
                                     System.out.println("A fechadura cede e as portas se abrem, revelando um interior escuro e misterioso. \n"
                                             + "No interior da residência, você e Pixel sai procurando por documentos ou evidências perturbadoras \n"
                                             + "da influência da Evil Corp. \n");
@@ -1136,6 +1219,7 @@ public class ByteBattle {
 
                                     do {
                                         System.out.println("\n Aperte [Y] para procurar provas na residencia. \n ");
+                                        delayRapido(2);
                                         String resp22 = input.next();
 
                                         switch (resp22) {
@@ -1167,6 +1251,7 @@ public class ByteBattle {
                                         switch (resp23) {
                                             case "B":
                                             case "b":
+                                            delayRapido(1);
                                                 System.out.println("[" + resp23 + "]" + " (!) > Você se depara com uma porta meio escondida \n"
                                                         + "e quando a abre, depara-se com uma escada que dá acesso a um porão escuro. Lá, vocês  \n"
                                                         + "encontram evidências perturbadoras da influência da Evil Corp: documentos confidenciais, registros  \n"
@@ -1175,21 +1260,25 @@ public class ByteBattle {
                                                 break;
                                             case "A":
                                             case "a":
+                                            delayRapido(1);
                                                 System.out.println("[" + resp23 + "]" + " (!) > " + nomePlayer + " Seus esforços revelam apenas o vazio. Mas lembre-se, cada busca é uma lição, cada desafio é uma oportunidade. Continue explorando, pois a fortuna espera pelos corajosos!");
                                                 limite7--;
                                                 break;
                                             case "C":
                                             case "c":
+                                            delayRapido(1);
                                                 System.out.println("[" + resp23 + "]" + " (!) > O local permanece imperturbável diante de sua busca incansável. Mas não se deixe deter, pois cada tentativa é um passo mais próximo da verdade. Siga em frente, a aventura aguarda!");
                                                 limite7--;
                                                 break;
                                             case "D":
                                             case "d":
+                                            delayRapido(1);
                                                 System.out.println("[" + resp23 + "]" + " (!) > Nada além do eco dos passos ressoa neste lugar. A jornada é árdua, mas a recompensa aguarda além do horizonte. Continue sua busca destemida!");
                                                 limite7--;
                                                 break;
                                             case "E":
                                             case "e":
+                                            delayRapido(1);
                                                 System.out.println("[" + resp23 + "]" + "(!) >  Apesar da busca meticulosa, o local guarda seus segredos com firmeza. Não desista, pois a verdadeira aventura está prestes a começar!\n");
                                                 limite7--;
                                                 break;
@@ -1206,6 +1295,7 @@ public class ByteBattle {
                                         }
                                     } while (certo23 && limite7 > 0);
                                     if (!certo23) {
+                                        delayRapido(2);
                                         System.out.println(" Determinados a expor a verdade por trás das sombras, " + nomePlayer + " e Pixel coletam o máximo de informações possível, \n"
                                                 + "preparando-se para revelar seus achados aos Anonymous e iniciar a próxima fase de sua missão.\n"
                                                 + "Assim que vc envia os documentos para os Anonymous, você sai da residência, e espera um retorno indicando qual o próximo passo.\n"
@@ -1223,6 +1313,7 @@ public class ByteBattle {
                                                 case "Y":
                                                 case "y":
                                                     System.out.println("Descriptografando...");
+                                                    delayLento(1);
                                                     certo24 = false;
                                                     break;
                                                 default:
@@ -1430,8 +1521,10 @@ public class ByteBattle {
                                                         }
                                                     } while (certo28 && limite11 > 0);
                                                     if (!certo28) {
+                                                        delayRapido(2);
                                                         System.out.println("\u001B[32m" + " ---** MENSAGEM DESCRIPTOGRAFADA **--- \n");
                                                         System.out.print("\u001B[0m");
+                                                        delayRapido(2);
                                                         System.out.println("Após decifrar as mensagens codificadas, " + nomePlayer + " se vê novamente confrontado com a foto \n"
                                                                 + "de sua infância ao lado de um homem que ele suspeita ser seu pai. Essa descoberta traz à tona uma \n"
                                                                 + "enxurrada de emoções e perguntas sobre sua própria identidade e história. \n"
@@ -1448,6 +1541,7 @@ public class ByteBattle {
                                                             switch (resp29) {
                                                                 case "Y":
                                                                 case "y":
+                                                                delayRapido(2);
                                                                     System.out.println("\n---------");
                                                                     System.out.println("| Pixel |");
                                                                     System.out.println("---------\n");
@@ -1470,6 +1564,7 @@ public class ByteBattle {
                                                             switch (resp30) {
                                                                 case "Y":
                                                                 case "y":
+                                                                delayRapido(2);
                                                                     System.out.println("\n---------");
                                                                     System.out.println("| Pixel |");
                                                                     System.out.println("---------\n");
@@ -1498,9 +1593,11 @@ public class ByteBattle {
                                                                 switch (resp31) {
                                                                     case "Y":
                                                                     case "y":
+                                                                    delayRapido(2);
                                                                         System.out.println("\n \u001B[32m" + " INVADINDO A ENTRADA DA EVIL CORP \n");
                                                                         System.out.print("\u001B[0m");
                                                                         System.out.println("Estacionamento Subterrâneo  ");
+                                                                        delayRapido(2);
                                                                         certo31 = false;
                                                                         break;
                                                                 }
@@ -1665,9 +1762,12 @@ public class ByteBattle {
                                                                     }
                                                                 } while (certo34 && limite14 > 0);
                                                                 if (!certo34) {
+                                                                    delayRapido(2);
                                                                     System.out.println("\u001B[32m" + " Acesso Liberado! \n");
+                                                                    delayRapido(3);
                                                                     System.out.println("\u001B[32m" + "Primeiro Andar - Recepção \n");
                                                                     System.out.print("\u001B[0m");
+                                                                    delayLento(1);
                                                                     System.out.println("Entrou na Evil Corp \n "
                                                                             + " Agora você precisa encontrar uma maneira de passar pelos guardas na entrada principal da Evil Corp. \n"
                                                                             + "Você tem que hackear os crachás de identificação dos funcionários para dar acesso aos elevadores e escadas com liberação \n"
@@ -1694,6 +1794,7 @@ public class ByteBattle {
                                                                             case "Y":
                                                                             case "y":
                                                                                 System.out.println("Entrando... \n");
+                                                                                delayRapido(2);
                                                                                 certo35 = false;
                                                                                 break;
                                                                             default:
@@ -1706,6 +1807,7 @@ public class ByteBattle {
 
                                                                     do {
                                                                         System.out.println("Aperte [2] para ir ao segundo andar \n");
+                                                                        delayRapido(2);
                                                                         int resp36 = input.nextInt();
 
                                                                         switch (resp36) {
@@ -1719,7 +1821,9 @@ public class ByteBattle {
                                                                         }
 
                                                                     } while (certo36);
+                                                                    delayRapido(2);
                                                                     System.out.println("\u001B[32m" + "Segundo Andar - Salas de Escritórios:");
+                                                                    delayRapido(2);
                                                                     System.out.print("\u001B[0m");
                                                                     System.out.println("Neste andar, você enfrenta uma combinação de desafios técnicos e físicos, onde sua habilidade  \n"
                                                                             + "de hacking é testada em um ambiente corporativo altamente seguro. Cada sucesso o aproxima mais  \n"
@@ -1732,11 +1836,13 @@ public class ByteBattle {
 
                                                                     do {
                                                                         System.out.println("Aperte [Y] para escutar Pixel");
+                                                                        delayRapido(2);
                                                                         String resp37 = input.next();
 
                                                                         switch (resp37) {
                                                                             case "Y":
                                                                             case "y":
+                                                                            delayRapido(2);
                                                                                 System.out.println("\n---------");
                                                                                 System.out.println("| Pixel |");
                                                                                 System.out.println("---------\n");
@@ -1756,11 +1862,13 @@ public class ByteBattle {
 
                                                                     do {
                                                                         System.out.println("Aperte [Y] para falar com Pixel");
+                                                                        delayRapido(2);
                                                                         String resp38 = input.next();
 
                                                                         switch (resp38) {
                                                                             case "Y":
                                                                             case "y":
+                                                                            delayRapido(2);
                                                                                 System.out.println("\n---------------");
                                                                                 System.out.println("| " + nomePlayer + " |");
                                                                                 System.out.println("----------------\n");
@@ -1776,6 +1884,7 @@ public class ByteBattle {
                                                                         }
                                                                     } while (certo38);
 
+                                                                    delayRapido(2);
                                                                     System.out.println("Chegando na Sala de armazenamento você e Pixel se escondem e começam a hackear o andar.");
 
                                                                     int limite15 = 3;
@@ -1926,8 +2035,10 @@ public class ByteBattle {
                                                                                 }
                                                                             } while (certo41 && limite17 > 0);
                                                                             if (!certo41) {
+                                                                                delayRapido(3);
                                                                                 System.out.println("\u001B[32m" + "Sistema Invadido com sucesso");
                                                                                 System.out.print("\u001B[0m");
+                                                                                delayRapido(2);
                                                                                 System.out.println("Com a habilidade de hacking e o apoio estratégico de Pixel, finalmente conseguem invadir os sistemas da Evil Corp. \n"
                                                                                         + "Uma vez dentro, eles encontram uma mina de informações sobre Zero e suas conexões com a organização. Entre os dados roubados, você \n "
                                                                                         + "descobre documentos confidenciais que revelam os planos obscuros de Zero para manipular a economia global e consolidar seu poder sobre a cidade \n"
@@ -1941,12 +2052,14 @@ public class ByteBattle {
 
                                                                                 do {
                                                                                     System.out.println("Aperte [Y] para decodificar as mensagens \n");
+                                                                                    delayRapido(2);
                                                                                     String resp42 = input.next();
 
                                                                                     switch (resp42) {
                                                                                         case "Y":
                                                                                         case "y":
                                                                                             System.out.println("Decodificando...");
+                                                                                            delayRapido(2);
                                                                                             certo42 = false;
                                                                                             break;
                                                                                         default:
@@ -2052,9 +2165,11 @@ public class ByteBattle {
                                                                                         }
                                                                                     } while (certo44 && limite19 > 0);
                                                                                     if (!certo44) {
+                                                                                        delayRapido(2);
                                                                                         System.out.println("\u001B[32m" + "Mensagem Decotificada com sucesso");
                                                                                         System.out.print("\u001B[0m");
-
+                                                                                        
+                                                                                        delayRapido(3);
                                                                                         System.out.println("\n---------");
                                                                                         System.out.println("| Mensagem |");
                                                                                         System.out.println("---------\n");
@@ -2070,6 +2185,7 @@ public class ByteBattle {
                                                                                                 + "Atenciosamente, \n"
                                                                                                 + "Zero do Diretor da Evil Corp \n");
 
+                                                                                                delayLento(1);
                                                                                         System.out.println("Com os dados em mãos, você e Pixel rapidamente planejam sua próxima jogada. Vocês saem da sala de armazenamento \n "
                                                                                                 + "e começam a fazer o caminho até o andar onde Zero está planejando a Operação Enigma. Enquanto se movem pelos corredores da Evil Corp, podem sentir a \n"
                                                                                                 + "tensão no ar, sabendo que estão se aproximando do epicentro das operações secretas da empresa. \n"
@@ -2085,12 +2201,14 @@ public class ByteBattle {
 
                                                                                         do {
                                                                                             System.out.println("Aperte [Y] para entrar no elevador \n");
+                                                                                            delayRapido(2);
                                                                                             String resp45 = input.next();
 
                                                                                             switch (resp45) {
                                                                                                 case "Y":
                                                                                                 case "y":
                                                                                                     System.out.println("Entrando... \n");
+                                                                                                    delayRapido(2);
                                                                                                     certo45 = false;
                                                                                                     break;
                                                                                                 default:
@@ -2104,11 +2222,12 @@ public class ByteBattle {
 
                                                                                         do {
                                                                                             System.out.println("Aperte [45] para ir ao segundo andar \n");
+                                                                                            delayRapido(2);
                                                                                             int resp46 = input.nextInt();
 
                                                                                             switch (resp46) {
                                                                                                 case 45:
-
+                                                                                                delayRapido(3);
                                                                                                     System.out.println("\u001B[32m" + "A Caminho do Confronto: \n");
                                                                                                     System.out.print("\u001B[0m");
                                                                                                     certo46 = false;
@@ -2120,6 +2239,7 @@ public class ByteBattle {
 
                                                                                         } while (certo46);
                                                                                         if (!certo46) {
+                                                                                            delayRapido(3);
                                                                                             System.out.println("Vocês chegam à entrada do andar superior, onde o acesso é rigidamente controlado. Pixel, com suas habilidades excepcionais em hacking, \n "
                                                                                                     + "desativa silenciosamente as câmeras de segurança e abre as portas trancadas. Vocês entram no corredor principal, que está silencioso, exceto pelo som distante de teclas \n"
                                                                                                     + "digitando e monitores piscando. \n \n"
@@ -2129,6 +2249,7 @@ public class ByteBattle {
                                                                                                     + "Essa batalha envolve combate corpo a corpo. Os Guardas usam bastões eletrificados e lâminas energéticas. Você deve utilizar suas habilidades de luta e \n "
                                                                                                     + "agilidade para desviar dos ataques e contra-atacar com precisão. Pixel, por sua vez, usa suas habilidades de artes marciais combinadas \n"
                                                                                                     + "com dispositivos eletrônicos para desativar temporariamente os exoesqueletos dos guardas. \n ");
+                                                                                                    delayLento(1);
                                                                                             System.out.println("Para finalizar a batalha, você e Pixel precisam coordenar um ataque conjunto. Enquanto Pixel desativa os escudos de energia dos guardas, você usa \n "
                                                                                                     + "suas habilidades de combate para neutralizá-los um a um. A sinergia entre suas habilidades tecnológicas e de combate é crucial para superar essa fase crítica.");
 
@@ -2233,6 +2354,7 @@ public class ByteBattle {
 
                                                                                                 } while (certo48 && limite21 > 0);
                                                                                                 if (!certo48) {
+                                                                                                    delayRapido(2);
                                                                                                     System.out.println("Com isso os Guardas recuam e começam a usar drones de combate e armamento pesado. Você deve utilizar seus conhecimentos em hacking para assumir o \n"
                                                                                                             + "controle dos drones e desativar as armas dos guardas. Pixel fornece suporte hackeando o sistema de comunicação dos guardas, causando confusão e desorganização \n"
                                                                                                             + "nas suas fileiras.");
@@ -2287,6 +2409,7 @@ public class ByteBattle {
 
                                                                                                     } while (certo49 && limite22 > 0);
                                                                                                     if (!certo49) {
+                                                                                                        delayRapido(2);
                                                                                                         System.out.println("Com isso os Guardas recuam e começam a usar drones de combate e armamento pesado. Você deve utilizar seus conhecimentos em hacking para assumir o \n"
                                                                                                                 + "controle dos drones e desativar as armas dos guardas. Pixel fornece suporte hackeando o sistema de comunicação dos guardas, causando confusão e desorganização \n"
                                                                                                                 + "nas suas fileiras.");
@@ -2341,6 +2464,7 @@ public class ByteBattle {
 
                                                                                                         } while (certo50 && limite23 > 0);
                                                                                                         if (!certo50) {
+                                                                                                            delayRapido(2);
                                                                                                             System.out.println("Com os drones sob controle, Pixel se concentra nos escudos dos guardas. Você se coloca à frente, defendendo Pixel dos ataques restantes. \n"
                                                                                                                     + "Finalmente, os escudos piscam e desaparecem. Você aproveita a oportunidade e, com uma combinação de golpes precisos e ataques tecnológicos, neutraliza os \n"
                                                                                                                     + "guardas um por um. \n"
@@ -2348,23 +2472,23 @@ public class ByteBattle {
                                                                                                                     + "um olhar determinado e respiram fundo antes de entrar. Ao abrir a porta, uma vasta sala de controle se revela diante de vocês, repleta de monitores, servidores \n "
                                                                                                                     + "e hologramas em funcionamento. No centro, de frente para uma tela holográfica gigante, está Zero. Que se vira lentamente ao ouvir a porta se abrir. \n"
                                                                                                                     + "Ele olha para você com uma mistura de surpresa e admiração.");
-
+                                                                                                                    delayRapido(3);
                                                                                                             System.out.println("\n------");
                                                                                                             System.out.println("| ZERO |");
                                                                                                             System.out.println("-------\n");
-
+                                                                                                            
                                                                                                             System.out.println("Eu sabia que você era especial\", diz ele, sua voz fria e calculada. Mas nunca pensei que chegaria tão longe. \n"
                                                                                                                     + "Há algo que você precisa saber. Algo que eu guardei todos esses anos. \n"
                                                                                                                     + nomePlayer + ", Eu sou seu pai. \n \n ");
-
+                                                                                                                    delayRapido(3);
                                                                                                             System.out.println("O mundo parece parar por um momento. O choque da revelação o atinge como um soco no estômago. Pixel, ao seu lado, fica igualmente perplexo. \n");
-
+                                                                                                            delayRapido(3);
                                                                                                             System.out.println("\n---------------");
                                                                                                             System.out.println("| " + nomePlayer + " |");
                                                                                                             System.out.println("----------------\n");
 
                                                                                                             System.out.println("Não... isso não pode ser verdade. Você é o meu pai? O homem que me abandonou? \n");
-
+                                                                                                            delayRapido(3);
                                                                                                             System.out.println("\n------");
                                                                                                             System.out.println("| ZERO |");
                                                                                                             System.out.println("-------\n");
@@ -2373,47 +2497,47 @@ public class ByteBattle {
                                                                                                                     + "sem erros. Um mundo perfeito controlado pelo Algoritmo. \n"
                                                                                                                     + "Junte-se a mim, filho. Juntos, podemos dominar NeoBites e além. Pense no que podemos alcançar! A humanidade precisa de ordem, de controle. Com o Algoritmo, \n"
                                                                                                                     + "podemos erradicar crimes, doenças, qualquer forma de sofrimento. É um sacrifício necessário para o bem maior. \n \n ");
-
+                                                                                                                    delayRapido(3);
                                                                                                             System.out.println("Você sente uma mistura de raiva, tristeza e confusão. Sua mente corre com pensamentos conflitantes, mas uma coisa é clara: você \n"
                                                                                                                     + "não pode deixar que Zero vença. \n");
-
+                                                                                                                    delayRapido(3);
                                                                                                             System.out.println("\n---------------");
                                                                                                             System.out.println("| " + nomePlayer + " |");
                                                                                                             System.out.println("----------------\n");
 
                                                                                                             System.out.println("Você está falando sobre um mundo sem liberdade, sem escolhas. As pessoas não são máquinas, pai. Elas precisam ser livres para aprender, crescer e até \n"
                                                                                                                     + "cometer erros. É isso que nos torna humanos. \n");
-
+                                                                                                                    delayRapido(3);
                                                                                                             System.out.println("\n------");
                                                                                                             System.out.println("| ZERO |");
                                                                                                             System.out.println("-------\n");
                                                                                                             System.out.println("Liberdade? Você acha que a humanidade sabe o que fazer com liberdade? Olhe ao redor! Guerras, fome, caos. O Algoritmo pode acabar com tudo isso. \n");
-
+                                                                                                            delayRapido(3);
                                                                                                             System.out.println("\n---------------");
                                                                                                             System.out.println("| " + nomePlayer + " |");
                                                                                                             System.out.println("----------------\n");
                                                                                                             System.out.println("E a que custo? A individualidade, a essência de quem somos? O que você propõe não é um futuro, é uma prisão. Eu não posso apoiar isso. \n");
-
+                                                                                                            delayRapido(3);
                                                                                                             System.out.println("\n------");
                                                                                                             System.out.println("| ZERO |");
                                                                                                             System.out.println("-------\n");
                                                                                                             System.out.println("Você não entende. Eu sacrifiquei tudo para chegar aqui. Tudo isso foi por você, por um futuro melhor para todos nós. \n");
-
+                                                                                                            delayRapido(2);
                                                                                                             System.out.println("\n---------------");
                                                                                                             System.out.println("| " + nomePlayer + " |");
                                                                                                             System.out.println("----------------\n");
                                                                                                             System.out.println("Se realmente se importasse comigo, não tentaria me transformar em um tirano como você. O verdadeiro sacrifício é lutar pela liberdade, \n"
                                                                                                                     + "mesmo quando é difícil. Eu não vou trair tudo o que acredito. \n");
-
+                                                                                                                    delayRapido(3);
                                                                                                             System.out.println("\n------");
                                                                                                             System.out.println("| ZERO |");
                                                                                                             System.out.println("-------\n");
                                                                                                             System.out.println("Você realmente está disposto a destruir tudo pelo que eu trabalhei? A jogar fora a chance de um mundo melhor? \n"
                                                                                                                     + "Então você tem duas escolhas. Junte-se a mim e dominaremos NeoBites juntos. Ou... você se torna meu inimigo. \n \n ");
-
+                                                                                                                    delayRapido(3);
                                                                                                             System.out.println("Você percebe que está diante de uma decisão crucial, pois tem quase todas as informações de NeoByte e com isso poderia se juntar a \n"
                                                                                                                     + "Zero e dominar a cidade, onde está cansado(a) da pobreza e de todos de viraram as costas pra você. As opções são claras, e o destino de NeoBites depende da sua escolha. \n ");
-
+                                                                                                                    delayRapido(3);
                                                                                                             boolean certo51 = true;
 
                                                                                                             do {
@@ -2423,22 +2547,25 @@ public class ByteBattle {
                                                                                                                 switch (resp51) {
                                                                                                                     case "S":
                                                                                                                     case "s":
+                                                                                                                    delayRapido(2);
                                                                                                                         System.out.println("\n---------------");
                                                                                                                         System.out.println("| " + nomePlayer + " |");
                                                                                                                         System.out.println("----------------\n");
                                                                                                                         System.out.println("Muito bem, pai. Vamos moldar o futuro juntos. \n");
-
+                                                                                                                        delayRapido(3);
                                                                                                                         System.out.println("\n------");
                                                                                                                         System.out.println("| ZERO |");
                                                                                                                         System.out.println("-------\n");
                                                                                                                         System.out.println("Uma decisão sábia, meu filho. NeoBites será nosso. \n");
-
+                                                                                                                        delayRapido(3);
                                                                                                                         System.out.println("\n--------------");
                                                                                                                         System.out.println("|  CONTINUA...  |");
                                                                                                                         System.out.println("----------------\n");
+                                                                                                                        delayRapido(3);    
                                                                                                                         break;
                                                                                                                     case "N":
                                                                                                                     case "n":
+                                                                                                                    delayRapido(2);
                                                                                                                         System.out.println("\n---------------");
                                                                                                                         System.out.println("| " + nomePlayer + " |");
                                                                                                                         System.out.println("----------------\n");
@@ -2451,12 +2578,12 @@ public class ByteBattle {
                                                                                                                 }
 
                                                                                                             } while (certo51);
-
+                                                                                                            delayRapido(2);
                                                                                                             System.out.println("\n------");
                                                                                                             System.out.println("| ZERO |");
                                                                                                             System.out.println("-------\n");
                                                                                                             System.out.println("Então, se você não se junta a mim... você se torna meu inimigo. \n \n");
-
+                                                                                                            delayRapido(3);
                                                                                                             System.out.println("Você e Pixel se preparam para o confronto final, sabendo que esta batalha não é apenas física, mas também moral e emocional. A \n"
                                                                                                                     + "luta pelo futuro de NeoBites está prestes a começar. \n \n "
                                                                                                                     + " Zero inicia a batalha com um ataque de drones. \n \n ");
@@ -2563,6 +2690,7 @@ public class ByteBattle {
 
                                                                                                                 } while (certo53 && limite25 > 0);
                                                                                                                 if (!certo53) {
+                                                                                                                    delayRapido(3);
                                                                                                                     System.out.println("\n Zero tenta hackear seus sistemas e sobrecarregar seus dispositivos. \n");
 
                                                                                                                     boolean certo54 = true;
@@ -2615,7 +2743,8 @@ public class ByteBattle {
 
                                                                                                                     } while (certo54 && limite26 > 0);
                                                                                                                     if (!certo54) {
-                                                                                                                        System.out.println("\n Hackeando Zero na bate]alha \n ");
+                                                                                                                        delayRapido(3);
+                                                                                                                        System.out.println("\n Hackeando Zero na batalha \n ");
 
                                                                                                                         boolean certo55 = true;
                                                                                                                         int limite27 = 3;
@@ -2867,37 +2996,38 @@ public class ByteBattle {
 
                                                                                                                                         } while (certo59 && limite31 > 0);
                                                                                                                                         if (!certo59) {
+                                                                                                                                            delayRapido(2);
                                                                                                                                             System.out.println("Após a intensa batalha final, você derrota Zero, desativando seu exoesqueleto e desarmando-o. O núcleo do Algoritmo é destruído, provocando uma reação \n "
                                                                                                                                                     + "em cadeia que desativa todos os sistemas da Evil Corp. O poder que a corporação exercia sobre NeoBites se desintegra, libertando a cidade da opressão digital. \n"
                                                                                                                                                     + "Zero, agora vulnerável e derrotado, olha para você com uma mistura de raiva e tristeza. Ele cai de joelhos, o peso de suas ações finalmente o alcançando. \n ");
-
+                                                                                                                                                    delayRapido(2);
                                                                                                                                             System.out.println("\n------");
                                                                                                                                             System.out.println("| ZERO |");
                                                                                                                                             System.out.println("-------\n");
                                                                                                                                             System.out.println("Tudo o que eu fiz... era para criar um mundo melhor. Não queria perder você também. \n");
-
+                                                                                                                                            delayRapido(3);
                                                                                                                                             System.out.println("\n---------------");
                                                                                                                                             System.out.println("| " + nomePlayer + " |");
                                                                                                                                             System.out.println("----------------\n");
                                                                                                                                             System.out.println("Eu entendo que suas intenções possam ter sido boas, mas o caminho que você escolheu estava errado. Agora, você deve enfrentar as consequências de suas ações. \n \n ");
-
+                                                                                                                                            delayRapido(3);
                                                                                                                                             System.out.println("Você pega seu comunicador e chama a polícia, relatando a localização e as atividades criminosas de Zero. Em poucos minutos, as sirenes das viaturas começam a soar \n"
                                                                                                                                                     + "ao longe, ficando cada vez mais próximas. \n "
                                                                                                                                                     + "Com a queda da Evil Corp, a cidade de NeoBites celebra sua libertação. As pessoas saem às ruas, comemorando o fim do controle opressor. Você e Pixel são recebidos como \n"
                                                                                                                                                     + "heróis, com todos expressando sua gratidão por seus sacrifícios e coragem. \n"
                                                                                                                                                     + "Uma grande cerimônia é realizada em sua honra, onde líderes comunitários e cidadãos se reúnem para agradecer. Pixel, sempre ao seu lado, aproveita \n"
                                                                                                                                                     + "o momento para dar um discurso inspirador sobre a importância da liberdade e da responsabilidade tecnológica. \n");
-
+                                                                                                                                                    delayRapido(3);
                                                                                                                                             System.out.println("\n---------------");
                                                                                                                                             System.out.println("| " + nomePlayer + " |");
                                                                                                                                             System.out.println("----------------\n");
                                                                                                                                             System.out.println("Este é apenas o começo. Agora temos a chance de construir um futuro brilhante, juntos. Vamos usar nosso conhecimento e habilidades  \n"
                                                                                                                                                     + "para criar um mundo onde a tecnologia sirva para melhorar nossas vidas, e não controlá-las. \n");
-
+                                                                                                                                                    delayRapido(2);
                                                                                                                                             System.out.println("Com o apoio da comunidade, você e Pixel começam a trabalhar em novos projetos para reconstruir a infraestrutura tecnológica da cidade. Você decide criar \n"
                                                                                                                                             + "uma fundação dedicada à educação em tecnologia e ética digital, garantindo que as futuras gerações compreendam o poder e a responsabilidade que vêm com o conhecimento tecnológico.");
 
-
+                                                                                                                                            delayRapido(2);
                                                                                                                                             System.out.println("\n-----");
                                                                                                                                             System.out.println("| FIM |");
                                                                                                                                             System.out.println("------\n");
@@ -2947,6 +3077,14 @@ public class ByteBattle {
 
     static void delayNormal(int time) {
         time = time * 1000;
+
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+        }
+    }
+    static void delayRapido(int time) {
+        time = time * 500;
 
         try {
             Thread.sleep(time);

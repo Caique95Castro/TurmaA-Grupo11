@@ -1130,19 +1130,18 @@ public class ByteBattle {
                                     System.out.println("\n Vai precisar da ajuda de uma tabela ? \n");
                                     System.out.println("[Y / N]");
                                     String resp20 = input.next();
+                                
                                     if (resp20.equalsIgnoreCase("Y")) {
                                         switch (resp20) {
                                             case "Y":
                                             case "y":
-                                            delayRapido(2);
-                                                String tabela5
-                                                        = "\n Representação da tabela da base de sistemas binários: \n"
-                                                        + "|-----------------------------------------------------------------------------------------------|\n"
-                                                        + "|  4096  |  2048  |  1024  |  512  |  256  |  128  |  64  |  32  |  16  |  8  |  4  |  2  |  1  |\n"
-                                                        + "|-----------------------------------------------------------------------------------------------|\n";
-
+                                                delayRapido(2);
+                                                String tabela5 = "\n Representação da tabela da base de sistemas binários: \n"
+                                                                + "|-----------------------------------------------------------------------------------------------|\n"
+                                                                + "|  4096  |  2048  |  1024  |  512  |  256  |  128  |  64  |  32  |  16  |  8  |  4  |  2  |  1  |\n"
+                                                                + "|-----------------------------------------------------------------------------------------------|\n";
                                                 System.out.println(tabela5);
-                                                certo20 = false;
+                                                certo20 = true; // Saída do laço de repetição após imprimir a tabela
                                                 break;
                                         }
                                     } else if (resp20.equalsIgnoreCase("N")) {
@@ -1150,14 +1149,14 @@ public class ByteBattle {
                                             case "N":
                                             case "n":
                                                 System.out.println("Continuando... \n");
-                                                break;
-                                            default:
-                                                System.out.println("Opção Inválida! \n");
-                                                System.out.println("");
+                                                certo20 = true; // Saída do laço de repetição após confirmar que não vai precisar da tabela
                                                 break;
                                         }
+                                    } else {
+                                        System.out.println("Opção Inválida! \n"); // Mensagem de erro e o laço continua
                                     }
-                                } while (certo20);
+                                
+                                } while (!certo20); // Continua no laço até que uma resposta seja dada pelo usuário
 
                                 int limite6 = 3;
                                 boolean certo21 = true;
